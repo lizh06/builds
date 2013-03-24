@@ -1,0 +1,7 @@
+MTSPROD=/usr/prod/mts/platform/x64/build-8
+CURDIR=$PWD; cd /scratch/gnu/gdb-7.5; make distclean
+LDFLAGS=-L$MTSPROD/lib ./configure \
+--prefix=/home/isdtc/zli1/.d2 \
+--with-python=$MTSPROD/bin/python2.6
+make -j7; make install
+cd $CURDIR
