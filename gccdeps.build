@@ -1,0 +1,13 @@
+DIR=/tmp/gccdeps
+TY="--enable-shared --disable-static"
+TY="--enable-static --disable-shared"
+
+cd gmp-5.1.0; make distclean
+./configure --prefix=$DIR $TY --enable-cxx
+CPPFLAGS="-fexceptions" make -j7 install; cd ..
+cd mpfr-3.1.1; make distclean
+./configure --prefix=$DIR $TY --with-gmp=$DIR
+make -j7 install; cd ..
+cd mpc-1.0.1; make distclean
+./configure --prefix=$DIR $TY --with-gmp=$DIR --with-mpfr=$DIR
+make -j7 install; cd ..
