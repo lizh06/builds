@@ -1,11 +1,14 @@
 ../gccdev/configure --prefix=$C2 \
+--enable-shared --disable-static \
 --with-fpmath=sse --with-system-zlib \
 --enable-languages=c,c++,fortran \
 --enable-threads=posix --enable-tls \
 --enable-lto --enable-__cxa_atexit \
 --enable-libgomp --enable-libatomic \
---enable-shared --disable-static \
---disable-boostrap --disable-multilib \
---disable-nls --disable-libstdcxx
+--enable-libitm \
+--disable-multilib \
+--disable-nls
 make -j3
 #--disable-libstdcxx-pch
+#--disable-libstdcxx
+#--disable-boostrap
