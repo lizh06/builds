@@ -1,14 +1,16 @@
+COLLECT_LTO_WRAPPER=/lib/gcc/i686-pc-cygwin/4.5.3/lto-wrapper \
 ../gccdev/configure --prefix=$C2 \
 --enable-shared --disable-static \
---with-fpmath=sse --with-system-zlib \
+--with-dwarf2 --with-fpmath=sse --with-system-zlib \
 --enable-languages=c,c++,fortran \
 --enable-threads=posix --enable-tls \
---enable-lto --enable-__cxa_atexit \
---enable-libgomp --enable-libatomic \
---enable-libitm \
---disable-multilib \
---disable-nls
+--enable-libgomp --enable-__cxa_atexit \
+--enable-libatomic --enable-libitm \
+--enable-lto \
+--disable-softfloat \
+--disable-multilib --disable-nls
 make -j3
+#--enable-plugin
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
 #--disable-boostrap
