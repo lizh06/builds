@@ -1,0 +1,5 @@
+LDFLAGS="-L/home/isdtc/zli1/.bs/icu50/lib" \
+../qt484/configure -opensource -confirm-license \
+-prefix $HOME/.bs/qt48 -icu -nomake tests -nomake examples
+#export LD_LIBRARY_PATH=`pwd`/lib:$LD_LIBRARY_PATH
+make -j17 && make install

@@ -1,0 +1,6 @@
+LDFLAGS="-L/home/isdtc/zli1/.bs/icu50/lib" \
+../qt501/configure -opensource -confirm-license \
+-prefix $HOME/.bs/qt50 -icu \
+-nomake tests -nomake examples
+# -no-dbus -no-javascript-jit
+make -j17 && make install

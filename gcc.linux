@@ -3,12 +3,12 @@
 --enable-shared --disable-static \
 --with-dwarf2 --with-fpmath=sse --with-system-zlib \
 --enable-languages=c,c++,fortran \
---disable-softfloat --disable-boostrap \
---disable-multilib --disable-nls
+--disable-multilib --disable-nls \
+--disable-softfloat
 make -j7
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
-# 
+#--disable-bootstrap     
 #--enable-threads=posix --enable-tls \
 #--enable-libgomp --enable-__cxa_atexit \
 #--enable-libatomic --enable-itm \
