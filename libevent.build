@@ -1,0 +1,4 @@
+./autogen.sh
+./configure --prefix=$U2 \
+--enable-shared --disable-static
+make && make install
