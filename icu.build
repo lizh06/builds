@@ -1,0 +1,4 @@
+CC=gcc CCFLAGS=-fPIC CXX=g++ CXXFLAGS=-fPIC \
+./configure --prefix=$HOME/.bs/icu50 \
+--disable-samples --disable-tests
+make -j7 && make install

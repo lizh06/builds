@@ -1,0 +1,1 @@
+make -j7 && make PREFIX=$Q2 install
