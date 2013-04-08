@@ -1,2 +1,2 @@
-./configure --prefix=$U2
+./configure --prefix=$U2 --disable-static
 make -j7 && make install
