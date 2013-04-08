@@ -1,0 +1,9 @@
+../gcc-4.8.0/configure --prefix=$C2 \
+--enable-shared --disable-static \
+--with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
+--with-isl=$Q2 --with-cloog=$Q2 \
+--with-dwarf2 --with-fpmath=sse --with-system-zlib \
+--enable-languages=c,c++,fortran \
+--disable-multilib --disable-nls \
+--disable-softfloat
+make -j3
