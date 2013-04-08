@@ -1,0 +1,3 @@
+../cloog-0.18.0/configure --prefix=$Q2 \
+--enable-shared --disable-static \
+--with-gmp-prefix=$Q2 --with-isl-prefix=$Q2
