@@ -1,20 +1,8 @@
-./configure --prefix=/home/isdtc/zli1/.d2 \
---enable-fail-if-missing \
---with-compiledby=lizh --with-features=huge \
---with-local-dir=:$PATH --enable-pythoninterp=dynamic \
---with-python-config-dir=/usr/prod/mts/platform/x64/build-8/lib/python2.6/config \
---enable-multibyte --enable-cscope \
---disable-gui \
---disable-selinux \
---disable-hangulinput \
---disable-netbeans \
---disable-fontset \
---disable-nls \
---disable-acl \
---disable-xim \
---disable-gtktest \
---disable-gpm \
---disable-sysmouse \
---disable-xsmp-interact \
---disable-xsmp \
---without-x
+./configure --prefix=$U2 --with-compiledby=lizh \
+--with-features=normal --enable-fail-if-missing \
+--enable-cscope --enable-python3interp=dynamic \
+--enable-multibyte --enable-sniff \
+--disable-acl --disable-nls \
+--disable-gui --disable-gpm \
+--disable-selinux --without-x
+make -j7

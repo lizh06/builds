@@ -6,7 +6,7 @@ COLLECT_LTO_WRAPPER=/lib/gcc/i686-pc-cygwin/4.5.3/lto-wrapper \
 --enable-threads=posix --enable-tls \
 --enable-libgomp --enable-__cxa_atexit \
 --enable-libatomic --enable-libitm \
---enable-lto \
+--enable-lto --enable-plugin \
 --disable-softfloat \
 --disable-multilib --disable-nls
 make -j3

@@ -9,3 +9,4 @@
 --enable-sniff \
 --disable-acl --disable-gui \
 --disable-sysmouse
+make -j3
