@@ -1,1 +1,1 @@
-make prefix=$U2 CC=gcc -j7 test
+make prefix=$U2 CC=gcc -j7 install
