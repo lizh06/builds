@@ -5,4 +5,4 @@
 --disable-acl --disable-nls \
 --disable-gui --disable-gpm \
 --disable-selinux --without-x
-make -j7
+make -j7 && make install

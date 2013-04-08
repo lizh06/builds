@@ -1,7 +1,5 @@
-MTSPROD=/usr/prod/mts/platform/x64/build-8
-CURDIR=$PWD; cd /scratch/gnu/gdb-7.5; make distclean
-LDFLAGS=-L$MTSPROD/lib ./configure \
---prefix=/home/isdtc/zli1/.d2 \
---with-python=$MTSPROD/bin/python2.6
-make -j7; make install
-cd $CURDIR
+PYDIR=/usr/prod/mts/platform/x64/build-8
+LDFLAGS=-L$PYDIR/lib ../gdb-7.5.1/configure \
+--prefix=$D2 --with-python=$PYDIR/bin/python2.6 \
+--disable-install-libiberty
+make -j7 && make install
