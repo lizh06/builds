@@ -1,6 +1,5 @@
 ../qt484/configure -v \
 -opensource -confirm-license \
--prefix $HOME/.bs/qt48 -icu \
--nomake tests -nomake examples \
--L $HOME/.bs/icu50/lib
+-prefix $A2/qt48 -L$A2/icu50/lib \
+-icu -nomake tests -nomake examples 
 make -j17 && make install
