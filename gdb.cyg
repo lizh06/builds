@@ -1,2 +1,5 @@
-../gdb-7.5.1/configure --prefix=$D2 \
---with-python=/bin/python2.7 --enable-cxx
+../gdb-7.5.1/configure \
+--prefix=$A2/gdb751 --enable-cxx \
+--disable-install-libiberty \
+--with-python=/bin/python2.7
+make -j3 && make install
