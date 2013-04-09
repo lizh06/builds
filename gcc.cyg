@@ -1,11 +1,18 @@
-#../gcc-4.8.0/configure --prefix=$C2 \
-../gccdev/configure --prefix=$C2 \
---enable-shared --disable-static --with-gmp=$Q2 \
---with-mpfr=$Q2 --with-mpc=$Q2 --with-isl=$Q2 --with-cloog=$Q2 \
---with-dwarf2 --with-fpmath=sse --with-system-zlib \
+#../gccdev/configure --prefix=$C2 \
+../gcc-4.8.0/configure --prefix=$C2 \
+--enable-shared --disable-static \
+--enable-stage1-languages=c,c++ \
 --enable-languages=c,c++,fortran \
---enable-threads=posix --enable-__cxa_atexit \
---disable-bootstrap --disable-install-libiberty \
+--enable-threads=posix --enable-tls \
+--enable-lto --enable-__cxa_atexit \
+--enable-libgomp --disable-softfloat \
 --disable-multilib --disable-nls \
---disable-softfloat
-make -j7
+--disable-install-libiberty \
+--with-dwarf4 --with-system-zlib \
+--with-fpmath=sse --with-gmp=$Q2 \
+--with-mpfr=$Q2 --with-mpc=$Q2 \
+--with-isl=$Q2 --with-cloog=$Q2
+make -j3
+#--disable-libstdcxx-pch
+#--disable-libstdcxx
+#--enable-libatomic --enable-itm

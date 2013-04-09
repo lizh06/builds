@@ -1,13 +1,20 @@
-DIR=/tmp/gccdeps
-TY="--enable-shared --disable-static"
-TY="--enable-static --disable-shared"
+# should start in gccdeps dir
 
-cd gmp-5.1.0; make distclean
-./configure --prefix=$DIR $TY --enable-cxx
-CPPFLAGS="-fexceptions" make -j7 install; cd ..
-cd mpfr-3.1.1; make distclean
-./configure --prefix=$DIR $TY --with-gmp=$DIR
-make -j7 install; cd ..
-cd mpc-1.0.1; make distclean
-./configure --prefix=$DIR $TY --with-gmp=$DIR --with-mpfr=$DIR
-make -j7 install; cd ..
+START=$PWD
+
+cd $START/gmp && echo 'gmp' && rm -rf *
+$BUILDS/gccdeps/gmp.build
+
+cd $START/mpfr && echo 'mpfr' && rm -rf *
+$BUILDS/gccdeps/mpfr.build
+
+cd $START/mpc && echo 'mpc' && rm -rf *
+$BUILDS/gccdeps/mpc.build
+
+cd $START/isl && echo 'isl' && rm -rf *
+$BUILDS/gccdeps/isl.build
+
+cd $START/cloog && echo 'cloog' && rm -rf *
+$BUILDS/gccdeps/cloog.build
+
+cd $START
