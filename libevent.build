@@ -1,4 +1,3 @@
-./autogen.sh
-./configure --prefix=$U2 \
+./configure --prefix=$S2 \
 --enable-shared --disable-static
-make && make install
+make -j3 && make install
