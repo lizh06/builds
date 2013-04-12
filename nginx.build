@@ -1,2 +1,2 @@
-CC=gcc ./auto/configure --prefix=$S2
+CC=gcc ./configure --prefix=$S2
 make -j3 && make install

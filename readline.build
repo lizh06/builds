@@ -1,0 +1,3 @@
+../readline-6.2/configure --prefix=$U2 \
+--enable-shared --disable-static
+make -j3 && make install
