@@ -1,0 +1,21 @@
+../swig/configure --prefix=$HOME/swig \
+--with-python --with-python3 \
+--with-ruby --with-tcl \
+--without-perl5 \
+--without-java \
+--without-gcj \
+--without-android \
+--without-guile \
+--without-mzscheme \
+--without-ocaml \
+--without-pike \
+--without-chicken \
+--without-csharp \
+--without-lua \
+--without-allegrocl \
+--without-clisp \
+--without-r \
+--without-go \
+--without-d \
+--without-x
+make -j3 && make install

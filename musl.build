@@ -1,0 +1,5 @@
+./configure \
+--prefix=$A2/musl \
+--enable-gcc-wrapper \
+--enable-shared \
+--disable-static

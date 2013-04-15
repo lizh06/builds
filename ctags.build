@@ -1,3 +1,4 @@
 ./configure --prefix=$D2 \
 --disable-external-sort \
 --disable-etags
+make -j3 && make install

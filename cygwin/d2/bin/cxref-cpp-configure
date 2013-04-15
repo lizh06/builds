@@ -1,0 +1,102 @@
+#!/bin/sh
+#
+# $Header: /home/amb/CVS/cxref/cpp/cxref-cpp-configure.in,v 1.3 2010-10-19 18:18:54 amb Exp $
+#
+# C Cross Referencing & Documentation tool. Version 1.6d.
+#
+# A script to generate the runtime configuration information for
+# cxref-cpp so that it can imitate gcc.
+#
+# Written by Andrew M. Bishop
+#
+# This file Copyright 2004-2010 Andrew M. Bishop
+# It may be distributed under the GNU Public License, version 2, or
+# any higher version.  See section COPYING of the GNU Public license
+# for conditions under which this file may be redistributed.
+#
+
+# Programs and paths
+# (Default to the ones from the configure script).
+
+EGREP="/bin/grep -E"
+
+prefix="/usr/d2"
+datarootdir="${prefix}/share"
+cxref_cpp_defines="${datarootdir}/cxref/cxref-cpp.defines"
+
+# Chose the C compiler and output file to use if not specified.
+# (Defaults to compiler found by configure script).
+
+while [ ! $# = 0 ]; do
+
+    case $1 in
+        -o)
+            shift
+            cxref_cpp_defines=$1
+            ;;
+        *)
+            CC=$1
+            ;;
+    esac
+    shift
+
+done
+
+if [ "$CC" = "" ]; then
+    CC=gcc
+fi
+
+# Check if this is gcc or not.
+# (Defaults to check made by configure script)
+
+GCC=yes
+
+if [ "$GCC" = "" ]; then
+
+    echo ""
+    echo "cxref-cpp-configure"
+    echo ""
+    echo "You are not using gcc, it is not possible to create the configuration file."
+    echo "Read the README file and create $cxref_cpp_defines manually."
+    echo ""
+
+    exit 0
+
+fi
+
+# Get the predefines.
+
+PREDEFINES=`$CC -E -v - < /dev/null 2>&1 | $EGREP -e -D__GNUC | tr ' ' '\012' | $EGREP -e '^-[AD]' | tr '\012' ' '`
+
+# Get the paths.
+
+INCLUDES=`$CC -E -v - < /dev/null 2>&1 | awk '/include <.+> search/,/End of search/ {print $1}'`
+
+# Get the defines.
+
+DEFINES=`$CC -E -dM - < /dev/null 2>/dev/null | sort | tr '\012' '\015'`
+
+# Create the output file.
+
+echo "// cxref-cpp runtime configuration file" > $cxref_cpp_defines
+
+# Write the predefines to the file.
+
+for define in $PREDEFINES; do
+    echo "// $define" >> $cxref_cpp_defines
+done
+
+# Write the include paths to the file.
+
+for include in $INCLUDES; do
+    test -d $include && echo "// -I$include" >> $cxref_cpp_defines
+done
+
+# Write the built-in #defines to the file.
+
+IFS=
+export IFS
+
+for define in $DEFINES; do
+    echo $define >> $cxref_cpp_defines
+done
