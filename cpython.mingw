@@ -1,0 +1,4 @@
+../cpython/configure --prefix=$L2 \
+--host=i686-pc-mingw32 --build=i686-pc-mingw32 \
+--enable-shared --disable-ipv6
+make -j7 2>&1 | tee build.log

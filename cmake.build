@@ -1,3 +1,5 @@
+CXX=i686-pc-mingw32-g++ \
+CC=i686-pc-mingw32-gcc \
 ../cmake-2.8.10.2/bootstrap \
---prefix=$A2/cmake28
-make -j3 && make install
+--prefix=/mingw/a2/cmake28
+make -j3
