@@ -1,0 +1,3 @@
+./configure --prefix $A2/doxy18 \
+--shared --english-only
+make -j3
