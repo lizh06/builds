@@ -1,0 +1,8 @@
+./configure --prefix=$S2 \
+--shared-http-parser \
+--shared-openssl \
+--shared-cares \
+--shared-libuv \
+--shared-zlib \
+--shared-v8
+make -j3

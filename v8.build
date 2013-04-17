@@ -1,0 +1,8 @@
+\
+make ARCHES=ia32 MODES=debug \
+library=shared \
+disassmbler=on \
+objectprint=on \
+backtrace=on \
+snapshot=on
+#debuggersupport=on
