@@ -1,0 +1,4 @@
+./configure --prefix=$Q2 \
+--enable-shared --disable-static \
+--with-blas=$Q2/lib/libopenblas.dll \
+--with-lapack=$Q2/lib/libopenblas.dll
