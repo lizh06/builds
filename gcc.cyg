@@ -1,7 +1,7 @@
 #../gccdev/configure --prefix=$C2 \
 ../gcc-4.8.0/configure --prefix=$C2 \
 --enable-shared --disable-static \
---enable-stage1-languages=c,c++ \
+--enable-stage1-languages=c \
 --enable-languages=c,c++,fortran \
 --enable-threads=posix --enable-tls \
 --enable-lto --enable-__cxa_atexit \
