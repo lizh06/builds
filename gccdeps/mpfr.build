@@ -1,4 +1,4 @@
-../mpfr-3.1.2/configure --prefix=$Q2 \
+../mpfr-3.1.2/configure --prefix=$Q2 $HOST \
 --enable-shared --disable-static \
 --with-gmp=$Q2
-make -j3 && make check && make install
+make -j3 && make install
