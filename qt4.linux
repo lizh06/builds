@@ -2,4 +2,4 @@
 -opensource -confirm-license \
 -prefix $A2/qt48 -L$A2/icu50/lib \
 -icu -nomake tests -nomake examples 
-make -j17 && make install
+make -j $CC_LEVEL && make install
