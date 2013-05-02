@@ -1,8 +1,8 @@
 #../gccdev/configure --prefix=$C2 \
+#COLLECT_LTO_WRAPPER=/lib/gcc/i686-pc-cygwin/4.5.3/lto-wrapper \
 COLLECT_GCC=gcc \
-COLLECT_LTO_WRAPPER=/lib/gcc/i686-pc-cygwin/4.5.3/lto-wrapper \
 ../gcc-4.8.0/configure --prefix=$C2 $HOST --enable-checking=release \
---program-suffix=-4.8 --enable-shared --disable-static \
+--enable-shared --disable-static \
 --enable-stage1-languages=c --enable-languages=c,c++,fortran \
 --disable-build-with-cxx --disable-build-poststage1-with-cxx \
 --enable-threads=posix --enable-tls --enable-lto \
@@ -20,6 +20,5 @@ COLLECT_LTO_WRAPPER=/lib/gcc/i686-pc-cygwin/4.5.3/lto-wrapper \
 make -j3
 #--disable-libstdcxx
 #--disable-libstdcxx-pch \
+#--program-suffix=-4.8
 #--enable-libatomic --enable-itm
-#--disable-install-libiberty \
-#--enable-lto

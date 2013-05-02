@@ -1,5 +1,6 @@
 ../qt484/configure -v \
 -opensource -confirm-license \
--prefix $A2/qt48 \
--icu -nomake tests -nomake examples 
+-prefix $A2/qt48 -shared -icu \
+-no-gui -no-largefile -no-qt3support \
+-nomake tests -nomake examples 
 make -j3 && make install
