@@ -1,6 +1,7 @@
-cmake -DCMAKE_INSTALL_PREFIX:PATH=$D2 \
--DCMAKE_CXX_COMPILER=/usr/c2/bin/g++.exe \
--DCMAKE_C_COMPILER=/usr/c2/bin/gcc.exe \
+cmake \
+-DCMAKE_INSTALL_PREFIX:PATH=$D2 \
+-DCMAKE_CXX_COMPILER=g++.exe \
+-DCMAKE_C_COMPILER=gcc.exe \
 -DCMAKE_LEGACY_CYGWIN_WIN32=0 \
 ../gccxml
 make -j3 && make install
