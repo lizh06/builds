@@ -1,4 +1,4 @@
 CC=gcc CCFLAGS=-fPIC CXX=g++ CXXFLAGS=-fPIC \
 ./configure --prefix=$A2/icu50 \
 --disable-samples --disable-tests
-make -j7 && make install
+make -j $CC_LEVEL && make install
