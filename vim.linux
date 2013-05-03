@@ -1,8 +1,9 @@
 ./configure --prefix=$U2 --with-compiledby=lizh \
 --with-features=normal --enable-fail-if-missing \
---enable-cscope --enable-python3interp=dynamic \
---enable-multibyte --enable-sniff \
---disable-acl --disable-nls \
---disable-gui --disable-gpm \
+--enable-pythoninterp=dynamic \
+--enable-python3interp=dynamic \
+--enable-cscope --enable-sniff \
+--enable-multibyte --disable-nls \
+--disable-acl --disable-gui --disable-gpm \
 --disable-selinux --without-x
 make -j7 && make install
