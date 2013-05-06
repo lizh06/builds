@@ -6,4 +6,4 @@
 --enable-multibyte --disable-nls \
 --disable-acl --disable-gui --disable-gpm \
 --disable-selinux --without-x
-make -j7 && make install
+make -j $CC_LEVEL && make install
