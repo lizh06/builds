@@ -18,4 +18,4 @@
 --without-go \
 --without-d \
 --without-x
-make -j3 && make install
+make -j $CC_LEVEL && make install
