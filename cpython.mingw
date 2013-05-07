@@ -1,4 +1,4 @@
-../cpython/configure --prefix=$L2 \
---host=i686-pc-mingw32 --build=i686-pc-mingw32 \
+CFLAGS+='-Wno-format -Wno-unused-but-set-variable -Wno-unused-local-typedefs' \
+../cpython/configure --prefix=$L2 --host=i686-pc-mingw32 \
 --enable-shared --disable-ipv6
 make -j7 2>&1 | tee build.log
