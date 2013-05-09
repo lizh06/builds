@@ -1,1 +1,1 @@
-build.sh --prefix=$L2 && make install
+build.sh --prefix=$D2 && make install
