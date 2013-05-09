@@ -6,5 +6,6 @@
 --enable-cscope --enable-sniff \
 --enable-multibyte --disable-nls \
 --disable-acl --disable-gui --disable-gpm \
---disable-selinux --without-x
+--disable-selinux
+#--without-x
 make -j $CC_LEVEL && make install
