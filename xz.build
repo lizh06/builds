@@ -1,0 +1,2 @@
+./configure --prefix=$U1 --with-pic
+make -j $CC_LEVEL && make prefix=$U1 install
