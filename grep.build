@@ -1,0 +1,2 @@
+./configure --prefix=$U2
+make -j $CC_LEVEL && make install
