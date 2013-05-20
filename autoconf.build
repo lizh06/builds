@@ -1,0 +1,2 @@
+../autoconf-2.69/configure --prefix=$A2/ac269
+( make 2>&1 | tee build.log ) && make install
