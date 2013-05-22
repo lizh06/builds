@@ -1,4 +1,3 @@
-#CFLAGS=-g \
 ./configure --prefix=$U2 --with-compiledby=lizh \
 --with-features=normal --enable-fail-if-missing \
 --enable-pythoninterp=dynamic \
@@ -6,4 +5,4 @@
 --enable-rubyinterp=dynamic \
 --enable-cscope --enable-multibyte --enable-sniff \
 --disable-acl --disable-gui --disable-sysmouse
-make -j $CC_LEVEL
+( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
