@@ -1,0 +1,1 @@
+vimdir=$HOME/bundles/pyclewn py setup.py install --user --force --record pyclewn.files
