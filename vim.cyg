@@ -3,6 +3,7 @@
 --enable-pythoninterp=dynamic \
 --enable-python3interp=dynamic \
 --enable-rubyinterp=dynamic \
---enable-cscope --enable-multibyte --enable-sniff \
+--enable-cscope --enable-sniff \
+--enable-multibyte \
 --disable-acl --disable-gui --disable-sysmouse
 ( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
