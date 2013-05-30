@@ -19,6 +19,6 @@
 --with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
 --with-isl=$Q2 --with-cloog=$Q2 \
 --with-dwarf4 --with-fpmath=sse
-make -j7
+make -j $CC_LEVEL 2>&1 | tee build.log
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
