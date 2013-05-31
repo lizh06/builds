@@ -1,7 +1,6 @@
-#../gccdev/configure --prefix=$C2 \
-../gcc-4.8.0/configure --prefix=$C2 \
+../gccdev/configure --prefix=$C2 \
 --enable-shared --disable-static \
---disable-bootstrap --disable-build-with-cxx \
+--disable-build-with-cxx \
 --disable-build-poststage1-with-cxx \
 --enable-stage1-languages=c \
 --enable-languages=c,c++,fortran \
