@@ -1,0 +1,2 @@
+./configure --prefix=$L2 --enable-threads --enable-shared --enable-symbols
+make -j $CC_LEVEL && make install

@@ -1,0 +1,2 @@
+./configure --prefix=$L2 --with-tcl=$HOME/.l2/lib
+make -j $CC_LEVEL && make install

@@ -1,5 +1,5 @@
 #../gccdev/configure --prefix=$C2 \
-../gcc-4.8.0/configure --prefix=$C2 \
+../gcc-4.8.1/configure --prefix=$C2 \
 --enable-shared --disable-static \
 --enable-languages=c,c++ --enable-__cxa_atexit \
 --disable-softfloat --disable-libstdcxx-pch \
@@ -8,7 +8,7 @@
 --with-dwarf4 --with-fpmath=sse --with-system-zlib \
 --with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
 --with-isl=$Q2 --with-cloog=$Q2
-make -j7
+make -j $CC_LEVEL
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
 #
