@@ -1,5 +1,4 @@
-#../gccdev/configure --prefix=$C2 \
-../gcc-4.8.0/configure --prefix=$C2 \
+../gcc-4.8.1/configure --prefix=$C2 \
 --enable-shared --disable-static \
 --disable-bootstrap --disable-build-with-cxx \
 --disable-build-poststage1-with-cxx \
