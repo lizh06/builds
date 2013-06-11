@@ -1,4 +1,4 @@
 ../mpc-1.0.1/configure --prefix=$Q2 $HOST \
 --enable-shared --disable-static \
 --with-gmp=$Q2 --with-mpfr=$Q2
-make -j3 && make check && make install
+make -j $CC_LEVEL && make check && make install

@@ -1,6 +1,10 @@
-../gcc-4.8.1/configure --prefix=$C2 \
---enable-shared --disable-static \
---disable-bootstrap --disable-build-with-cxx \
+unset LD_RUN_PATH
+LD_LIBRARY_PATH=$C1/lib:$C1/lib64:$Q2/lib
+unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
+TODO=gcc-4.8.1
+../$TODO/configure --prefix=$C2 \
+--enable-shared \
+--disable-build-with-cxx \
 --disable-build-poststage1-with-cxx \
 --enable-stage1-languages=c \
 --enable-languages=c,c++,fortran \
@@ -9,8 +13,7 @@
 --enable-lto --enable-plugin \
 --enable-libatomic --enable-itm \
 --enable-libgomp --enable-__cxa_atexit \
---enable-shared-libgcc --enable-shared-libstdcxx \
---disable-static-libgcc --disable-static-libstdcxx \
+--enable-shared-libgcc --disable-static-libgcc \
 --disable-install-libiberty --disable-multilib --disable-nls \
 --disable-sjlj-exceptions --disable-softfloat \
 --without-system-libunwind --with-system-zlib \
@@ -18,6 +21,7 @@
 --with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
 --with-isl=$Q2 --with-cloog=$Q2 \
 --with-dwarf4 --with-fpmath=sse
-make -j $CC_LEVEL 2>&1 | tee build.log
+(make -j $CC_LEVEL 2>&1 | tee build.log) && make install
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
+#--disable-static-libgcc --disable-static-libstdcxx \
