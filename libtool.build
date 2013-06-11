@@ -1,0 +1,2 @@
+./configure --prefix=$A2/libtool --with-pic
+make -j $CC_LEVEL && make install

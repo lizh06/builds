@@ -1,5 +1,7 @@
+TODO=gdb-7.6
 PYDIR=/usr/prod/mts/platform/x64/build-8
-LDFLAGS=-L$PYDIR/lib ../gdb-7.6/configure \
---prefix=$D2 --with-python=$PYDIR/bin/python2.6 \
+unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
+LDFLAGS=-L$PYDIR/lib ../$TODO/configure --prefix=$A2/gdb \
+--with-python=$PYDIR/bin/python2.6 \
 --disable-install-libiberty
-make -j $CC_LEVEL && make install
+(make -j $CC_LEVEL 2>&1 | tee build.log) && make install
