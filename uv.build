@@ -1,0 +1,5 @@
+./gyp_uv -f make -Dlibrary=shared_library \
+&& BUILDTYPE=Release make -C out \
+&& cp include/*.h $A2/uv/include \
+&& cp out/Release/lib.target/libuv.so $A2/uv/lib
+
