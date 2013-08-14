@@ -1,0 +1,4 @@
+./configure --prefix=$L2 \
+--with-tclconfig=$L2/lib --with-tkconfig=$L2/lib \
+--with-itclconfigi=$L2/lib/itcl4.0.0
+make -j $CC_LEVEL && make install
