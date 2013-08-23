@@ -1,8 +1,6 @@
 ../gcc-4.8.1/configure --prefix=$C2 \
 --enable-static --disable-shared \
---disable-build-with-cxx \
---disable-build-poststage1-with-cxx \
---enable-stage1-languages=c \
+--enable-stage1-languages=c,c++ \
 --enable-languages=c,c++ \
 --disable-softfloat --disable-libstdcxx-pch \
 --disable-bootstrap --disable-install-libiberty \
@@ -15,7 +13,9 @@ make -j $CC_LEVEL
 #--disable-libstdcxx-pch
 #--disable-libstdcxx
 #
+#--disable-build-with-cxx \
+#--disable-build-poststage1-with-cxx \
 #
 #--enable-lto --enable-plugin \
 #--enable-libatomic --enable-itm \
-#--enable-libgomp 
+#--enable-libgomp

@@ -1,2 +1,2 @@
 ./configure --prefix=$U2 --without-x --without-gnome
-make 2>&1 build.log
+make elvis elvtags doc/elvtags.man doc/elvfmt.man 2>&1 | tee build.log
