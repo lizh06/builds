@@ -1,0 +1,6 @@
+#CFLAGS+="-I /usr/include/w32api" 
+CFLAGS+="-I /cygdrive/c/Tools/MinGW/include" \
+./configure --prefix=$A2/snav \
+--with-tclconfig=/lib --with-tkconfig=/lib \
+--with-tclinclude=/usr/include --with-tkinclude=/usr/include
+make -j $CC_LEVEL && make install
