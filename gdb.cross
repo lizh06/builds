@@ -1,9 +1,8 @@
 TODO=gdb-7.6.1
 ../$TODO/configure --prefix=/cygdrive/c/Tools/xxgdb \
 --target=x86_64-unknown-linux-gnu \
---enable-multilib --disable-tui \
---disable-install-libiberty
+--enable-multilib --with-python=/bin/python2.7 \
+--disable-tui --disable-install-libiberty
 (make 2>&1 | tee build.log) && make install
 #(make -j $CC_LEVEL 2>&1 | tee build.log) && make install
 
-# --with-python=/bin/python2.7
