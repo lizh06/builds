@@ -3,7 +3,7 @@ TODO=gdb-7.6.1
 --prefix=/cygdrive/c/Tools/xxgdb \
 --target=x86_64-unknown-linux-gnu \
 --with-system-readline --with-system-zlib \
---with-python=/bin/python2.7 --enable-multilib \
+--with-expat --with-python=/bin/python2.7 --enable-multilib \
 --disable-tui --disable-install-libiberty
 #(make 2>&1 | tee build.log) && make install
 (make -j $CC_LEVEL 2>&1 | tee build.log) && make install
