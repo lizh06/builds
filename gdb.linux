@@ -1,7 +1,7 @@
 TODO=gdb-7.6.1
 PYDIR=/usr/prod/mts/platform/x64/build-8
 unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
-LDFLAGS=-L$PYDIR/lib ../$TODO/configure --prefix=$A2/gdb \
+LDFLAGS=-L$PYDIR/lib ../$TODO/configure --prefix=$A2/gdb7 \
 --with-python=$PYDIR/bin/python2.6 \
 --disable-install-libiberty
 (make -j $CC_LEVEL 2>&1 | tee build.log) && make install
