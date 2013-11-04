@@ -1,0 +1,1 @@
+./configure --prefix=$A2/samba install
