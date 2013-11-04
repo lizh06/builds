@@ -1,2 +1,3 @@
-CC=gcc ./auto/configure --prefix=$S2
+CC=gcc ./configure --prefix=$S2 \
+--with-http_dav_module --add-module=../nginx-dav-ext-module
 make -j $CC_LEVEL && make install
