@@ -1,2 +1,5 @@
-cmake -DCMAKE_INSTALL_PREFIX:PATH=$A2/opencv24 ../opencv-2.4.7
-( make -j $CC_LEVEL > 2>&1 | tee build.log ) && make install
+cmake -DWITH_QT:BOOL=ON \
+-DCMAKE_INSTALL_PREFIX:PATH=$A2/opencv24 \
+-DPYTHON_EXECUTABLE:FILEPATH=/usr/prod/mts/platform/x64/build-8/bin/python2.6 \
+../opencv-2.4.7
+( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install

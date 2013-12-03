@@ -1,0 +1,2 @@
+cmake -DCMAKE_INSTALL_PREFIX:PATH=$U1 ../pcre
+( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
