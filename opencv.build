@@ -1,0 +1,2 @@
+cmake -DCMAKE_INSTALL_PREFIX:PATH=$A2/opencv24 ../opencv-2.4.7
+( make -j $CC_LEVEL > 2>&1 | tee build.log ) && make install
