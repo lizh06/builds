@@ -1,1 +1,1 @@
-make prefix=$U2 CC=gcc -j7 install
+make prefix=$A2/git17 CC=gcc -j$CC_LEVEL install
