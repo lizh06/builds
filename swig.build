@@ -1,4 +1,4 @@
-../swig/configure --prefix=$HOME/swig \
+../swig/configure --prefix=$D2 \
 --with-python --with-python3 \
 --with-ruby --with-tcl \
 --without-perl5 \
