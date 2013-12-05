@@ -1,1 +1,1 @@
-make -j7 && make PREFIX=$Q2 install
+( make -j$CC_LEVEL ONLY_CBLAS=1 && make PREFIX=$Q2 install ) 2>&1 | tee build.log

@@ -1,11 +1,11 @@
 unset LD_RUN_PATH
-#LD_LIBRARY_PATH=$C1/lib:$C1/lib64:$Q2/lib
 unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
+#LD_LIBRARY_PATH=$C1/lib:$C1/lib64:$Q2/lib
 ../gcc-4.8.2/configure --prefix=$C2 \
 --enable-shared \
 --disable-build-with-cxx \
 --disable-build-poststage1-with-cxx \
---enable-stage1-languages=c \
+--enable-stage1-languages=c,fortran \
 --enable-languages=c,c++,fortran \
 --enable-__cxa_atexit \
 --enable-libgomp \
@@ -13,14 +13,15 @@ unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
 --enable-threads=posix --enable-tls \
 --enable-lto --enable-plugin \
 --enable-shared-libgcc --with-boot-ldflags='-shared-libgcc' \
---disable-install-libiberty --disable-multilib --disable-nls \
+--disable-install-libiberty --disable-nls \
 --disable-sjlj-exceptions --disable-softfloat \
 --with-dwarf4 --with-fpmath=sse --with-gmp=$Q2 \
 --with-mpfr=$Q2 --with-mpc=$Q2 --with-isl=$Q2 --with-cloog=$Q2 \
 --with-system-zlib --without-system-libunwind
-(make -j $CC_LEVEL 2>&1 | tee build.log) && make install
+make -j $CC_LEVEL 2>&1 | tee build.log
 #--enable-gnu-unique-object \
 #--disable-libstdcxx
 #--disable-libstdcxx-pch
 #--disable-static-libgcc \
 #--disable-static-libstdcxx \
+#--disable-multilib

@@ -1,2 +1,5 @@
-cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME/pcre ../pcre
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+#cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME/pcre ../pcre
+../pcre/configure --prefix=$HOME/pcre --enable-jit \
+--enable-pcre16 --enable-unicode-properties --enable-newline-is-any \
+--enable-pcregrep-libz --enable-pcregrep-libbz2
+( make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
