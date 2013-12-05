@@ -1,2 +1,2 @@
 ../curl-7.33.0/configure --prefix=$U2
-(make -j $CC_LEVEL && make install) 2>&1 > build.log
+(make -j $CC_LEVEL && make install) 2>&1 | tee build.log

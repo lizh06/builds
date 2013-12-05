@@ -1,4 +1,4 @@
-../swig/configure --prefix=$HOME/swig \
+../swig/configure --prefix=$D2 \
 --with-python --with-python3 \
 --with-ruby --with-tcl \
 --without-perl5 \
@@ -18,4 +18,4 @@
 --without-go \
 --without-d \
 --without-x
-make -j $CC_LEVEL && make install
+( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
