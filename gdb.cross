@@ -1,10 +1,8 @@
-TODO=gdb-7.6.1
-../$TODO/configure \
---prefix=/cygdrive/c/Tools/xxgdb \
---target=x86_64-unknown-linux-gnu \
+( ../gdb-7.6.2/configure --prefix=$A2/xxgdb \
+--host=i686-w64-mingw32 --target=x86_64-unknown-linux-gnu \
 --with-system-readline --with-system-zlib \
 --with-expat --with-python=/bin/python2.7 --enable-multilib \
---disable-tui --disable-install-libiberty
-#(make 2>&1 | tee build.log) && make install
-(make -j $CC_LEVEL 2>&1 | tee build.log) && make install
+--disable-tui --disable-install-libiberty &&
+make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
 
+#--host=i686-pc-cygwin --target=x86_64-unknown-linux-gnu \
