@@ -1,5 +1,5 @@
-../gdb-7.6/configure \
+( ../gdb-7.6.1/configure \
 --prefix=$A2/gdb76 \
 --disable-tui \
---with-python=/bin/python2.7
-make -j3 && make install
+--with-python=/bin/python2.7 && \
+make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
