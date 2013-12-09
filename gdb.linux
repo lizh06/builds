@@ -1,8 +1,7 @@
-TODO=gdb-7.6.1
+TODO=gdb-7.6.2
 PYDIR=/usr/prod/mts/platform/x64/build-8
 unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
 LDFLAGS=-L$PYDIR/lib ../$TODO/configure --prefix=$A2/gdb76 \
 --enable-shared --disable-install-libiberty \
---with-python=$PYDIR/bin/python2.6 \
---with-system-zlib
+--with-python=$PYDIR/bin/python2.6 --with-system-zlib
 (make -j $CC_LEVEL 2>&1 | tee build.log) && make install
