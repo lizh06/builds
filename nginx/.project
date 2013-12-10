@@ -33,7 +33,7 @@
 		<link>
 			<name>ext_dav</name>
 			<type>2</type>
-			<locationURI>CODES/nginx-dav-ext-module</locationURI>
+			<locationURI>CODES/nginx-dav</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
