@@ -1,8 +1,10 @@
 ( ../gdb-7.6.2/configure --prefix=$A2/xxgdb \
---host=i686-w64-mingw32 --target=x86_64-unknown-linux-gnu \
+--build=i686-w64-mingw32 --target=x86_64-unknown-linux-gnu \
+--with-expat --with-python=/bin/python2.7 \
 --with-system-readline --with-system-zlib \
---with-expat --with-python=/bin/python2.7 --enable-multilib \
---disable-tui --disable-install-libiberty &&
+--enable-multilib --disable-tui --disable-install-libiberty &&
 make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
 
-#--host=i686-pc-cygwin --target=x86_64-unknown-linux-gnu \
+#--host=i686-pc-cygwin
+#--build=i686-w64-mingw32
+#--target=x86_64-unknown-linux-gnu
