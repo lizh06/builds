@@ -1,2 +1,3 @@
-file /cygdrive/v/codes/vim/src/vim
+#file /home/lizh/codes/vim/src/vim.exe
+file /home/lizh/codes/vim/src/vim
 b vgetc
