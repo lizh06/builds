@@ -7,4 +7,4 @@
 --enable-cscope --enable-sniff \
 --enable-multibyte \
 --disable-acl --disable-gui --disable-sysmouse \
-&& make -j $CC_LEVEL ) 2>&1 | tee build.log
+&& make ) 2>&1 | tee build.log
