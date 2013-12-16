@@ -26,14 +26,29 @@
 			<locationURI>CODES/cython</locationURI>
 		</link>
 		<link>
+			<name>BytecodeAssembler</name>
+			<type>2</type>
+			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
+		</link>
+		<link>
+			<name>astoptimizer</name>
+			<type>2</type>
+			<locationURI>CODES/astoptimizer</locationURI>
+		</link>
+		<link>
 			<name>pyrewrite</name>
 			<type>2</type>
 			<locationURI>CODES/pyrewrite</locationURI>
 		</link>
 		<link>
-			<name>sympy</name>
+			<name>nuitka</name>
 			<type>2</type>
-			<locationURI>CODES/sympy</locationURI>
+			<locationURI>CODES/nuitka</locationURI>
+		</link>
+		<link>
+			<name>mypy</name>
+			<type>2</type>
+			<locationURI>CODES/mypy</locationURI>
 		</link>
 		<link>
 			<name>shedskin</name>
@@ -48,7 +63,7 @@
 		<link>
 			<name>geniusql</name>
 			<type>2</type>
-			<locationURI>CODES/geniusql/geniusql</locationURI>
+			<locationURI>CODES/geniusql</locationURI>
 		</link>
 		<link>
 			<name>sqlalchemy</name>
@@ -59,6 +74,16 @@
 			<name>unpyc</name>
 			<type>2</type>
 			<locationURI>CODES/unpyc</locationURI>
+		</link>
+		<link>
+			<name>unwind</name>
+			<type>2</type>
+			<locationURI>CODES/unwind</locationURI>
+		</link>
+		<link>
+			<name>maynard</name>
+			<type>2</type>
+			<locationURI>CODES/maynard</locationURI>
 		</link>
 		<link>
 			<name>meta</name>
@@ -76,14 +101,34 @@
 			<locationURI>CODES/numexpr</locationURI>
 		</link>
 		<link>
+			<name>codepy</name>
+			<type>2</type>
+			<locationURI>CODES/codepy</locationURI>
+		</link>
+		<link>
 			<name>pybindgen</name>
 			<type>2</type>
 			<locationURI>CODES/pybindgen-0.16.0</locationURI>
 		</link>
 		<link>
+			<name>pythran</name>
+			<type>2</type>
+			<locationURI>CODES/pythran</locationURI>
+		</link>
+		<link>
+			<name>pysonar</name>
+			<type>2</type>
+			<locationURI>CODES/mini-pysonar</locationURI>
+		</link>
+		<link>
 			<name>pyntch</name>
 			<type>2</type>
 			<locationURI>CODES/pyntch</locationURI>
+		</link>
+		<link>
+			<name>python-type-inference</name>
+			<type>2</type>
+			<locationURI>CODES/python-type-inference</locationURI>
 		</link>
 		<link>
 			<name>subpy</name>

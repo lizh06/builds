@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>libuv</name>
+	<name>vim</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -25,10 +25,21 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
 	<linkedResources>
-			<link>
-					<name>code</name>
-					<type>2</type>
-					<locationURI>CODES/libuv</locationURI>
-			</link>
+		<link>
+			<name>code</name>
+			<type>2</type>
+			<locationURI>CODES/vim</locationURI>
+		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1387214823758</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-.hg</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
