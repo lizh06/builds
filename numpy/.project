@@ -6,6 +6,11 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
 			<triggers>clean,full,incremental,</triggers>
 			<arguments>
@@ -23,12 +28,48 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
 	<linkedResources>
-			<link>
-					<name>code</name>
-					<type>2</type>
-					<locationURI>CODES/numpy</locationURI>
-			</link>
+		<link>
+			<name>code</name>
+			<type>2</type>
+			<locationURI>CODES/numpy</locationURI>
+		</link>
+		<link>
+			<name>scipy</name>
+			<type>2</type>
+			<locationURI>CODES/scipy</locationURI>
+		</link>
+		<link>
+			<name>matplotlib</name>
+			<type>2</type>
+			<locationURI>CODES/matplotlib</locationURI>
+		</link>
+		<link>
+			<name>networkx</name>
+			<type>2</type>
+			<locationURI>CODES/networkx</locationURI>
+		</link>
+		<link>
+			<name>blaze</name>
+			<type>2</type>
+			<locationURI>CODES/blaze-core</locationURI>
+		</link>
+		<link>
+			<name>pandas</name>
+			<type>2</type>
+			<locationURI>CODES/pandas</locationURI>
+		</link>
+		<link>
+			<name>tables</name>
+			<type>2</type>
+			<locationURI>CODES/PyTables</locationURI>
+		</link>
+		<link>
+			<name>theano</name>
+			<type>2</type>
+			<locationURI>CODES/theano</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

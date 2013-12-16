@@ -16,14 +16,89 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>byterun</name>
+			<type>2</type>
+			<locationURI>CODES/byterun</locationURI>
+		</link>
+		<link>
+			<name>cython</name>
+			<type>2</type>
+			<locationURI>CODES/cython</locationURI>
+		</link>
+		<link>
+			<name>pyrewrite</name>
+			<type>2</type>
+			<locationURI>CODES/pyrewrite</locationURI>
+		</link>
+		<link>
+			<name>sympy</name>
+			<type>2</type>
+			<locationURI>CODES/sympy</locationURI>
+		</link>
+		<link>
+			<name>shedskin</name>
+			<type>2</type>
+			<locationURI>CODES/shedskin</locationURI>
+		</link>
+		<link>
+			<name>generator_tools</name>
+			<type>2</type>
+			<locationURI>CODES/generator_tools-0.3.6</locationURI>
+		</link>
+		<link>
 			<name>geniusql</name>
 			<type>2</type>
 			<locationURI>CODES/geniusql/geniusql</locationURI>
 		</link>
 		<link>
+			<name>sqlalchemy</name>
+			<type>2</type>
+			<locationURI>CODES/sqlalchemy</locationURI>
+		</link>
+		<link>
+			<name>unpyc</name>
+			<type>2</type>
+			<locationURI>CODES/unpyc</locationURI>
+		</link>
+		<link>
+			<name>meta</name>
+			<type>2</type>
+			<locationURI>CODES/meta</locationURI>
+		</link>
+		<link>
+			<name>pycparser</name>
+			<type>2</type>
+			<locationURI>CODES/pycparser</locationURI>
+		</link>
+		<link>
+			<name>numexpr</name>
+			<type>2</type>
+			<locationURI>CODES/numexpr</locationURI>
+		</link>
+		<link>
+			<name>pybindgen</name>
+			<type>2</type>
+			<locationURI>CODES/pybindgen-0.16.0</locationURI>
+		</link>
+		<link>
 			<name>pyntch</name>
 			<type>2</type>
 			<locationURI>CODES/pyntch</locationURI>
+		</link>
+		<link>
+			<name>subpy</name>
+			<type>2</type>
+			<locationURI>CODES/subpy</locationURI>
+		</link>
+		<link>
+			<name>atom</name>
+			<type>2</type>
+			<locationURI>CODES/atom</locationURI>
+		</link>
+		<link>
+			<name>enaml</name>
+			<type>2</type>
+			<locationURI>CODES/enaml</locationURI>
 		</link>
 		<link>
 			<name>traity</name>
