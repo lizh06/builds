@@ -42,6 +42,11 @@
 			<locationURI>CODES/scipy</locationURI>
 		</link>
 		<link>
+			<name>patsy</name>
+			<type>2</type>
+			<locationURI>CODES/patsy</locationURI>
+		</link>
+		<link>
 			<name>matplotlib</name>
 			<type>2</type>
 			<locationURI>CODES/matplotlib</locationURI>
@@ -54,7 +59,12 @@
 		<link>
 			<name>blaze</name>
 			<type>2</type>
-			<locationURI>CODES/blaze-core</locationURI>
+			<locationURI>CODES/blaze</locationURI>
+		</link>
+		<link>
+			<name>numba</name>
+			<type>2</type>
+			<locationURI>CODES/numba</locationURI>
 		</link>
 		<link>
 			<name>pandas</name>
@@ -70,6 +80,11 @@
 			<name>theano</name>
 			<type>2</type>
 			<locationURI>CODES/theano</locationURI>
+		</link>
+		<link>
+			<name>sympy</name>
+			<type>2</type>
+			<locationURI>CODES/sympy</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>libevent</name>
+	<name>dummy_cc</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -24,11 +24,4 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<linkedResources>
-			<link>
-					<name>code</name>
-					<type>2</type>
-					<locationURI>CODES/libevent</locationURI>
-			</link>
-	</linkedResources>
 </projectDescription>
