@@ -16,16 +16,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>byterun</name>
-			<type>2</type>
-			<locationURI>CODES/byterun</locationURI>
-		</link>
-		<link>
-			<name>cython</name>
-			<type>2</type>
-			<locationURI>CODES/cython</locationURI>
-		</link>
-		<link>
 			<name>BytecodeAssembler</name>
 			<type>2</type>
 			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
@@ -36,24 +26,24 @@
 			<locationURI>CODES/astoptimizer</locationURI>
 		</link>
 		<link>
-			<name>pyrewrite</name>
+			<name>atom</name>
 			<type>2</type>
-			<locationURI>CODES/pyrewrite</locationURI>
+			<locationURI>CODES/atom</locationURI>
 		</link>
 		<link>
-			<name>nuitka</name>
+			<name>byterun</name>
 			<type>2</type>
-			<locationURI>CODES/nuitka</locationURI>
+			<locationURI>CODES/byterun</locationURI>
 		</link>
 		<link>
-			<name>mypy</name>
+			<name>cython</name>
 			<type>2</type>
-			<locationURI>CODES/mypy</locationURI>
+			<locationURI>CODES/cython</locationURI>
 		</link>
 		<link>
-			<name>shedskin</name>
+			<name>enaml</name>
 			<type>2</type>
-			<locationURI>CODES/shedskin</locationURI>
+			<locationURI>CODES/enaml</locationURI>
 		</link>
 		<link>
 			<name>generator_tools</name>
@@ -66,21 +56,6 @@
 			<locationURI>CODES/geniusql</locationURI>
 		</link>
 		<link>
-			<name>sqlalchemy</name>
-			<type>2</type>
-			<locationURI>CODES/sqlalchemy</locationURI>
-		</link>
-		<link>
-			<name>unpyc</name>
-			<type>2</type>
-			<locationURI>CODES/unpyc</locationURI>
-		</link>
-		<link>
-			<name>unwind</name>
-			<type>2</type>
-			<locationURI>CODES/unwind</locationURI>
-		</link>
-		<link>
 			<name>maynard</name>
 			<type>2</type>
 			<locationURI>CODES/maynard</locationURI>
@@ -91,9 +66,14 @@
 			<locationURI>CODES/meta</locationURI>
 		</link>
 		<link>
-			<name>pycparser</name>
+			<name>mypy</name>
 			<type>2</type>
-			<locationURI>CODES/pycparser</locationURI>
+			<locationURI>CODES/mypy</locationURI>
+		</link>
+		<link>
+			<name>nuitka</name>
+			<type>2</type>
+			<locationURI>CODES/nuitka</locationURI>
 		</link>
 		<link>
 			<name>numexpr</name>
@@ -101,24 +81,19 @@
 			<locationURI>CODES/numexpr</locationURI>
 		</link>
 		<link>
-			<name>codepy</name>
-			<type>2</type>
-			<locationURI>CODES/codepy</locationURI>
-		</link>
-		<link>
 			<name>pybindgen</name>
 			<type>2</type>
 			<locationURI>CODES/pybindgen-0.16.0</locationURI>
 		</link>
 		<link>
-			<name>pythran</name>
+			<name>pycparser</name>
 			<type>2</type>
-			<locationURI>CODES/pythran</locationURI>
+			<locationURI>CODES/pycparser</locationURI>
 		</link>
 		<link>
-			<name>pysonar</name>
+			<name>pykit</name>
 			<type>2</type>
-			<locationURI>CODES/mini-pysonar</locationURI>
+			<locationURI>CODES/pykit</locationURI>
 		</link>
 		<link>
 			<name>pyntch</name>
@@ -126,9 +101,29 @@
 			<locationURI>CODES/pyntch</locationURI>
 		</link>
 		<link>
-			<name>python-type-inference</name>
+			<name>pyrewrite</name>
 			<type>2</type>
-			<locationURI>CODES/python-type-inference</locationURI>
+			<locationURI>CODES/pyrewrite</locationURI>
+		</link>
+		<link>
+			<name>pysonar</name>
+			<type>2</type>
+			<locationURI>CODES/mini-pysonar</locationURI>
+		</link>
+		<link>
+			<name>pythran</name>
+			<type>2</type>
+			<locationURI>CODES/pythran</locationURI>
+		</link>
+		<link>
+			<name>shedskin</name>
+			<type>2</type>
+			<locationURI>CODES/shedskin</locationURI>
+		</link>
+		<link>
+			<name>sqlalchemy</name>
+			<type>2</type>
+			<locationURI>CODES/sqlalchemy</locationURI>
 		</link>
 		<link>
 			<name>subpy</name>
@@ -136,19 +131,19 @@
 			<locationURI>CODES/subpy</locationURI>
 		</link>
 		<link>
-			<name>atom</name>
-			<type>2</type>
-			<locationURI>CODES/atom</locationURI>
-		</link>
-		<link>
-			<name>enaml</name>
-			<type>2</type>
-			<locationURI>CODES/enaml</locationURI>
-		</link>
-		<link>
 			<name>traity</name>
 			<type>2</type>
 			<locationURI>CODES/traity</locationURI>
+		</link>
+		<link>
+			<name>unpyc</name>
+			<type>2</type>
+			<locationURI>CODES/unpyc</locationURI>
+		</link>
+		<link>
+			<name>unwind</name>
+			<type>2</type>
+			<locationURI>CODES/unwind</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
