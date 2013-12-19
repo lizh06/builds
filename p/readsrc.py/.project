@@ -81,11 +81,6 @@
 			<locationURI>CODES/numexpr</locationURI>
 		</link>
 		<link>
-			<name>bgen</name>
-			<type>2</type>
-			<locationURI>CODES/cpython27/Tools/bgen/bgen</locationURI>
-		</link>
-		<link>
 			<name>pybindgen</name>
 			<type>2</type>
 			<locationURI>CODES/pybindgen-0.16.0</locationURI>
@@ -139,6 +134,11 @@
 			<name>traity</name>
 			<type>2</type>
 			<locationURI>CODES/traity</locationURI>
+		</link>
+		<link>
+			<name>byteplay</name>
+			<type>2</type>
+			<locationURI>CODES/byteplay</locationURI>
 		</link>
 		<link>
 			<name>unpyc</name>
