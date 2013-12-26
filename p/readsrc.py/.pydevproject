@@ -6,9 +6,13 @@
 <path>/${PROJECT_DIR_NAME}/unpyc</path>
 <path>/${PROJECT_DIR_NAME}/pyntch</path>
 <path>/${PROJECT_DIR_NAME}/subpy</path>
-<path>/${PROJECT_DIR_NAME}/pyrewrite</path>
 <path>/${PROJECT_DIR_NAME}/pykit</path>
 <path>/${PROJECT_DIR_NAME}/numexpr</path>
 <path>/${PROJECT_DIR_NAME}/geniusql</path>
+<path>/${PROJECT_DIR_NAME}/meta</path>
+<path>/${PROJECT_DIR_NAME}/BytecodeAssembler</path>
+<path>/${PROJECT_DIR_NAME}/byteplay</path>
+<path>/${PROJECT_DIR_NAME}/pysonar</path>
+<path>/${PROJECT_DIR_NAME}/unwind</path>
 </pydev_pathproperty>
 </pydev_project>
