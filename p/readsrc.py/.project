@@ -31,6 +31,11 @@
 			<locationURI>CODES/atom</locationURI>
 		</link>
 		<link>
+			<name>byteplay</name>
+			<type>2</type>
+			<locationURI>CODES/byteplay</locationURI>
+		</link>
+		<link>
 			<name>byterun</name>
 			<type>2</type>
 			<locationURI>CODES/byterun</locationURI>
@@ -82,7 +87,7 @@
 		</link>
 		<link>
 			<name>pybindgen</name>
-			<type>2</type>
+			<type>1</type>
 			<locationURI>CODES/pybindgen-0.16.0</locationURI>
 		</link>
 		<link>
@@ -117,7 +122,7 @@
 		</link>
 		<link>
 			<name>shedskin</name>
-			<type>2</type>
+			<type>1</type>
 			<locationURI>CODES/shedskin</locationURI>
 		</link>
 		<link>
@@ -134,11 +139,6 @@
 			<name>traity</name>
 			<type>2</type>
 			<locationURI>CODES/traity</locationURI>
-		</link>
-		<link>
-			<name>byteplay</name>
-			<type>2</type>
-			<locationURI>CODES/byteplay</locationURI>
 		</link>
 		<link>
 			<name>unpyc</name>
