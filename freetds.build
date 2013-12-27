@@ -1,0 +1,3 @@
+./configure --prefix=$A2/freetds \
+--enable-threadsafe --disable-static \
+&& make install
