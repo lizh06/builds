@@ -101,6 +101,11 @@
 			<locationURI>CODES/pykit</locationURI>
 		</link>
 		<link>
+			<name>copperhead</name>
+			<type>2</type>
+			<locationURI>CODES/copperhead</locationURI>
+		</link>
+		<link>
 			<name>pyntch</name>
 			<type>2</type>
 			<locationURI>CODES/pyntch</locationURI>
