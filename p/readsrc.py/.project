@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>bpython</name>
+			<type>2</type>
+			<locationURI>CODES/bpython</locationURI>
+		</link>
+		<link>
 			<name>BytecodeAssembler</name>
 			<type>2</type>
 			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
