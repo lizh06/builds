@@ -7,6 +7,7 @@ basil
 bento
 bgen
 blaze
+bpython
 BytecodeAssembler-0.6
 BytecodeAssembler-0.6.zip
 byteplay
@@ -16,6 +17,7 @@ code-formatter
 codepy
 codetalker
 compyler.zip
+console-1.1a1-20011229.zip
 copperhead
 cpython
 cpython27
@@ -47,7 +49,9 @@ luasljit
 mainline
 matplotlib
 maynard
+mcwin32-code
 meta
+midnight-commander
 mini_c
 mini_c.tar.gz
 mini-pysonar
@@ -64,6 +68,7 @@ nvi
 nvi-1.79
 nvi-1.79.tar.gz
 nvi.dev
+nyaos3000
 pandas
 patsy
 pcre
@@ -88,10 +93,14 @@ pythran
 PyXR-0.9.4.13.zip
 ragel
 ragel-6.8
+rope
 scipy
+se0
+se1
 serpent-code
 setuptools
 sljit-code
+speedometer
 sqlalchemy
 squirrel3
 strategies
