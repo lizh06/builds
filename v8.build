@@ -1,8 +1,11 @@
-\
-make ARCHES=ia32 MODES=debug \
-library=shared \
-disassmbler=on \
-objectprint=on \
-backtrace=on \
-snapshot=on
+( make dependencies && \
+make -j $CC_LEVEL library=shared \
+native ) 2>&1 | tee build.log
+#ARCHES=x64 MODES=debug \
+#library=shared \
+#disassmbler=on \
+#objectprint=on \
+#backtrace=on \
+#snapshot=on \
+#v8_enable_i18n_support=0
 #debuggersupport=on

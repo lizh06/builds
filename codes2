@@ -46,7 +46,6 @@ lua
 lua.b
 luajit
 luasljit
-mainline
 matplotlib
 maynard
 mcwin32-code
@@ -90,6 +89,7 @@ python-rightarrow
 pythonscope
 python-type-inference
 pythran
+pyv8
 PyXR-0.9.4.13.zip
 ragel
 ragel-6.8
@@ -97,6 +97,8 @@ rope
 scipy
 serpent-code
 setuptools
+shedskin
+silkjs
 sljit-code
 speedometer
 sqlalchemy
@@ -107,6 +109,7 @@ swig
 swig.b
 swigexcel
 sympy
+teajs
 theano
 the_silver_searcher
 tinyproxy
