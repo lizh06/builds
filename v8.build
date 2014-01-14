@@ -1,11 +1,10 @@
 ( make dependencies && \
-make -j $CC_LEVEL library=shared \
-native ) 2>&1 | tee build.log
-#ARCHES=x64 MODES=debug \
-#library=shared \
-#disassmbler=on \
-#objectprint=on \
+python2 build/gyp_v8 \
+-Dlibrary=shared -Dconsole=readline \
+-Ddisassmbler=on -Dv8_enable_i18n_support=off \
+-Ddebuggersupport=on -Dgdbjit=on && \
+make -j $CC_LEVEL native ) \
+2>&1 | tee build.log
 #backtrace=on \
 #snapshot=on \
-#v8_enable_i18n_support=0
-#debuggersupport=on
+#-Dliveobjectlist=on \
