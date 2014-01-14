@@ -16,11 +16,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>bpython</name>
-			<type>2</type>
-			<locationURI>CODES/bpython</locationURI>
-		</link>
-		<link>
 			<name>BytecodeAssembler</name>
 			<type>2</type>
 			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
@@ -36,6 +31,11 @@
 			<locationURI>CODES/atom</locationURI>
 		</link>
 		<link>
+			<name>bpython</name>
+			<type>2</type>
+			<locationURI>CODES/bpython</locationURI>
+		</link>
+		<link>
 			<name>byteplay</name>
 			<type>2</type>
 			<locationURI>CODES/byteplay</locationURI>
@@ -44,6 +44,11 @@
 			<name>byterun</name>
 			<type>2</type>
 			<locationURI>CODES/byterun</locationURI>
+		</link>
+		<link>
+			<name>copperhead</name>
+			<type>2</type>
+			<locationURI>CODES/copperhead</locationURI>
 		</link>
 		<link>
 			<name>cython</name>
@@ -106,11 +111,6 @@
 			<locationURI>CODES/pykit</locationURI>
 		</link>
 		<link>
-			<name>copperhead</name>
-			<type>2</type>
-			<locationURI>CODES/copperhead</locationURI>
-		</link>
-		<link>
 			<name>pyntch</name>
 			<type>2</type>
 			<locationURI>CODES/pyntch</locationURI>
@@ -132,7 +132,7 @@
 		</link>
 		<link>
 			<name>shedskin</name>
-			<type>1</type>
+			<type>2</type>
 			<locationURI>CODES/shedskin</locationURI>
 		</link>
 		<link>

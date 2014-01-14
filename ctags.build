@@ -1,4 +1,6 @@
-./configure --prefix=$D2 \
+(./configure --prefix=$D2 \
+--with-posix-regex --with-readlib \
 --disable-external-sort \
---disable-etags
-make -j3 && make install
+--disable-etags && \
+make -j$CC_LEVEL install ) \
+2>&1 | tee build.log
