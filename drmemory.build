@@ -1,0 +1,6 @@
+cmake \
+-DEXTRA_FLAGS=-D_GNU_SOURCE \
+-DCMAKE_BUILD_TYPE=Release \
+../drmemory && make
+
+

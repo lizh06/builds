@@ -1,0 +1,5 @@
+( ./configure --prefix=$E2 \
+--enable-mremap \
+--enable-code-coverage \
+--enable-cc-silence && \
+make -j$CC_LEVEL install ) 2>&1 | tee build.log
