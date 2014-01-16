@@ -1,0 +1,3 @@
+( LDFLAGS="-L$U2/lib -lunwind" \
+./configure --prefix=$E2 && \
+make -j$CC_LEVEL install ) 2>&1 | tee build.log
