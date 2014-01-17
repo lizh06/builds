@@ -23,6 +23,7 @@ ctags-5.8
 cython
 distorm
 drmemory
+drmemory.b
 dynamorio
 eigen
 elvis
@@ -34,6 +35,8 @@ generator_tools-0.3.6
 generator_tools-0.3.6.tar.gz
 geniusql
 geoshell-code
+gperftools
+jedi
 libevent
 libevent.b
 libjit-python
@@ -41,6 +44,7 @@ libtorrent
 libuv
 libzmq
 libzmq.b
+llvm
 llvmpy
 matplotlib
 maynard
