@@ -1,0 +1,8 @@
+( CPPFLAGS=-I$Q2/include \
+../llvm-3.4/configure --prefix=$A2/llvm34 \
+--disable-docs --enable-shared --enable-targets=host \
+--enable-terminfo && make -j $CC_LEVEL ) \
+2>&1 | tee build.log
+#--enable-cxx11 
+#--enable-bindings=python
+
