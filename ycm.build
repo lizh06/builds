@@ -1,0 +1,2 @@
+( cmake -DPATH_TO_LLVM_ROOT:PATH=$LLVM ../YouCompleteMe/cpp &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
