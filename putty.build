@@ -1,0 +1,1 @@
+make -j $CC_LEVEL TOOLPATH=/usr/bin/i686-w64-mingw32- putty.exe
