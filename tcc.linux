@@ -1,2 +1,3 @@
-( ../tinycc/configure --prefix=$D2 && \
-  make -j $CC_LEVEL install ) 2>&1 | tee build.log
+( CFLAGS=-g ./configure --prefix=$A2/tcc \
+  --disable-static --with-selinux &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
