@@ -1,2 +1,2 @@
-( ../tinycc/configure --prefix=$A2/tcc && \
+( ../tinycc/configure --prefix=$D2 && \
 make -j $CC_LEVEL install ) 2>&1 | tee build.log
