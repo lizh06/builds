@@ -1,0 +1,201 @@
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/mkfiles.pl putty2/mkfiles.pl
+--- putty/mkfiles.pl	2014-01-19 12:31:55.282208400 -0500
++++ putty2/mkfiles.pl	2014-01-22 23:26:15.722231900 -0500
+@@ -453,13 +453,13 @@
+     "# You may also need to tell windres where to find include files:\n".
+     "# RCINC = --include-dir c:\\cygwin\\include\\\n".
+     "\n".
+-    &splitline("CFLAGS = -mno-cygwin -Wall -O2 -D_WINDOWS -DDEBUG -DWIN32S_COMPAT".
++    &splitline("CFLAGS = -Wall -O2 -D_WINDOWS -DDEBUG -DWIN32S_COMPAT".
+       " -D_NO_OLDNAMES -DNO_MULTIMON -DNO_HTMLHELP -DNO_SECUREZEROMEMORY " .
+ 	       (join " ", map {"-I$dirpfx$_"} @srcdirs)) .
+ 	       "\n".
+-    "LDFLAGS = -mno-cygwin -s\n".
++    "LDFLAGS = -s\n".
+     &splitline("RCFLAGS = \$(RCINC) --define WIN32=1 --define _WIN32=1".
+-      " --define WINVER=0x0400")."\n".
++      " --define WINVER=0x0601")."\n".
+     "\n".
+     $makefile_extra{'cygwin'}->{'vars'} .
+     "\n".
+@@ -531,9 +531,9 @@
+     "MAKEFILE = Makefile.bor\n".
+     "\n".
+     "# C compilation flags\n".
+-    "CFLAGS = -D_WINDOWS -DWINVER=0x0500\n".
++    "CFLAGS = -D_WINDOWS -DWINVER=0x0601\n".
+     "# Resource compilation flags\n".
+-    "RCFLAGS = -DNO_WINRESRC_H -DWIN32 -D_WIN32 -DWINVER=0x0401\n".
++    "RCFLAGS = -DNO_WINRESRC_H -DWIN32 -D_WIN32 -DWINVER=0x0601\n".
+     "\n".
+     "# Get include directory for resource compiler\n".
+     "!if !\$d(BCB)\n".
+@@ -634,9 +634,9 @@
+       "# C compilation flags\n".
+       "CFLAGS = /nologo /W3 /O1 " .
+       (join " ", map {"-I$dirpfx$_"} @srcdirs) .
+-      " /D_WINDOWS /D_WIN32_WINDOWS=0x500 /DWINVER=0x500\n".
++      " /D_WINDOWS /D_WIN32_WINDOWS=0x0601 /DWINVER=0x0601\n".
+       "LFLAGS = /incremental:no /fixed\n".
+-      "RCFLAGS = -DWIN32 -D_WIN32 -DWINVER=0x0400\n".
++      "RCFLAGS = -DWIN32 -D_WIN32 -DWINVER=0x0601\n".
+       "\n".
+       $makefile_extra{'vc'}->{'vars'} .
+       "\n".
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/putty.h putty2/putty.h
+--- putty/putty.h	2013-12-08 20:54:49.093391300 -0500
++++ putty2/putty.h	2014-01-21 22:08:14.314015600 -0500
+@@ -858,6 +858,7 @@
+     X(INT, NONE, shadowboldoffset) \
+     X(INT, NONE, crhaslf) \
+     X(STR, NONE, winclass) \
++    X(INT, NONE, transparency) \
+ 
+ /* Now define the actual enum of option keywords using that macro. */
+ #define CONF_ENUM_DEF(valtype, keytype, keyword) CONF_ ## keyword,
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/Recipe putty2/Recipe
+--- putty/Recipe	2014-01-19 12:31:55.528222500 -0500
++++ putty2/Recipe	2014-01-23 00:06:39.153844300 -0500
+@@ -265,8 +265,8 @@
+ # _WIN32_IE is required to expose identifiers that only make sense on
+ # systems with IE5+ installed, such as some arguments to SHGetFolderPath().
+ # WINVER etc perform a similar function for FlashWindowEx().
+-CFLAGS += -D_WIN32_IE=0x0500
+-CFLAGS += -DWINVER=0x0500 -D_WIN32_WINDOWS=0x0410 -D_WIN32_WINNT=0x0500
++CFLAGS += -D_WIN32_IE=0x0601
++CFLAGS += -DWINVER=0x0601 -D_WIN32_WINDOWS=0x0601 -D_WIN32_WINNT=0x0601
+ !end
+ 
+ # ------------------------------------------------------------
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/settings.c putty2/settings.c
+--- putty/settings.c	2013-11-29 00:33:56.596700900 -0500
++++ putty2/settings.c	2014-01-21 22:06:19.729461700 -0500
+@@ -517,6 +517,7 @@
+     write_setting_i(sesskey, "ApplicationCursorKeys", conf_get_int(conf, CONF_app_cursor));
+     write_setting_i(sesskey, "ApplicationKeypad", conf_get_int(conf, CONF_app_keypad));
+     write_setting_i(sesskey, "NetHackKeypad", conf_get_int(conf, CONF_nethack_keypad));
++    write_setting_i(sesskey, "Transparency", conf_get_int(conf, CONF_transparency));
+     write_setting_i(sesskey, "AltF4", conf_get_int(conf, CONF_alt_f4));
+     write_setting_i(sesskey, "AltSpace", conf_get_int(conf, CONF_alt_space));
+     write_setting_i(sesskey, "AltOnly", conf_get_int(conf, CONF_alt_only));
+@@ -813,6 +814,7 @@
+     gppi(sesskey, "ApplicationCursorKeys", 0, conf, CONF_app_cursor);
+     gppi(sesskey, "ApplicationKeypad", 0, conf, CONF_app_keypad);
+     gppi(sesskey, "NetHackKeypad", 0, conf, CONF_nethack_keypad);
++    gppi(sesskey, "Transparency", 255, conf, CONF_transparency);
+     gppi(sesskey, "AltF4", 1, conf, CONF_alt_f4);
+     gppi(sesskey, "AltSpace", 0, conf, CONF_alt_space);
+     gppi(sesskey, "AltOnly", 0, conf, CONF_alt_only);
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/windows/wincfg.c putty2/windows/wincfg.c
+--- putty/windows/wincfg.c	2013-08-10 19:34:50.317817400 -0400
++++ putty2/windows/wincfg.c	2014-01-21 22:18:34.040461900 -0500
+@@ -308,7 +308,9 @@
+     ctrl_checkbox(s, "Use system colours", 's',
+                   HELPCTX(colours_system),
+                   conf_checkbox_handler, I(CONF_system_colour));
+-
++    ctrl_editbox(s, "Window opacity (50-255)", 't', 30,
++                  HELPCTX(no_help),
++                  conf_editbox_handler, I(CONF_transparency), I(-1));
+ 
+     /*
+      * Resize-by-changing-font is a Windows insanity.
+diff -Nur -x '*.ico' -x '*.svn' -x 'Makefile*' -x VS2010 putty/windows/window.c putty2/windows/window.c
+--- putty/windows/window.c	2013-11-29 00:33:54.908604400 -0500
++++ putty2/windows/window.c	2014-01-22 23:55:23.616205700 -0500
+@@ -218,6 +218,21 @@
+ const int share_can_be_downstream = TRUE;
+ const int share_can_be_upstream = TRUE;
+ 
++BOOL MakeWindowTransparent(HWND hWnd, int factor);
++
++typedef DWORD (WINAPI *PSLWA)(HWND, DWORD, BYTE, DWORD);
++static PSLWA pSetLayeredWindowAttributes = NULL;
++static BOOL initialized = FALSE;
++#if !defined(WS_EX_LAYERED)
++	#define WS_EX_LAYERED	0x00080000
++#endif
++#if !defined(LWA_COLORKEY)
++	#define LWA_COLORKEY	0x00000001
++#endif
++#if !defined(LWA_ALPHA)
++	#define LWA_ALPHA	0x00000002
++#endif
++
+ /* Dummy routine, only required in plink. */
+ void ldisc_update(void *frontend, int echo, int edit)
+ {
+@@ -846,6 +861,9 @@
+ 
+     term_set_focus(term, GetForegroundWindow() == hwnd);
+     UpdateWindow(hwnd);
++    if (conf_get_int(conf, CONF_transparency) >= 50 && conf_get_int(conf, CONF_transparency) < 256) {
++        MakeWindowTransparent(hwnd, conf_get_int(conf, CONF_transparency));
++    }
+ 
+     while (1) {
+ 	HANDLE *handles;
+@@ -1455,6 +1473,10 @@
+ 
+     f(FONT_NORMAL, font->charset, fw_dontcare, FALSE);
+ 
++    if (bold_font_mode == BOLD_FONT) {
++        f(FONT_BOLD, font->charset, fw_bold, FALSE);
++    }
++
+     SelectObject(hdc, fonts[FONT_NORMAL]);
+     GetTextMetrics(hdc, &tm);
+ 
+@@ -1546,9 +1568,6 @@
+ 	}
+     }
+ 
+-    if (bold_font_mode == BOLD_FONT) {
+-	f(FONT_BOLD, font->charset, fw_bold, FALSE);
+-    }
+ #undef f
+ 
+     descent = tm.tmAscent + 1;
+@@ -2252,6 +2271,10 @@
+ 		if (back)
+ 		    back->reconfig(backhandle, conf);
+ 
++		int tp = conf_get_int(conf, CONF_transparency);
++		if (tp < 50 || tp > 255) tp = 255;
++		MakeWindowTransparent(hwnd, tp);
++
+ 		/* Screen size changed ? */
+ 		if (conf_get_int(conf, CONF_height) !=
+ 		    conf_get_int(prev_conf, CONF_height) ||
+@@ -5788,3 +5811,31 @@
+     c->len = len;
+     PostMessage(hwnd, WM_AGENT_CALLBACK, 0, (LPARAM)c);
+ }
++
++BOOL MakeWindowTransparent(HWND hWnd, int factor)
++{
++    if (! pSetLayeredWindowAttributes)
++    {
++        if (initialized) return FALSE;
++        else initialized = TRUE;
++
++        if (!(pSetLayeredWindowAttributes = (PSLWA) GetProcAddress(
++                    LoadLibrary("user32"), "SetLayeredWindowAttributes")))
++            return FALSE;
++    }
++
++    if (factor > 255) factor = 255;
++    else if (factor < 0) return FALSE;
++
++    if (factor < 255) {
++        // Windows must be layered to be transparent. Turn on WS_EX_LAYARED flag.
++        SetLastError(0);
++        SetWindowLong(hWnd, GWL_EXSTYLE, GetWindowLong(hWnd, GWL_EXSTYLE)|WS_EX_LAYERED);
++        if (GetLastError()) return FALSE;
++        // Now, we need to set the 'layered window attributes'. This is where the alpha values get set. 
++        return pSetLayeredWindowAttributes(hWnd, RGB(255,255,255), factor, LWA_ALPHA);
++    } else {
++        SetWindowLong(hWnd, GWL_EXSTYLE, GetWindowLong(hWnd, GWL_EXSTYLE) & ~WS_EX_LAYERED);
++        return TRUE;
++    }
++}

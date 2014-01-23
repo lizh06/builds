@@ -1,0 +1,268 @@
+EXPORTS
+    __vstack @1 DATA
+    add_elf_sym @2
+    anon_sym @3 DATA
+    asm_clobber @4
+    asm_compute_constraints @5
+    asm_expr @6
+    asm_gen_code @7
+    asm_get_local_label_name @8
+    asm_global_instr @9
+    asm_instr @10
+    asm_int_expr @11
+    asm_opcode @12
+    bss_section @13 DATA
+    build_got_entries @14
+    ch @15 DATA
+    char_pointer_type @16 DATA
+    const_wanted @17 DATA
+    cstr_cat @18
+    cstr_ccat @19
+    cstr_free @20
+    cstr_new @21
+    cstr_reset @22
+    cstr_wccat @23
+    cur_text_section @24 DATA
+    data_section @25 DATA
+    dbg_printf @26
+    decl @27
+    define_find @28
+    define_push @29
+    define_stack @30 DATA
+    define_undef @31
+    dlclose @32
+    dynarray_add @33
+    dynarray_reset @34
+    expect @35
+    expr_const @36
+    expr_prod @37
+    expr_sum @38
+    external_global_sym @39
+    file @40 DATA
+    fill_got @41
+    fill_got_entry @42
+    find_constraint @43
+    find_elf_sym @44
+    find_section @45
+    free_defines @46
+    func_ind @47 DATA
+    func_old_type @48 DATA
+    func_var @49 DATA
+    func_vc @50 DATA
+    func_vt @51 DATA
+    funcname @52 DATA
+    g @53
+    gen_addr32 @54
+    gen_addrpc32 @55
+    gen_cvt_ftof @56
+    gen_cvt_ftoi @57
+    gen_cvt_itof @58
+    gen_expr32 @59
+    gen_inline_functions @60
+    gen_le16 @61
+    gen_le32 @62
+    gen_op @63
+    gen_opf @64
+    gen_opi @65
+    gen_vla_alloc @66
+    gen_vla_sp_restore @67
+    gen_vla_sp_save @68
+    get_elf_sym_addr @69
+    get_export_names @70
+    get_reg @71
+    get_sym_ref @72
+    get_tok_str @73
+    gexpr @74
+    gfunc_call @75
+    gfunc_epilog @76
+    gfunc_prolog @77
+    gfunc_sret @78
+    ggoto @79
+    gjmp @80
+    gjmp_addr @81
+    global_expr @82 DATA
+    global_identifier_push @83
+    global_label_stack @84 DATA
+    global_stack @85 DATA
+    gnu_ext @86 DATA
+    greloc @87
+    gsym @88
+    gsym_addr @89
+    gtst @90
+    gv @91
+    gv2 @92
+    gvtst @93
+    handle_eob @94
+    ieee_finite @95
+    inc @96
+    ind @97 DATA
+    indir @98
+    int_type @99 DATA
+    is_float @100
+    label_find @101
+    label_pop @102
+    label_push @103
+    last_ind @104 DATA
+    last_line_num @105 DATA
+    last_text_section @106 DATA
+    load @107
+    loc @108 DATA
+    local_label_stack @109 DATA
+    local_stack @110 DATA
+    lvalue_type @111
+    macro_ptr @112 DATA
+    minp @113
+    mk_pointer @114
+    nb_sym_pools @115 DATA
+    new_section @116
+    new_symtab @117
+    next @118
+    next_inp @119
+    next_nomacro @120
+    nocode_wanted @121 DATA
+    o @122
+    oad @123
+    parse_asm_str @124
+    parse_comment @125
+    parse_define @126
+    parse_flags @127 DATA
+    patch_dynsym_undef @128
+    pe_getimport @129
+    pe_load_file @130
+    pe_output_file @131
+    pe_putimport @132
+    preprocess @133
+    preprocess_init @134
+    preprocess_new @135
+    pstrcat @136
+    pstrcpy @137
+    pstrncpy @138
+    put_elf_reloc @139
+    put_elf_str @140
+    put_elf_sym @141
+    put_extern_sym @142
+    put_extern_sym2 @143
+    put_stabd @144
+    put_stabn @145
+    put_stabs @146
+    put_stabs_r @147
+    reg_classes @148 DATA
+    relocate_common_syms @149
+    relocate_section @150
+    relocate_syms @151
+    restore_parse_state @152
+    rsym @153 DATA
+    rt_bound_error_msg @154 DATA
+    rt_num_callers @155 DATA
+    rt_prog_main @156 DATA
+    save_parse_state @157
+    save_reg @158
+    save_regs @159
+    scope_stack_bottom @160 DATA
+    section_ptr_add @161
+    section_realloc @162
+    section_reserve @163
+    set_flag @164
+    size_type @165 DATA
+    skip @166
+    stab_section @167 DATA
+    stabstr_section @168 DATA
+    store @169
+    strtab_section @170 DATA
+    struct_find @171
+    subst_asm_operand @172
+    swap @173
+    sym_find @174
+    sym_find2 @175
+    sym_free @176
+    sym_free_first @177 DATA
+    sym_pools @178 DATA
+    sym_pop @179
+    sym_push @180
+    sym_push2 @181
+    symtab_section @182 DATA
+    table_ident @183 DATA
+    tcc_add_bcheck @184
+    tcc_add_crt @185
+    tcc_add_dll @186
+    tcc_add_file @187
+    tcc_add_file_internal @188
+    tcc_add_include_path @189
+    tcc_add_library @190
+    tcc_add_library_path @191
+    tcc_add_linker_symbols @192
+    tcc_add_runtime @193
+    tcc_add_symbol @194
+    tcc_add_sysinclude_path @195
+    tcc_assemble @196
+    tcc_basename @197
+    tcc_close @198
+    tcc_compile_string @199
+    tcc_define_symbol @200
+    tcc_delete @201
+    tcc_error @202
+    tcc_error_noabort @203
+    tcc_ext @204 DATA
+    tcc_fileextension @205
+    tcc_free @206
+    tcc_get_symbol @207
+    tcc_get_symbol_err @208
+    tcc_load_archive @209
+    tcc_load_object_file @210
+    tcc_malloc @211
+    tcc_mallocz @212
+    tcc_memstats @213
+    tcc_new @214
+    tcc_open @215
+    tcc_open_bf @216
+    tcc_output_file @217
+    tcc_parse_args @218
+    tcc_preprocess @219
+    tcc_print_stats @220
+    tcc_realloc @221
+    tcc_relocate @222
+    tcc_run @223
+    tcc_set_environment @224
+    tcc_set_error_func @225
+    tcc_set_lib_path @226
+    tcc_set_num_callers @227
+    tcc_set_options @228
+    tcc_set_output_type @229
+    tcc_state @230 DATA
+    tcc_strdup @231
+    tcc_undefine_symbol @232
+    tcc_warning @233
+    test_lvalue @234
+    text_section @235 DATA
+    tok @236 DATA
+    tok_alloc @237
+    tok_flags @238 DATA
+    tok_ident @239 DATA
+    tok_str_add @240
+    tok_str_add_tok @241
+    tok_str_free @242
+    tok_str_new @243
+    tokc @244 DATA
+    tokcstr @245 DATA
+    total_bytes @246 DATA
+    total_lines @247 DATA
+    type_size @248
+    unary @249
+    unget_tok @250
+    vla_flags @251 DATA
+    vla_sp_loc @252 DATA
+    vla_sp_loc_tmp @253 DATA
+    vla_sp_root_loc @254 DATA
+    vpop @255
+    vpush @256
+    vpush64 @257
+    vpush_global_sym @258
+    vpushi @259
+    vpushv @260
+    vrotb @261
+    vrote @262
+    vrott @263
+    vset @264
+    vstore @265
+    vswap @266
+    vtop @267 DATA
