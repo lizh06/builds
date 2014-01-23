@@ -23,6 +23,7 @@ compyler.zip
 console-1.1a1-20011229.zip
 copperhead
 c-plus
+cppcheck
 cpython
 cpython27
 cpython.b
@@ -35,7 +36,10 @@ cython
 debug.htm
 drmemory
 drmemory.b
+dwarves
 eigen
+elftoolchain
+elfutils
 elvis
 elvis.dev
 enaml
@@ -50,8 +54,12 @@ http-replicator
 jemalloc
 jsctags
 lccdev
+libdwarf
+libelf-0.8.13
+libelf-0.8.13.tar.gz
 libevent
 libjit-python
+liblbfgs-1.10.tar.gz
 libunwind-1.1
 libuv
 libzmq

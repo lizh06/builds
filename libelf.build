@@ -1,0 +1,2 @@
+( ./configure --prefix=$A2/libelf --enable-shared &&
+  make -j $CC_LEVEL install ) 2>&1 | tee build.log
