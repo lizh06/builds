@@ -31,7 +31,6 @@ ctags
 ctags58
 ctags581
 ctags.dev
-ctags.use
 cython
 debug.htm
 drmemory
@@ -43,6 +42,7 @@ elfutils
 elvis
 elvis.dev
 enaml
+foo.c
 freetds
 GDB-Python-Utils
 generator_tools-0.3.6
@@ -51,6 +51,7 @@ geniusql
 gperftools
 hoard
 http-replicator
+inferno-os
 jemalloc
 jsctags
 lccdev
@@ -70,6 +71,7 @@ luajit
 luasljit
 matplotlib
 maynard
+mcc
 mcwin32-code
 meta
 midnight-commander
@@ -77,6 +79,13 @@ mini_c
 mini_c.tar.gz
 mini-pysonar
 mypy
+neatas
+neatcc
+neat_coredump.tar.gz
+neat_elfloc.tar.gz
+neatld
+neatlibc
+neatroff
 networkx
 nginx
 nginx-dav
@@ -122,6 +131,7 @@ setuptools
 shedskin
 silkjs
 sljit-code
+sparse
 speedometer
 sqlalchemy
 squirrel3
@@ -135,7 +145,6 @@ teajs
 theano
 the_silver_searcher
 tinycc
-tinycc.b
 tinyproxy
 tinypy
 tmux

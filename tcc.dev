@@ -1,0 +1,3 @@
+( CFLAGS=-g ./configure --prefix=$A2/tcc \
+  --with-selinux &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
