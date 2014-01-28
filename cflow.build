@@ -1,2 +1,2 @@
-( ../configure --prefix=$D2 &&
+( CFLAGS=-g ../configure --prefix=$D2 &&
   make -j $CC_LEVEL && make check ) 2>&1 | tee build.log
