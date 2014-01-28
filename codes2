@@ -15,6 +15,7 @@ BytecodeAssembler-0.6
 BytecodeAssembler-0.6.zip
 byteplay
 byterun
+cmisc
 cntlm
 code-formatter
 codepy
@@ -27,10 +28,13 @@ cppcheck
 cpython
 cpython27
 cpython.b
+cref
+cref.tar.bz2
 ctags
 ctags58
 ctags581
 ctags.dev
+cxref
 cython
 debug.htm
 drmemory
@@ -49,6 +53,7 @@ generator_tools-0.3.6
 generator_tools-0.3.6.tar.gz
 geniusql
 gperftools
+hello.c
 hoard
 http-replicator
 inferno-os
@@ -72,6 +77,7 @@ luasljit
 matplotlib
 maynard
 mcc
+mcpp
 mcwin32-code
 meta
 midnight-commander
@@ -124,6 +130,7 @@ pyv8
 PyXR-0.9.4.13.zip
 ragel
 ragel-6.8
+re2c
 rope
 scipy
 serpent-code
@@ -136,6 +143,8 @@ speedometer
 sqlalchemy
 squirrel3
 strategies
+subc
+subc-20140115.tgz
 subpy
 swig
 swig.b
@@ -151,6 +160,7 @@ tmux
 traity
 tvision
 ucpp
+ucpp-1.3.2.tar.gz
 uncompyle
 uncompyle2
 unpyc
