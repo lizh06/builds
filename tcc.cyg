@@ -1,3 +1,2 @@
-( ../tinycc/configure --prefix=$D2 \
-  --enable-mingw32 &&
-  make -j $CC_LEVEL install ) 2>&1 | tee build.log
+( ../configure --prefix=$D2 --enable-mingw32 &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
