@@ -59,6 +59,7 @@ http-replicator
 inferno-os
 jemalloc
 jsctags
+lapg-code
 lccdev
 libdwarf
 libelf-0.8.13
@@ -128,6 +129,7 @@ python-type-inference
 pythran
 pyv8
 PyXR-0.9.4.13.zip
+quex-code
 ragel
 ragel-6.8
 re2c
