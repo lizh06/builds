@@ -15,6 +15,7 @@ BytecodeAssembler-0.6
 BytecodeAssembler-0.6.zip
 byteplay
 byterun
+ccl
 cmisc
 cntlm
 code-formatter
@@ -24,6 +25,7 @@ compyler.zip
 console-1.1a1-20011229.zip
 copperhead
 c-plus
+cppanalyse
 cppcheck
 cpython
 cpython27
@@ -37,6 +39,7 @@ ctags.dev
 cxref
 cython
 debug.htm
+doxy
 drmemory
 drmemory.b
 dwarves
@@ -81,6 +84,7 @@ mcc
 mcpp
 mcwin32-code
 meta
+metrixpp
 midnight-commander
 mini_c
 mini_c.tar.gz
@@ -96,6 +100,7 @@ neatroff
 networkx
 nginx
 nginx-dav
+npsml-code
 nuitka
 numba
 numexpr
@@ -171,3 +176,4 @@ unwind
 vim
 winmerge
 xpython
+yasm
