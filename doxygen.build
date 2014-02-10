@@ -1,3 +1,2 @@
-( ./configure --prefix $A2/doxy --shared --english-only \
-  --with-doxyapp --with-doxmlparser &&
-  make -j $CC_LEVEL ) 2>&1 | tee build.log
+( ./configure --prefix $A2/doxy --shared --english-only && 
+  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
