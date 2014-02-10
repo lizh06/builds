@@ -49,8 +49,10 @@ elfutils
 elvis
 elvis.dev
 enaml
+fbc-code
 foo.c
 freetds
+gambas-code
 GDB-Python-Utils
 generator_tools-0.3.6
 generator_tools-0.3.6.tar.gz
@@ -139,12 +141,14 @@ ragel
 ragel-6.8
 re2c
 rope
+ropemode
 scipy
 serpent-code
 setuptools
 shedskin
 silkjs
 sljit-code
+smallbasic-code
 sparse
 speedometer
 sqlalchemy
