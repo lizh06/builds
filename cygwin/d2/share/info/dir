@@ -14,6 +14,10 @@ File: dir,	Node: Top	This is the top of the INFO tree
 
 * Menu:
 
+C++ Libraries
+* Source-highlight-lib: (source-highlight-lib).
+                                Highlights contents
+
 Emacs
 * cflow mode: (cflow)cflow mode.
                                 Major mode for visiting cflow charts.
@@ -21,3 +25,7 @@ Emacs
 GNU programming tools
 * cflow: (cflow).               Create a graph of control flow within a 
                                   program.
+
+Utilities
+* Source-highlight: (source-highlight).
+                                Highlights contents
