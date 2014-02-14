@@ -1,0 +1,1 @@
+b2 --prefix=/scratch/bbb variant=release link=shared runtime-link=shared
