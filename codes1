@@ -4,7 +4,9 @@ atom
 basil
 bb4win-code
 bblean
+bio
 blaze
+boost_1_55_0
 boxcore
 bpython
 BytecodeAssembler-0.6
@@ -53,7 +55,6 @@ libjit
 libjit-0.1.2.tar.gz
 libjit-linear-scan
 libjit-python
-libtorrent
 libuv
 libzmq
 libzmq.b
@@ -116,6 +117,9 @@ silkjs
 site.cfg
 sparse
 sqlalchemy
+src-highlite
+stldb-code
+stxxl
 subc
 subc-20140119.tgz
 subpy
@@ -129,6 +133,7 @@ teajs
 tex-by-topic
 the_silver_searcher
 theano
+tiedit
 tinycc
 tinyproxy
 tinypy
@@ -140,6 +145,8 @@ ucpp-1.3.2.tar.bz2
 udis86
 unpyc
 unwind
+ustl
+utio
 v8
 v8bleed
 vim
