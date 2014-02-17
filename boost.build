@@ -1,1 +1,1 @@
-b2 --prefix=/scratch/bbb variant=release link=shared runtime-link=shared
+b2 --prefix=$HOME/bb variant=release link=shared runtime-link=shared threading=multi
