@@ -20,6 +20,7 @@ BytecodeAssembler-0.6
 BytecodeAssembler-0.6.zip
 byteplay
 byterun
+carray
 ccl
 cmisc
 cntlm
@@ -48,6 +49,9 @@ doxy
 doxy.dev
 drmemory
 drmemory.b
+dtach-0.8
+dtach-0.8.tar.gz
+dvtm
 dwarves
 eigen
 elftoolchain
@@ -57,7 +61,6 @@ elvis.dev
 enaml
 fbc-code
 firebird
-foo.c
 freetds
 gambas-code
 GDB-Python-Utils
@@ -65,7 +68,6 @@ generator_tools-0.3.6
 generator_tools-0.3.6.tar.gz
 geniusql
 gperftools
-hello.c
 hoard
 http-replicator
 inferno-os
