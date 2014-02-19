@@ -44,6 +44,7 @@ ctags581
 ctags.dev
 cxref
 cython
+dash
 debug.htm
 doxy
 doxy.dev
@@ -178,6 +179,7 @@ swig
 swig.b
 swigexcel
 sympy
+tcsh-nt
 teajs
 tengine
 theano
@@ -200,3 +202,4 @@ vim
 winmerge
 xpython
 yasm
+zsh-nt
