@@ -54,4 +54,5 @@
 			<resource resourceType="PROJECT" workspacePath="/vim"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
