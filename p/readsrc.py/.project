@@ -16,9 +16,24 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>BytecodeAssembler</name>
+			<name>atom</name>
 			<type>2</type>
-			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
+			<locationURI>CODES/atom</locationURI>
+		</link>
+		<link>
+			<name>enaml</name>
+			<type>2</type>
+			<locationURI>CODES/enaml</locationURI>
+		</link>
+		<link>
+			<name>traity</name>
+			<type>2</type>
+			<locationURI>CODES/traity</locationURI>
+		</link>
+		<link>
+			<name>bpython</name>
+			<type>2</type>
+			<locationURI>CODES/bpython</locationURI>
 		</link>
 		<link>
 			<name>astoptimizer</name>
@@ -26,14 +41,9 @@
 			<locationURI>CODES/astoptimizer</locationURI>
 		</link>
 		<link>
-			<name>atom</name>
+			<name>BytecodeAssembler</name>
 			<type>2</type>
-			<locationURI>CODES/atom</locationURI>
-		</link>
-		<link>
-			<name>bpython</name>
-			<type>2</type>
-			<locationURI>CODES/bpython</locationURI>
+			<locationURI>CODES/BytecodeAssembler-0.6</locationURI>
 		</link>
 		<link>
 			<name>byteplay</name>
@@ -54,11 +64,6 @@
 			<name>cython</name>
 			<type>2</type>
 			<locationURI>CODES/cython</locationURI>
-		</link>
-		<link>
-			<name>enaml</name>
-			<type>2</type>
-			<locationURI>CODES/enaml</locationURI>
 		</link>
 		<link>
 			<name>generator_tools</name>
@@ -89,11 +94,6 @@
 			<name>nuitka</name>
 			<type>2</type>
 			<locationURI>CODES/nuitka</locationURI>
-		</link>
-		<link>
-			<name>numexpr</name>
-			<type>2</type>
-			<locationURI>CODES/numexpr</locationURI>
 		</link>
 		<link>
 			<name>pybindgen</name>
@@ -144,11 +144,6 @@
 			<name>subpy</name>
 			<type>2</type>
 			<locationURI>CODES/subpy</locationURI>
-		</link>
-		<link>
-			<name>traity</name>
-			<type>2</type>
-			<locationURI>CODES/traity</locationURI>
 		</link>
 		<link>
 			<name>unpyc</name>

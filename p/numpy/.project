@@ -38,6 +38,11 @@
 			<locationURI>CODES/numpy</locationURI>
 		</link>
 		<link>
+			<name>numexpr</name>
+			<type>2</type>
+			<locationURI>CODES/numexpr</locationURI>
+		</link>
+		<link>
 			<name>scipy</name>
 			<type>2</type>
 			<locationURI>CODES/scipy</locationURI>
@@ -53,24 +58,14 @@
 			<locationURI>CODES/networkx</locationURI>
 		</link>
 		<link>
-			<name>patsy</name>
-			<type>2</type>
-			<locationURI>CODES/patsy</locationURI>
-		</link>
-		<link>
-			<name>blaze</name>
-			<type>2</type>
-			<locationURI>CODES/blaze</locationURI>
-		</link>
-		<link>
-			<name>numba</name>
-			<type>2</type>
-			<locationURI>CODES/numba</locationURI>
-		</link>
-		<link>
 			<name>pandas</name>
 			<type>2</type>
 			<locationURI>CODES/pandas</locationURI>
+		</link>
+		<link>
+			<name>patsy</name>
+			<type>2</type>
+			<locationURI>CODES/patsy</locationURI>
 		</link>
 		<link>
 			<name>tables</name>
@@ -86,6 +81,26 @@
 			<name>sympy</name>
 			<type>2</type>
 			<locationURI>CODES/sympy</locationURI>
+		</link>
+		<link>
+			<name>blaze</name>
+			<type>2</type>
+			<locationURI>CODES/blaze</locationURI>
+		</link>
+		<link>
+			<name>carray</name>
+			<type>2</type>
+			<locationURI>CODES/carray</locationURI>
+		</link>
+		<link>
+			<name>numba</name>
+			<type>2</type>
+			<locationURI>CODES/numba</locationURI>
+		</link>
+		<link>
+			<name>openpyxl</name>
+			<type>2</type>
+			<locationURI>CODES/openpyxl</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
