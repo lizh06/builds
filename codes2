@@ -1,10 +1,12 @@
 2c-python
 abcpp
+acc
 alore
 amis
 a.out
 astoptimizer
 atom
+avalondock
 basil
 bastard
 bento
@@ -61,6 +63,7 @@ elvis
 elvis.dev
 enaml
 fbc-code
+fidl
 firebird
 freetds
 gambas-code
@@ -76,6 +79,7 @@ jemalloc
 jsctags
 lapg-code
 lccdev
+lestes
 libdwarf
 libelf-0.8.13
 libelf-0.8.13.tar.gz
@@ -92,6 +96,7 @@ lua
 lua.b
 luajit
 luasljit
+mathcast-code
 matplotlib
 maynard
 mcc
@@ -105,6 +110,7 @@ mini_c.tar.gz
 mini-pysonar
 monetdb
 mypy
+nanoplot
 neatas
 neatcc
 neat_coredump.tar.gz
@@ -115,6 +121,7 @@ neatroff
 networkx
 nginx
 nginx-dav
+nplot-code
 npsml-code
 nuitka
 numba
@@ -161,10 +168,12 @@ rtorrent
 scipy
 serpent-code
 setuptools
+sharpgraphlib-code
 shedskin
 silkjs
 sljit-code
 smallbasic-code
+sourcegrid
 sparse
 speedometer
 sqlalchemy
@@ -202,4 +211,5 @@ vim
 winmerge
 xpython
 yasm
+zedgraph-code
 zsh-nt
