@@ -144,6 +144,7 @@ puttyz
 PyAmisCore
 pycdc
 pycparser
+pycurl
 pyflakes
 PyInline-0.03
 pykit
@@ -179,6 +180,7 @@ speedometer
 sqlalchemy
 squirrel3
 src-highlite
+statsmodels
 strategies
 stxxl
 subc

@@ -1,4 +1,4 @@
-../isl-0.11.1/configure --prefix=$Q2 $HOST \
+../isl-code/configure --prefix=$Q2 $HOST \
 --enable-shared --disable-static \
 --with-gmp-prefix=$Q2
 make -j $CC_LEVEL && make check && make install

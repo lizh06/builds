@@ -33,38 +33,38 @@
 	<linkedResources>
 		<link>
 			<name>distorm</name>
-			<type>2</type>
+			<type>1</type>
 			<locationURI>CODES/distorm</locationURI>
 		</link>
 		<link>
-			<name>udis86</name>
-			<type>2</type>
-			<locationURI>CODES/udis86</locationURI>
+			<name>pdbdump</name>
+			<type>1</type>
+			<locationURI>CODES/pdbdump</locationURI>
+		</link>
+		<link>
+			<name>pdbparse</name>
+			<type>1</type>
+			<locationURI>CODES/pdbparse</locationURI>
+		</link>
+		<link>
+			<name>pefile</name>
+			<type>1</type>
+			<locationURI>CODES/pefile</locationURI>
 		</link>
 		<link>
 			<name>pydevtools</name>
-			<type>2</type>
+			<type>1</type>
 			<locationURI>CODES/pydevtools</locationURI>
 		</link>
 		<link>
 			<name>pypeelf</name>
-			<type>2</type>
+			<type>1</type>
 			<locationURI>CODES/pypeelf</locationURI>
 		</link>
 		<link>
-			<name>pefile</name>
-			<type>2</type>
-			<locationURI>CODES/pefile</locationURI>
-		</link>
-		<link>
-			<name>pdbparse</name>
-			<type>2</type>
-			<locationURI>CODES/pdbparse</locationURI>
-		</link>
-		<link>
-			<name>pdbdump</name>
-			<type>2</type>
-			<locationURI>CODES/pdbdump</locationURI>
+			<name>udis86</name>
+			<type>1</type>
+			<locationURI>CODES/udis86</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

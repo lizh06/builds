@@ -1,2 +1,4 @@
-../curl-7.33.0/configure --prefix=$U2
+# we have locally built OpenSSL
+# It should be disable before building curl. Otherwise, random https: error.
+../curl-7.36.0/configure --prefix=$U2
 (make -j $CC_LEVEL && make install) 2>&1 | tee build.log

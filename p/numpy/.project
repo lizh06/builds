@@ -43,6 +43,11 @@
 			<locationURI>CODES/numexpr</locationURI>
 		</link>
 		<link>
+			<name>bottleneck</name>
+			<type>2</type>
+			<locationURI>CODES/bottleneck</locationURI>
+		</link>
+		<link>
 			<name>scipy</name>
 			<type>2</type>
 			<locationURI>CODES/scipy</locationURI>
