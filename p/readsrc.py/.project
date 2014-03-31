@@ -36,6 +36,11 @@
 			<locationURI>CODES/bpython</locationURI>
 		</link>
 		<link>
+			<name>urwid</name>
+			<type>2</type>
+			<locationURI>CODES/urwid</locationURI>
+		</link>
+		<link>
 			<name>astoptimizer</name>
 			<type>2</type>
 			<locationURI>CODES/astoptimizer</locationURI>

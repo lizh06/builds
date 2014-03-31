@@ -1,5 +1,4 @@
 ( ../binutils-2.24/configure --prefix=$A2/bu224 \
---with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
---enable-shared --disable-static --disable-werror \
---disable-multilib --disable-nls &&
-make -j $CC_LEVEL ) 2>&1 | tee build.log
+  --with-gmp=$Q2 --with-mpfr=$Q2 --with-mpc=$Q2 \
+  --enable-shared --disable-static --disable-werror \
+  --disable-multilib --disable-nls && make -j ) 2>&1 | tee build.log
