@@ -1,0 +1,1 @@
+LDFLAGS=-lpthread cmake -DBUILD_SHARED_LIBS=ON ../src
