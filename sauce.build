@@ -1,0 +1,1 @@
+./configure --disable-static --disable-doxygen-doc --disable-doxygen-dot --disable-doxygen-html && make -j$CC_LEVEL
