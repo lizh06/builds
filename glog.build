@@ -1,0 +1,4 @@
+./configure --prefix=$E2 \
+--enable-shared \
+--disable-static \
+&& make -j && make install

@@ -1,0 +1,10 @@
+cmake -DBUILD_SHARED_LIBS=ON \
+-DCMAKE_INSTALL_PREFIX:PATH=$Q2 \
+-DGFLAGS_INCLUDE_DIR=$E2/include \
+-DGFLAGS_LIBRARY=$E2/lib/libgflags.a \
+-DGLOG_INCLUDE_DIR=$E2/include \
+-DGLOG_LIBRARY=$E2/lib/libglog.so \
+-DEIGEN_INCLUDE_DIR=$E2/include \
+.. && make
+#-DCXSPARSE_INCLUDE_DIR=$Q2/include \
+#CMAKE_BUILD_TYPE=Release
