@@ -1,0 +1,10 @@
+cmake -DCMAKE_INSTALL_PREFIX=$A2/shogun -DBUILD_SHARED_LIBS=ON \
+-DPythonModular=ON -DEIGEN_INCLUDE_DIR=$Q2/include \
+-DPYTHON_EXECUTABLE=/usr/prod/mts/platform/x64/build-8/bin/python2.6 \
+-DPYTHON_LIBRARY=/usr/prod/mts/platform/x64/build-8/lib/libpython2.6.so \
+-DARPREC_INCLUDE_DIR=$Q2/include -DARPREC_LIBRARIES=$Q2/lib/libarprec.so \
+-DGLPK_INCLUDE_DIR=$Q2/include -DGLPK_LIBRARY=$Q2/lib/libglpk.so \
+-DNLOPT_INCLUDE_DIR=$Q2/include -DNLOPT_LIBRARY=$Q2/lib/libnlopt_cxx.so \
+-DCOLPACK_INCLUDE_DIR=$Q2/include -DCOLPACK_LIBRARY_DIR=$Q2/lib -DCOLPACK_LIBRARIES=$Q2/lib/libColPack.so \
+-DLIBLZMA_INCLUDE_DIR=$U1/include -DLIBLZMA_LIBRARY=$U1/lib/liblzma.so \
+-DCBLAS_LIBRARY=$Q2/lib/libopenblas.so ..
