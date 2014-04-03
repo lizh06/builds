@@ -1,0 +1,9 @@
+../arprec-2.2.17/configure --prefix=$Q2 --enable-shared --disable-static --disable-fortran
+../glpk-4.54/configure --prefix=$Q2 --enable-shared --disable-static --enable-dl --with-gmp
+../nlopt-2.4.1/configure --prefix=$Q2 --enable-shared --disable-static --with-cxx
+../ColPack-1.0.9/configure --prefix=$Q2 --enable-shared --disable-static --enable-openmp
+
+make SCOTCH_HOME=$Q2 -j 10
+
+CFLAGS=-D_POSIX_C_SOURCE ../libxml2-2.9.1/configure --prefix=$U1 --enable-shared --disable-static --with-icu --with-lzma=$U1
+../freeglut-2.8.1/configure --prefix=$A2/freeglut --enable-shared --disable-static --with-x
