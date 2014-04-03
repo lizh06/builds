@@ -3,4 +3,3 @@
   make INSTALL_LIB=$Q2/lib \
   INSTALL_INCLUDE=$Q2/include \
   install ) 2>&1 | tee build.log
-

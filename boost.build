@@ -1,1 +1,4 @@
-b2 --prefix=$HOME/bb variant=release link=shared runtime-link=shared threading=multi
+b2 --prefix=$A2/boost --build-dir=$HOME/bb \
+link=shared runtime-link=shared \
+threading=multi variant=release \
+install

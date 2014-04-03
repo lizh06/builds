@@ -1,0 +1,3 @@
+cmake -DCMAKE_INSTALL_PREFIX=$A2/shogan -DBUILD_SHARED_LIBS=ON \
+-DPythonModular=ON -DEIGEN_INCLUDE_DIR=$Q2/include \
+-DCBLAS_LIBRARY=$Q2/lib/libopenblas.a ..
