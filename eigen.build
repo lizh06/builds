@@ -2,4 +2,7 @@ cmake -DCMAKE_INSTALL_PREFIX=$Q2 \
 -DCHOLMOD_INCLUDES=$Q2/include -DCHOLMOD_LIBRARIES=$Q3/lib/libcholmod.a \
 -DUMFPACK_INCLUDES=$Q2/include -DUMFPACK_LIBRARIES=$Q2/lib/libumfpack.a \
 -DSPQR_INCLUDES=$Q2/include -DSPQR_LIBRARIES=$Q2/lib/libspqr.a \
+-DGOOGLEHASH_COMPILE=$Q2/include \
+-DGLUT_INCLUDE_DIR=$A2/freeglut/include -DGLUT_glut_LIBRARY=$A2/freeglut/lib/libglut.so \
+-DFFTW_LIBRARIES=$Q2/lib/libfftw3.so \
 ..

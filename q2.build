@@ -1,9 +1,27 @@
 ../arprec-2.2.17/configure --prefix=$Q2 --enable-shared --disable-static --disable-fortran
+CC='gcc -std=gnu99' ../fftw-3.3.4/configure --prefix=$Q2 --enable-shared --disable-static --disable-fortran --enable-openmp
+
+# ADOL-C
+../ADOL-C-2.5.0/configure --prefix=$Q2 --enable-shared --disable-static
+
 ../glpk-4.54/configure --prefix=$Q2 --enable-shared --disable-static --enable-dl --with-gmp
 ../nlopt-2.4.1/configure --prefix=$Q2 --enable-shared --disable-static --with-cxx
+
 ../ColPack-1.0.9/configure --prefix=$Q2 --enable-shared --disable-static --enable-openmp
 
+# metis
+CC='gcc -std=c99 -fgnu89-inline' make config prefix=$Q2 shared=1 gdb=1 && make -j 10 && make install
+
+# Scotch
+make prefix=$Q2
+
+# Pastix
 make SCOTCH_HOME=$Q2 -j 10
+
+# SuperLU has no install script?
 
 CFLAGS=-D_POSIX_C_SOURCE ../libxml2-2.9.1/configure --prefix=$U1 --enable-shared --disable-static --with-icu --with-lzma=$U1
 ../freeglut-2.8.1/configure --prefix=$A2/freeglut --enable-shared --disable-static --with-x
+
+# protobuf
+../protobuf/configure --prefix=$E2 --enable-shared --disable-static
