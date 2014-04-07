@@ -1,10 +1,11 @@
 ( CFLAGS='-g -DFEAT_CONCEAL' ./configure --prefix=$U2 \
---with-compiledby=lizh --with-features=normal \
---enable-fail-if-missing \
---enable-pythoninterp=dynamic \
---enable-python3interp=dynamic \
---enable-rubyinterp=dynamic \
---enable-cscope --enable-sniff \
---enable-multibyte \
---disable-acl --disable-gui --disable-sysmouse \
-&& make ) 2>&1 | tee build.log
+  --with-compiledby=lizh --with-features=normal \
+  --enable-fail-if-missing \
+  --enable-pythoninterp=dynamic \
+  --enable-python3interp=dynamic \
+  --enable-rubyinterp=dynamic \
+  --enable-cscope --enable-sniff \
+  --enable-multibyte --disable-nls \
+  --disable-acl --disable-gui \
+  --disable-sysmouse \
+  --without-gnome --without-x && make ) 2>&1 | tee build.log

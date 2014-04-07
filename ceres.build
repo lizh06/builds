@@ -1,10 +1,6 @@
-CXX="g++ -std=c++11" cmake -DBUILD_SHARED_LIBS=ON \
--DCMAKE_INSTALL_PREFIX:PATH=$Q2 \
--DGFLAGS_INCLUDE_DIR=$E2/include \
--DGFLAGS_LIBRARY=$E2/lib/libgflags.so \
--DGLOG_INCLUDE_DIR=$E2/include \
--DGLOG_LIBRARY=$E2/lib/libglog.so \
--DEIGEN_INCLUDE_DIR=$E2/include \
-.. && make
-#-DCXSPARSE_INCLUDE_DIR=$Q2/include \
+cmake -DCMAKE_INSTALL_PREFIX=$Q2 -DMINIGLOG=ON \
+-DGFLAGS_INCLUDE_DIR=$E2/include -DGFLAGS_LIBRARY=$E2/lib/libgflags_nothreads.dll.a \
+-DLAPACK_LIBRARIES=$Q2/lib/libopenblas.so -DBLAS_LIBRARIES=$Q2/lib/libopenblas.so \
+-DEIGEN_INCLUDE_DIR=$Q2/include/eigen3 .. && make -j $CC_LEVEL
 #CMAKE_BUILD_TYPE=Release
+#-DBUILD_SHARED_LIBS=ON
