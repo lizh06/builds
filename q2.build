@@ -27,6 +27,9 @@ wd ../protobuf autogen.sh && ../protobuf/configure --prefix=$E2 --enable-shared 
 
 wd ../cppunit autogen.sh && ../cppunit/configure --prefix=$A2/cppunit
 
+#stxxl
+cmake -DCMAKE_INSTALL_PREFIX=$Q2 -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=OFF -DBUILD_EXAMPLES=ON ..
+
 #yaml-cpp
 cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j $CC_LEVEL
 
