@@ -1,8 +1,5 @@
 ( ./configure --prefix=$S2 \
---shared-openssl \
---shared-zlib && \
-make -j $CC_LEVEL ) 2>&1 | tee build.log
-#--shared-http-parser \
+  --shared-openssl --shared-zlib && 
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
+#--shared-v8 --shared-libuv --shared-http-parser \
 #--shared-cares \
-#--shared-libuv \
-#--shared-v8 \
