@@ -1,3 +1,2 @@
-../libevent/configure --prefix=$A2/libevent \
---enable-shared --disable-static
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+( ../libevent/configure --prefix=$A2/ev --enable-shared --disable-static &&
+  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
