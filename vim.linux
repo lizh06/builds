@@ -1,4 +1,4 @@
-( CFLAGS=-g ./configure --prefix=$U2 \
+( CFLAGS="-g -DFEAT_CONCEAL" ./configure --prefix=$U2 \
   --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
