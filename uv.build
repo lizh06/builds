@@ -1,4 +1,4 @@
-./gyp_uv -f make -Dlibrary=shared_library &&
+./gyp_uv.py -f make -Dlibrary=shared_library &&
 BUILDTYPE=Release make -C out &&
 cp include/*.h $S2/include &&
 cp out/Release/lib.target/libuv.so $S2/lib
