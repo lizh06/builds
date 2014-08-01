@@ -1,0 +1,93 @@
+Bottleneck==0.9.0dev
+CXX==6.1
+Cython==0.20.2
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Numeric==24.2
+PIL==1.1.7
+Pillow==2.5.1
+Pmw==1.3.2
+PyOpenGL==3.0.1
+PyYAML==3.11
+Pygments==1.6
+RunSnakeRun==2.0.4
+SquareMap==1.0.4
+TkinterTreectrl==0.8
+Werkzeug==0.9.6
+XlsxWriter==0.5.6
+antlr-python-runtime==3.1.3
+argh==0.25.0
+argparse==1.2.1
+blessings==1.5.1
+boto==2.32.0
+-e hg+https://bitbucket.org/bobf/bpython/@9a99906bb8ac6ef069e83e73f352ceac4c1f63b9#egg=bpython-dev
+construct==2.06
+csvquerytool==0.0.3
+curtsies==0.1.6
+dbgp==1.1
+drmaa==0.4
+errorhandler==1.1.1
+faulthandler==2.3
+fibers==0.4.0
+fn==0.2.13
+funcparserlib==0.3.6
+funcy==1.1
+futures==2.1.6
+gevent==1.0.1
+greenlet==0.4.2
+hiredis==0.1.4
+httpie==0.8.0
+ipython==2.1.0
+itsdangerous==0.24
+jdcal==1.0
+joblib==0.8.2
+mahotas==1.2.1
+matplotlib==0.99.1.1
+mercurial==3.0.1
+minieigen==0.4-1
+msgpack-python==0.4.2
+nose==1.3.3
+-e hg+https://code.google.com/p/numexpr@7d7cf2e2adb44d5a0be79a54d13d9b3b5460cbbd#egg=numexpr-dev
+-e git+https://github.com/numpy/numpy.git@4c854c2633894387988b43306ff72333cb00613a#egg=numpy-origin/HEAD
+objgraph==1.8.1
+openpyxl==2.0.4
+-e git+https://github.com/pydata/pandas.git@70de129e6017c73c8903268b30f5478e4ca7bc7f#egg=pandas-master
+paramiko==1.7.7.1
+parse==1.6.4
+pathtools==0.1.2
+-e git+https://github.com/pydata/patsy.git@1710a5f65228bb6dbac4bc633e146126f2a68486#egg=patsy-master
+pexpect==3.3
+plumbum==1.4.2
+pulsar==0.8.4
+py==1.4.22
+pycparser==2.10
+pycrypto==2.4.1
+pycurl==7.19.5
+pygccxml==1.1.0
+pyhull==1.4.3
+pymssql==1.0.2
+python-dateutil==2.2
+python-sybase==0.38
+pytz==2014.4
+pyuv==0.11.4
+readline==6.2.4.1
+redis==2.10.1
+reportlab==2.7
+requests==2.3.0
+rpyc==3.3.0
+-e git+https://github.com/scikit-learn/scikit-learn.git@b16ffbb04d53756e18134e58ded47f02e52492aa#egg=scikit_learn-origin/HEAD
+-e git+https://github.com/scipy/scipy.git@5e24556725bfa4a7e3a1008cce8393bc999dc615#egg=scipy-master
+setproctitle==1.1.8
+six==1.7.3
+-e git+https://github.com/statsmodels/statsmodels.git@b0e5b41a30734c0cbb4dcdacc02631fc42509ca7#egg=statsmodels-origin/HEAD
+thoonk==1.0.1.0
+toolz==0.7.0
+ujson==1.33
+urwid==1.2.1
+vim-debug==1.5.4
+watchdog==0.8.1
+wheel==0.24.0
+xlrd==0.9.3
+xlutils==1.7.1
+xlwt==0.7.5
