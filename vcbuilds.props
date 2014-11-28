@@ -4,10 +4,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <IncludePath>C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tools\OpenSSL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Tools\boost_1_56_0;V:\codes\eigen;V:\codes\eigen\unsupported;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Tools\boost_1_57_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> 56dc0d641d451cc69f8bd2b71f3af87d7943cf2c
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
