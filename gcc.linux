@@ -1,7 +1,7 @@
 unset LD_RUN_PATH
 unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH
 #LD_LIBRARY_PATH=$C1/lib:$C1/lib64:$Q2/lib
-../gcc-4.8.2/configure --prefix=$C1 --enable-shared \
+../gcc-4.9.2/configure --prefix=$C1 --enable-shared \
 --enable-stage1-languages=c,fortran \
 --enable-languages=c,c++,fortran \
 --enable-__cxa_atexit \
