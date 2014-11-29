@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Tools\auto\include;C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Tools\OpenSSL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
