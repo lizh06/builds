@@ -1,2 +1,2 @@
 ( ./configure --prefix $A2/doxy --shared --english-only && 
-  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
