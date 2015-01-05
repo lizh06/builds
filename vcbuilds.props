@@ -3,16 +3,12 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>C:\Tools\auto\include;C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Tools\OpenSSL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Tools\auto\include;C:\Tools\stlsoft-1.9.118\include;C:\Tools\boost_1_57_0;C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tools\auto\lib;C:\Tools\openssl-1.0.1j\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-<<<<<<< HEAD
-      <AdditionalIncludeDirectories>C:\Tools\boost_1_56_0;V:\codes\eigen;V:\codes\eigen\unsupported;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-=======
-      <AdditionalIncludeDirectories>C:\Tools\boost_1_57_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
->>>>>>> 56dc0d641d451cc69f8bd2b71f3af87d7943cf2c
+      <AdditionalIncludeDirectories>C:\Microsoft\WTL90x\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
