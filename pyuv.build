@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -f core.*
+rm -rf build
+python setup.py develop --inplace --force --use-system-libuv $@
