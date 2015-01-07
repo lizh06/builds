@@ -2,4 +2,5 @@
 
 rm -f core.*
 rm -rf build
-python setup.py develop --inplace --force --use-system-libuv $@
+python setup.py build_ext --inplace --force --use-system-libuv $@
+#python setup.py develop --user
