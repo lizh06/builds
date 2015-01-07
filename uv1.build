@@ -1,0 +1,2 @@
+./autogen.sh && ./configure --prefix=$A2/uv --disable-static &&
+make install && make distclean
