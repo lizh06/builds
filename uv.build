@@ -1,4 +1,4 @@
 ./gyp_uv.py -f make -Duv_library=shared_library &&
 BUILDTYPE=Release make -C out &&
-cp include/*.h $A2/uv/include &&
-cp out/Release/lib.target/libuv.so $A2/uv/lib
+cp include/*.h $U1/include &&
+cp out/Release/lib.target/libuv.so $U1/lib
