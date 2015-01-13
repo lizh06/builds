@@ -1,4 +1,10 @@
 ( cmake -DCMAKE_INSTALL_PREFIX:PATH=/scratch/zli1/llvm35 -DBUILD_SHARED_LIBS=ON \
   -DPYTHON_EXECUTABLE:FILEPATH=/usr/prod/mts/platform/x64/build-8/bin/python2.6 \
   -DCMAKE_SHARED_LINKER_FLAGS='-static-libgcc -static-libstdc++' \
-  -DLLVM_TARGETS_TO_BUILD=X86 ../llvm-3.5.0.src && make -j $CC_LEVEL ) 2>&1 | tee build.log
+  -DGCC_INSTALL_PREFIX=$C2 -DCMAKE_CXX_LINK_FLAGS="-L$C2/lib64 -Wl,-rpath,$C2/lib64" \
+  -DLLVM_ENABLE_ASSERTIONS=ON -DLLVM_TARGETS_TO_BUILD=X86 ../llvm-3.5.0.src &&
+  make -j 17 ) 2>&1 | tee build.log
+
+# -DCMAKE_BUILD_TYPE=Release
+# -DCMAKE_CXX_LINK_FLAGS
+# -DCMAKE_SKIP_INSTALL_RPATH
