@@ -1,3 +1,4 @@
 cmake -DCMAKE_INSTALL_PREFIX=$U2 \
--DLIBUV_LIBRARY=/home/lizh/tools/auto/lib \
--DLIBUV_INCLUDE_DIR=/home/lizh/tools/auto/include .. && make -j && make install
+-DLIBUV_LIBRARY=/home/lizh/tools/auto/lib/libuv.a \
+-DLIBUV_INCLUDE_DIR=/home/lizh/tools/auto/include .. &&
+make -j $CC_LEVEL && make install
