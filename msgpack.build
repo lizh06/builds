@@ -1,1 +1,1 @@
-cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j && make install
+cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j $CC_LEVEL && make install

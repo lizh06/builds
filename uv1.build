@@ -1,2 +1,2 @@
 ./autogen.sh && ./configure --prefix=$U1 --disable-static &&
-make install && make distclean
+make -j $CC_LEVEL && make install && make distclean

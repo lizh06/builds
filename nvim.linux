@@ -1,0 +1,1 @@
+cmake -DCMAKE_INSTALL_PREFIX=$U2 .. && make -j $CC_LEVEL && make install
