@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
-  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="UserMacros">
+    <BOOST_DIR>C:\Tools\boost_1_57_0\</BOOST_DIR>
+  </PropertyGroup>
   <PropertyGroup>
     <IncludePath>C:\Tools\auto\include;C:\Tools\stlsoft-1.9.118\include;C:\Tools\boost_1_57_0;C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Tools\auto\lib;C:\Tools\openssl-1.0.1j\lib;$(LibraryPath)</LibraryPath>
@@ -10,6 +12,16 @@
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Microsoft\WTL90x\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
   </ItemDefinitionGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BuildMacro Include="BOOST_DIR">
+      <Value>$(BOOST_DIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
 </Project>
