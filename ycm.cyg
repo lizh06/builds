@@ -1,0 +1,1 @@
+../install.sh --clang-completer --system-libclang --system-boost 2>&1 | tee build.log
