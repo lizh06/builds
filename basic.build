@@ -1,0 +1,4 @@
+make PREFIX=$U1 && make install PREFIX=$U1 && make clean
+
+# unilibium
+# libtermkey
