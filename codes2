@@ -7,6 +7,7 @@ atom
 avalondock
 basil
 bastard
+bcolz
 bento
 bgen
 bio
@@ -15,14 +16,13 @@ boost_1_55_0
 boost.pp
 bottleneck
 bpython
-btree-exp
+browsers
 build
 build_glut
 BytecodeAssembler-0.6
 BytecodeAssembler-0.6.zip
 byteplay
 byterun
-carray
 ccl
 ceres-solver
 ceres-windows
@@ -56,6 +56,7 @@ cxref
 cyres
 cython
 dash
+datastr
 debug.htm
 depot_tools
 directui
@@ -76,11 +77,11 @@ elfutils
 elvis
 elvis.dev
 embox
-enaml
+excel
 excelpython
 fbc-code
 fidl
-firebird
+formats
 freeglut-2.8.1
 freemind
 freetds
@@ -89,7 +90,6 @@ GDB-Python-Utils
 gecko
 generator_tools-0.3.6
 generator_tools-0.3.6.tar.gz
-geniusql
 gflags
 gists
 glog
@@ -98,9 +98,9 @@ googletest
 gperftools
 green
 gyp
-h2o
 halite
 hoard
+http
 http-replicator
 iconized-code
 inferno-os
@@ -117,11 +117,11 @@ libelf-0.8.13
 libelf-0.8.13.tar.gz
 libevent
 libjit-python
+libtermkey-0.17
 libtorrent
 libunwind-1.1
 libuv
 libuv-v1.2.0
-libxml2-2.9.1
 libzmq
 lj
 llvm.b
@@ -145,16 +145,13 @@ midnight-commander
 minieigen-0.4-1
 mini-pysonar
 mintty
-monetdb
+models
 msgpack-c
 mypy
 nanoplot
 neat
 neovim
 networkx
-nginx
-nginx-dav
-nginx-upload
 ninja
 node
 nodeapp
@@ -175,7 +172,6 @@ openblas
 openpyxl
 open-wealth
 osrm-backend
-Pale-Moon
 pandas
 parsing
 partio
@@ -186,7 +182,6 @@ pdbparse
 pip
 pn
 protobuf
-pugixml
 puttyz
 PyAmisCore
 pycdc
@@ -244,7 +239,6 @@ sourcenav
 sparse
 sparsehash
 speedometer
-sqlalchemy
 squirrel3
 src-highlite
 statsmodels
@@ -252,7 +246,6 @@ strategies
 stx-btree
 stx-cbtreedb
 stx-exparser
-stxxl
 subc
 subc-20140115.tgz
 subpy
@@ -273,7 +266,6 @@ tinyproxy
 tinypy
 tmux
 toybox
-traity
 tvision
 typhoon
 ucpp
@@ -281,6 +273,7 @@ ucpp-1.3.2.tar.gz
 uncompyle
 uncompyle2
 uncrustify
+unibilium
 unpyc
 unpyc_another
 unwind
@@ -294,7 +287,6 @@ xltoolbox
 xpython
 xxx.lua
 yacas-code
-yaml-cpp
 yasm
 zedgraph-code
 zsh-nt

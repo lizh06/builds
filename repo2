@@ -1,6 +1,5 @@
 hg -> 2c-python
 git -> GDB-Python-Utils
-git -> Pale-Moon
 git -> PyTables
 git -> RDCOMClient
 git -> SWinTypeLibs
@@ -19,7 +18,7 @@ git -> blaze
 git -> boost.pp
 git -> bottleneck
 hg -> bpython
-git -> btree-exp
+git -> browsers/Pale-Moon
 svn -> byteplay
 git -> byterun
 git -> c-plus
@@ -79,7 +78,6 @@ git -> elfutils
 git -> elvis
 git -> elvis.dev
 svn -> embox
-git -> enaml
 svn -> excel/xll
 svn -> excel/xllfunctional
 git -> excel/xlloop
@@ -87,6 +85,9 @@ svn -> excel/xlltechnical
 git -> excelpython
 git -> fbc-code
 git -> fidl
+git -> formats/libyaml
+git -> formats/pugixml
+hg -> formats/yaml-cpp
 git -> freemind
 git -> freetds
 svn -> gambas-code
@@ -119,9 +120,16 @@ git -> green/tproxy
 git -> green/ultramemcache
 git -> green/uurl
 svn -> gyp
-git -> h2o
 git -> halite
 git -> hoard
+git -> http/h2o
+hg -> http/nginx
+git -> http/nginx-dav
+git -> http/nginx-upload
+git -> http/picohttpparser
+git -> http/qrintf
+git -> http/wslay
+git -> http/yoml
 svn -> http-replicator
 git -> iconized-code
 hg -> inferno-os
@@ -159,10 +167,12 @@ git -> midnight-commander
 git -> mini-pysonar
 svn -> mintty
 hg -> models/dejavu
+git -> models/enaml
 svn -> models/firebird
 hg -> models/geniusql
 hg -> models/monetdb
 git -> models/sqlalchemy
+git -> models/traity
 git -> msgpack-c
 git -> mypy
 git -> nanoplot
@@ -181,9 +191,6 @@ git -> neat/neatrefer
 git -> neat/neatroff
 git -> neovim
 git -> networkx
-hg -> nginx
-git -> nginx-dav
-git -> nginx-upload
 git -> ninja
 git -> node
 git -> nodeapp/docular
@@ -213,7 +220,6 @@ git -> pdbparse
 git -> pip
 git -> pn
 svn -> protobuf
-git -> pugixml
 git -> puttyz
 git -> pycdc
 git -> pycparser
@@ -258,6 +264,7 @@ svn -> sljit-code
 git -> smallbasic
 svn -> smallbasic-code
 git -> smdb/EWAHBoolArray
+git -> smdb/btree-exp
 git -> smdb/hustle
 git -> smdb/leveldb
 svn -> smdb/lz4
@@ -265,6 +272,7 @@ git -> smdb/mdb
 git -> smdb/py-lmdb
 git -> smdb/simdcomp
 git -> smdb/snappy
+git -> smdb/stxxl
 hg -> sourcegrid
 svn -> sourcenav
 git -> sparse
@@ -277,7 +285,6 @@ git -> strategies
 git -> stx-btree
 git -> stx-cbtreedb
 git -> stx-exparser
-git -> stxxl
 git -> subpy
 git -> suitesparse-metis-for-windows
 git -> sumatrapdf
@@ -294,7 +301,6 @@ git -> tinyproxy
 svn -> tinypy
 git -> tmux
 git -> toybox
-git -> traity
 git -> uncompyle
 git -> uncompyle2
 git -> uncrustify
@@ -309,7 +315,6 @@ hg -> vstostocks
 svn -> winmerge
 git -> xltoolbox
 svn -> yacas-code
-hg -> yaml-cpp
 git -> yasm
 svn -> zedgraph-code
 git -> zsh-nt
