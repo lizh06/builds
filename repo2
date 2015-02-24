@@ -1,6 +1,5 @@
 hg -> 2c-python
 git -> GDB-Python-Utils
-git -> PyTables
 git -> RDCOMClient
 git -> SWinTypeLibs
 git -> VirtualDimension
@@ -8,7 +7,6 @@ svn -> abcpp
 git -> alore
 git -> amis
 hg -> astoptimizer
-git -> atom
 svn -> avalondock
 svn -> basil
 svn -> bastard
@@ -166,6 +164,8 @@ svn -> mgweditline
 git -> midnight-commander
 git -> mini-pysonar
 svn -> mintty
+git -> models/PyTables
+git -> models/atom
 hg -> models/dejavu
 git -> models/enaml
 svn -> models/firebird
@@ -223,6 +223,7 @@ svn -> protobuf
 git -> puttyz
 git -> pycdc
 git -> pycparser
+git -> pycurl
 git -> pycurl.snapshot
 git -> pycurl2
 git -> pyflakes
