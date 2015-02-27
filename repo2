@@ -65,6 +65,7 @@ svn -> directui/shp-ui-gdiplus
 git -> disco
 git -> doxy
 git -> doxy.dev
+git -> dpark
 svn -> drmemory
 git -> duilib
 git -> dvtm
@@ -104,6 +105,7 @@ hg -> green/gevent-socketio
 hg -> green/gevent-subprocess
 hg -> green/gevent_stomp
 git -> green/geventhttpclient
+git -> green/greenify
 git -> green/greenlet
 git -> green/grequests
 git -> green/guv
@@ -172,6 +174,7 @@ svn -> models/firebird
 hg -> models/geniusql
 hg -> models/monetdb
 git -> models/sqlalchemy
+git -> models/sqlobject
 git -> models/traity
 git -> msgpack-c
 git -> mypy
