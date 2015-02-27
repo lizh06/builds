@@ -8,4 +8,5 @@
   --enable-multibyte --disable-nls \
   --disable-acl --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
-  --without-x && make -j $CC_LEVEL ) 2>&1 | tee build.log
+  --without-x && make -j $CC_LEVEL &&
+  make install && make distclean ) 2>&1 | tee build.log
