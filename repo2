@@ -48,6 +48,7 @@ git                          cxref https://github.com/mit-athena/cxref.git
 git                          cyres https://github.com/rll/cyres.git
 git                         cython https://github.com/cython/cython.git
 git                           dash https://git.kernel.org/pub/scm/utils/dash/dash.git
+git                     dcalc/dask https://github.com/mrocklin/dask.git
 git                    dcalc/disco https://github.com/discoproject/disco.git
 git                    dcalc/dpark https://github.com/douban/dpark.git
 git                   dcalc/kaylee https://github.com/sdiehl/kaylee.git
