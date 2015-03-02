@@ -1,0 +1,176 @@
+git                   addins/amalg https://github.com/vinniefalco/Amalgamate.git
+svn                  addins/autumn http://autumnframework.googlecode.com/svn/trunk
+svn                 addins/c-pluff http://svn.c-pluff.org/repos/c-pluff/trunk
+svn                     addins/cxx http://svn.code.sf.net/p/cxx/code/trunk/CXX
+svn              addins/infectorpp http://infectorpp.googlecode.com/svn/trunk
+git                addins/injector https://github.com/alecthomas/injector.git
+git                    addins/juce https://github.com/julianstorer/JUCE.git
+git                  addins/nulldc https://github.com/mirror/nulldc.git
+git                 addins/pinject https://github.com/google/pinject.git
+git                    addins/poco https://github.com/pocoproject/poco.git
+git           addins/python-inject https://github.com/ivan-korobkov/python-inject.git
+ hg                 addins/pyxpcom http://hg.mozilla.org/pyxpcom
+git             addins/snake-guice https://code.google.com/p/snake-guice/
+svn            addins/uglygenerics http://uglygenerics.googlecode.com/svn/uglygenerics
+git                     addins/x3c https://github.com/rhcad/x3c.git
+git                    addins/x3py https://github.com/rhcad/x3py.git
+svn                  addins/zoolib http://svn.code.sf.net/p/zoolib/code/trunk
+git                          bento https://github.com/cournape/Bento.git
+svn               binary2/bit-lang http://bit-language.googlecode.com/svn/trunk
+ hg                 binary2/coding https://bitbucket.org/krp/coding
+ hg               binary2/cofffile https://code.google.com/p/cofffile
+git              binary2/construct https://github.com/MostAwesomeDude/construct.git
+ hg                binary2/elffile https://bitbucket.org/krp/elffile
+svn               binary2/fasmsyms http://fasmsyms.googlecode.com/svn/trunk
+svn               binary2/pdbparse http://pdbparse.googlecode.com/svn/trunk
+svn                 binary2/pefile http://pefile.googlecode.com/svn/trunk
+svn             binary2/pydevtools http://pydevtools.googlecode.com/svn/trunk
+ hg             binary2/pyelftools https://bitbucket.org/eliben/pyelftools
+git                 binary2/strace http://git.code.sf.net/p/strace/code
+git            binary2/strace-plus https://code.google.com/p/strace-plus
+git                  build2/ccache https://github.com/jrosdahl/ccache.git
+ hg                build2/ccontrol http://ccontrol.ozlabs.org/hgweb.cgi
+svn                  build2/distcc http://distcc.googlecode.com/svn/trunk
+git                         builds https://lizh06@github.com/lizh06/builds.git
+git    catch22/product-collections https://github.com/lizh06/product-collections.git
+git catch22/product-collections-example https://github.com/marklister/product-collections-example.git
+git                 clang_complete https://github.com/Rip-Rip/clang_complete.git
+svn                 classify/crfpp http://crfpp.googlecode.com/svn/trunk
+git              classify/crfsuite https://github.com/chokkan/crfsuite.git
+ hg                 classify/dclib http://hg.code.sf.net/p/dclib/code
+git              classify/liblbfgs https://github.com/chokkan/liblbfgs.git
+git            classify/mldemo_win https://git.gitorious.org/mldemos/mldemos.git
+svn                classify/plearn http://svn.berlios.de/svnroot/repos/plearn/trunk
+git                cmisc/breakfast https://github.com/kmcallister/breakfast.git
+git     cmisc/embedded-breakpoints https://github.com/kmcallister/embedded-breakpoints.git
+ hg                        cmlearn https://lizh1@bitbucket.org/lizh1/cmlearn|ssh://jdoe@example.net/hg/jdoes-fork
+git                code2/doxyparse https://git.gitorious.org/analizo/doxyparse.git
+git                   code2/oclint https://github.com/oclint/oclint.git
+git                       codelite http://git.code.sf.net/p/codelite/codelitegit
+git          consoles/console-code http://git.code.sf.net/p/console/code
+ hg              consoles/dropbear https://secure.ucc.asn.au/hg/dropbear/
+svn                consoles/fardev http://farmanager.com/svn/trunk
+git                 consoles/futty https://github.com/FireEgl/FuTTY.git
+ hg                consoles/iputty https://bitbucket.org/daybreaker/iputty
+svn                consoles/mintty http://mintty.googlecode.com/svn/trunk
+ hg             consoles/nyaos3000 https://bitbucket.org/zetamatta/nyaos3000
+git                consoles/putty3 https://github.com/FauxFaux/PuTTYTray.git
+git             consoles/puttytray https://git.gitorious.org/puttytray/puttytray.git
+git                 consoles/pycmd http://git.code.sf.net/p/pycmd/code
+svn                consoles/ttssh2 http://svn.sourceforge.jp/svnroot/ttssh2/trunk
+git             consoles/unibilium https://github.com/mauke/unibilium.git
+svn                   consoles/wtl http://svn.code.sf.net/p/wtl/code/trunk
+git                cparsers/c-plus https://code.google.com/p/c-plus
+git                  cparsers/cod5 https://github.com/cod5/cod5.git
+svn            cparsers/preprocess http://preprocess.googlecode.com/svn/trunk
+svn                  cparsers/pycp http://pycp.googlecode.com/svn/trunk
+git cparsers/pypc--pre-processor-python-- https://github.com/songdi/pypc--pre-processor-python--.git
+ hg        cparsers/pypreprocessor https://code.google.com/p/pypreprocessor
+ hg                      cs164sp13 https://bitbucket.org/cs164_overlord/cs164sp13
+svn                      ctypesgen http://ctypesgen.googlecode.com/svn/trunk
+git                 debuggers/cgdb https://github.com/cgdb/cgdb.git
+git             debuggers/gdb/vgdb https://github.com/gnustc/vgdb.git
+ hg        debuggers/pdb/pdb-clone https://code.google.com/p/pdb-clone
+svn           debuggers/pdb/pydbgr http://pydbgr.googlecode.com/svn/trunk
+git        debuggers/pdb/vim-debug https://github.com/jabapyth/vim-debug.git
+ hg           debuggers/pdb/winpdb https://code.google.com/p/winpdb/
+ hg              debuggers/pyclewn http://pyclewn.hg.sourceforge.net/hgweb/pyclewn/pyclewn
+git             diff-match-patch-c https://github.com/arrbee/diff-match-patch-c.git
+svn                   editors/beye https://beye.svn.sourceforge.net/svnroot/beye
+svn                   editors/efte https://efte.svn.sourceforge.net/svnroot/efte/trunk
+git                         fccdev https://lizh1@bitbucket.org/lizh1/fccdev.git
+git                     flows/Pipe https://github.com/JulienPalard/Pipe.git
+ hg                      flows/asq https://code.google.com/p/asq/
+git                     flows/pype https://github.com/randomwalker/pype.git
+svn                   flows/ruffus http://ruffus.googlecode.com/svn/trunk
+ hg                    flows/zflow https://bitbucket.org/jslowery/zflow
+git                  formats/ctoml https://github.com/evilncrazy/ctoml.git
+git                formats/libtoml https://github.com/ajwans/libtoml.git
+git                 formats/pytoml https://github.com/socketubs/pytoml.git
+git                formats/pytoml2 https://github.com/bryant/pytoml.git
+git                   formats/toml https://github.com/uiri/toml.git
+git               formats/toml-ply https://github.com/marksteve/toml-ply.git
+git            formats/toml-python https://github.com/f03lipe/toml-python.git
+git                formats/toml.py https://github.com/hit9/toml.py.git
+git                formats/tomlgun https://github.com/elssar/tomlgun.git
+git              formats/ultrajson https://github.com/esnme/ultrajson.git
+git                            fsv https://github.com/MostAwesomeDude/fsv.git
+git              gcc-python-plugin https://git.fedorahosted.org/git/gcc-python-plugin.git
+git                   inducer/cgen https://github.com/inducer/cgen.git
+git                inducer/compyte https://github.com/inducer/compyte.git
+git                   inducer/pudb https://github.com/inducer/pudb.git
+git              inducer/pycparser https://github.com/inducer/pycparser.git
+git           inducer/pycparserext https://github.com/inducer/pycparserext.git
+git                 inducer/pycuda https://github.com/inducer/pycuda.git
+git               inducer/pyopencl https://github.com/inducer/pyopencl.git
+git                   junks/Theano https://github.com/Theano/Theano.git
+git         knowitall/common-scala https://github.com/knowitall/common-scala.git
+git             knowitall/nlptools https://github.com/knowitall/nlptools.git
+git                knowitall/ollie https://github.com/knowitall/ollie.git
+git               knowitall/openie https://github.com/knowitall/openie.git
+git            knowitall/openregex https://github.com/knowitall/openregex.git
+git      knowitall/openregex-scala https://github.com/knowitall/openregex-scala.git
+git               knowitall/reverb https://github.com/knowitall/reverb.git
+git              knowitall/taggers https://github.com/knowitall/taggers.git
+git                linux/e2fsprogs http://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git
+git                   linux/psmisc http://git.code.sf.net/p/psmisc/code
+git                mingw/build-aux http://git.code.sf.net/p/mingw/build-aux
+git                mingw/mingw-get http://git.code.sf.net/p/mingw/mingw-get
+git          mingw/mingw-org-tools http://git.code.sf.net/p/mingw/mingw-org-tools
+git            mingw/mingw-org-wsl http://git.code.sf.net/p/mingw/mingw-org-wsl
+git            mingw/msys2-runtime http://git.code.sf.net/p/mingw/msys2-runtime
+git                 mingw/pexports http://git.code.sf.net/p/mingw/pexports
+git                    mingw/regex http://git.code.sf.net/p/mingw/regex
+git                    mingw/utils http://git.code.sf.net/p/mingw/utils
+git                      mingw/wtk http://git.code.sf.net/p/mingw/wtk
+svn                  models/dejavu http://svn.aminus.net/dejavu/trunk
+svn              models/genius.svn http://svn.aminus.net/geniusql/trunk
+ hg                 models/roundup http://hg.code.sf.net/p/roundup/code
+ hg              models/sqlalchemy http://hg.sqlalchemy.org/sqlalchemy
+ hg              models/sqlbuilder https://bitbucket.org/evotech/sqlbuilder
+svn               models/sqlobject http://svn.colorstudy.com/SQLObject/trunk
+git                        nailgun https://github.com/martylamb/nailgun.git
+git                      net2/pyuv https://github.com/saghul/pyuv.git
+git                     net2/pyzmq https://github.com/zeromq/pyzmq.git
+git                   nosqls/iodbc http://git.code.sf.net/p/iodbc/git
+git                     nosqls/kdi https://github.com/bluefish/kdi.git
+git                 nosqls/leveldb https://code.google.com/p/leveldb
+git                 nosqls/metakit https://github.com/lizh06/metakit.git
+git                  nosqls/pstore https://github.com/penberg/pstore.git
+svn                   nosqls/stldb http://svn.code.sf.net/p/stldb/code/trunk
+svn                nosqls/unixodbc http://svn.code.sf.net/p/unixodbc/code/trunk
+svn                            orb https://omniorb.svn.sourceforge.net/svnroot/omniorb/trunk
+git                parsers/parsley https://github.com/washort/parsley.git
+git              parsers/pyastutil https://github.com/mitsuhiko/pyastutil.git
+git                platform_bionic https://github.com/android/platform_bionic.git
+git                        project https://lizh1@bitbucket.org/projectza/project.git
+git                       projects https://lizh1@bitbucket.org/lizh1/projects.git
+git                          pycks https://lizh1@bitbucket.org/lizh1/pycks.git
+svn                          pydot http://pydot.googlecode.com/svn/trunk
+git                          pymix https://github.com/i-wind/pymix.git
+git                         pyodbc https://code.google.com/p/pyodbc
+git                 quant/isl-code http://repo.or.cz/r/isl.git
+git                    quant/julia https://github.com/JuliaLang/julia.git
+git               quant/libtommath https://github.com/libtom/libtommath.git
+ hg                   quant/octave http://www.octave.org/hg/octave
+git                        recipes https://lizh06@github.com/lizh06/recipes.git
+git                    sparse-llvm https://github.com/penberg/sparse-llvm.git
+ hg                 text2/asciidoc https://code.google.com/p/asciidoc/
+svn                  text2/fastxml http://fastxml.googlecode.com/svn/trunk
+git                 text2/markdown https://github.com/waylan/Python-Markdown.git
+git                text2/markdown2 https://github.com/trentm/python-markdown2.git
+svn                  text2/pugixml http://pugixml.googlecode.com/svn/trunk
+git                text2/pyenchant https://github.com/rfk/pyenchant.git
+git                 text2/tinyxml2 https://github.com/leethomason/tinyxml2.git
+git                text2/yodl-code http://git.code.sf.net/p/yodl/code
+git                        trading https://lizh1@bitbucket.org/lizh1/trading.git
+svn                    uidev/pycdk https://svn.code.sf.net/p/pycdk/code/trunk
+git                     uidev/pyjs https://github.com/pyjs/pyjs.git
+git                    uidev/urwid https://github.com/wardi/urwid.git
+git                          util2 https://lizh1@bitbucket.org/lizh1/utilz.git
+git                          utilz https://lizh1@bitbucket.org/lizh1/utilz.git
+git                    web2/bottle https://github.com/defnull/bottle.git
+svn                   web2/httrack http://httrack.googlecode.com/svn/trunk
+svn                  web2/whalebot http://whalebot.googlecode.com/svn/trunk
+ hg                       winmerge https://bitbucket.org/grimmdp/winmerge
+git                          wterm https://lizh1@bitbucket.org/lizh1/wterm.git
