@@ -269,6 +269,7 @@ git                     smallbasic http://git.code.sf.net/p/smallbasic/git
 svn                smallbasic-code http://svn.code.sf.net/p/smallbasic/code/trunk
 git             smdb/EWAHBoolArray https://github.com/lemire/EWAHBoolArray.git
 git                 smdb/btree-exp https://github.com/malbrain/Btree-source-code.git
+ hg              smdb/csvquerytool https://lizh1@bitbucket.org/acordiner/csvquerytool|ssh://jdoe@example.net/hg/jdoes-fork
 git                    smdb/hustle https://github.com/tspurway/hustle.git
 git                   smdb/leveldb https://github.com/google/leveldb.git
 svn                       smdb/lz4 http://lz4.googlecode.com/svn/trunk
