@@ -307,6 +307,7 @@ git                      term/ncte https://github.com/cantora/ncte.git
 git                 term/pytermkey https://github.com/temoto/pytermkey.git
 git                       term/sds https://github.com/antirez/sds.git
 git                 term/unibilium https://github.com/mauke/unibilium.git
+git                     the_silver https://github.com/lizh06/the_silver_searcher.git|https://github.com/ggreer/the_silver_searcher.git
 git            the_silver_searcher https://github.com/ggreer/the_silver_searcher.git
 git                         theano https://github.com/Theano/Theano.git
 git                         tinycc http://repo.or.cz/r/tinycc.git
@@ -317,6 +318,14 @@ git                         toybox https://github.com/gfto/toybox.git
 git                      uncompyle https://github.com/gstarnberger/uncompyle.git
 git                     uncompyle2 https://github.com/wibiti/uncompyle2.git
 git                     uncrustify https://github.com/bengardner/uncrustify.git
+git                    units/catch https://github.com/philsquared/catch.git
+git                 units/cpputest https://github.com/cpputest/cpputest.git
+svn                   units/cpunit http://svn.code.sf.net/p/cpunit/code
+git                  units/cxxtest https://github.com/CxxTest/cxxtest.git
+git                    units/igloo https://github.com/joakimkarlsson/igloo.git
+git                 units/tpunitpp https://github.com/tpounds/tpunitpp.git
+git            units/tut-framework https://github.com/mrzechonek/tut-framework.git
+git             units/unittest-cpp https://github.com/unittest-cpp/unittest-cpp.git
 svn                          unpyc http://unpyc.googlecode.com/svn/trunk
 git                  unpyc_another https://github.com/tswr/UnPyc.git
 git                         unwind https://github.com/evanw/unwind.git
