@@ -166,6 +166,7 @@ svn                    mgweditline http://svn.code.sf.net/p/mingweditline/code/m
 git             midnight-commander http://repo.or.cz/r/midnight-commander.git
 git                   mini-pysonar https://github.com/yinwang0/mini-pysonar.git
 svn                         mintty http://mintty.googlecode.com/svn/trunk
+git                 mmap_allocator https://github.com/johannesthoma/mmap_allocator.git
 git                models/PyTables https://github.com/PyTables/PyTables.git
 git                    models/atom https://github.com/nucleic/atom.git
  hg                  models/dejavu https://lizh1@bitbucket.org/strabs/dejavu|ssh://jdoe@example.net/hg/jdoes-fork
