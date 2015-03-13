@@ -77,6 +77,14 @@ git                       elfutils https://git.fedorahosted.org/git/elfutils.git
 git                          elvis https://github.com/mbert/elvis.git
 git                      elvis.dev https://github.com/mbert/elvis.git
 svn                          embox http://embox.googlecode.com/svn/trunk/embox
+git                 ensemble/HODLR https://github.com/sivaramambikasaran/HODLR.git
+git ensemble/Python-Neural-Network https://github.com/jhoward/Python-Neural-Network.git
+git           ensemble/bashplotlib https://github.com/glamp/bashplotlib.git
+git                  ensemble/daft https://github.com/dfm/daft.git
+git                ensemble/george https://github.com/dfm/george.git
+git                  ensemble/pyda https://github.com/hickmank/pyda.git
+git            ensemble/pyensemble https://github.com/dclambert/pyensemble.git
+git           ensemble/triangle.py https://github.com/dfm/triangle.py.git
 svn                      excel/xll https://xll.svn.codeplex.com/svn/trunk
 svn            excel/xllfunctional https://xllfunctional.svn.codeplex.com/svn/trunk
 git                   excel/xlloop https://github.com/poidasmith/xlloop.git
