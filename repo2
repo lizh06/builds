@@ -341,8 +341,21 @@ git                         unwind https://github.com/evanw/unwind.git
 git                          urwid https://github.com/wardi/urwid.git
 svn                             v8 http://v8.googlecode.com/svn/branches/bleeding_edge
  hg                            vim https://vim.googlecode.com/hg/
- hg                     vstostocks https://hg.codeplex.com/vstostocks
 svn                       winmerge http://svn.code.sf.net/p/winmerge/code/trunk
+git             wpf/Caliburn.Micro https://github.com/Caliburn-Micro/Caliburn.Micro.git
+git              wpf/Fluent.Ribbon https://github.com/fluentribbon/Fluent.Ribbon.git
+svn                 wpf/avalondock https://avalondock.svn.codeplex.com/svn
+svn         wpf/dynamicdatadisplay https://dynamicdatadisplay.svn.codeplex.com/svn
+git                        wpf/mui https://github.com/firstfloorsoftware/mui.git
+ hg                  wpf/mvvmlight https://hg.codeplex.com/mvvmlight|ssh://jdoe@example.net/hg/jdoes-fork
+svn               wpf/officeribbon https://officeribbon.svn.codeplex.com/svn
+git                    wpf/oxyplot https://github.com/oxyplot/oxyplot.git
+svn                   wpf/timeline https://timeline.svn.codeplex.com/svn
+ hg                 wpf/vstostocks https://hg.codeplex.com/vstostocks
+svn                        wpf/waf https://waf.svn.codeplex.com/svn
+svn        wpf/wpfextendeddatagrid https://wpfextendeddatagrid.svn.codeplex.com/svn
+svn                     wpf/wpfmdi https://wpfmdi.svn.codeplex.com/svn
+git                  wpf/xltoolbox http://git.code.sf.net/p/xltoolbox/ng-code
 git                      xltoolbox http://git.code.sf.net/p/xltoolbox/ng-code
 svn                     yacas-code http://svn.code.sf.net/p/yacas/code/trunk
 git                           yasm https://github.com/yasm/yasm.git
