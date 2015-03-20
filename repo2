@@ -351,6 +351,7 @@ git             wpf/Caliburn.Micro https://github.com/Caliburn-Micro/Caliburn.Mi
 git              wpf/Fluent.Ribbon https://github.com/fluentribbon/Fluent.Ribbon.git
 svn                 wpf/avalondock https://avalondock.svn.codeplex.com/svn
 svn         wpf/dynamicdatadisplay https://dynamicdatadisplay.svn.codeplex.com/svn
+svn                 wpf/ironeditor https://ironeditor.svn.codeplex.com/svn/src
 git                        wpf/mui https://github.com/firstfloorsoftware/mui.git
  hg                  wpf/mvvmlight https://hg.codeplex.com/mvvmlight|ssh://jdoe@example.net/hg/jdoes-fork
 svn               wpf/officeribbon https://officeribbon.svn.codeplex.com/svn
