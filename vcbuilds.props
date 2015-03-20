@@ -2,11 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
+	<AUTO_DIR>C:\Tools\auto\</AUTO_DIR>
     <BOOST_DIR>C:\Tools\boost_1_57_0\</BOOST_DIR>
+    <OPENSSL_DIR>C:\Tools\openssl-1.0.1j\</OPENSSL_DIR>
+    <QUANT_DIR>C:\Tools\quant\</QUANT_DIR>
+    <MS_DIR>C:\Microsoft\</MS_DIR>
   </PropertyGroup>
   <PropertyGroup>
-    <IncludePath>C:\Tools\auto\include;C:\Tools\stlsoft-1.9.118\include;$(BOOST_DIR);C:\Microsoft\WTL90\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Tools\auto\lib;C:\Tools\openssl-1.0.1j\lib;$(BOOST_DIR)lib32-msvc-10.0;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(AUTO_DIR)include;C:\Tools\stlsoft-1.9.118\include;$(BOOST_DIR);$(MS_DIR)WTL90\Include;$(QUANT_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(AUTO_DIR)lib;$(OPENSSL_DIR)lib;$(BOOST_DIR)lib32-msvc-10.0;$(QUANT_DIR)lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
