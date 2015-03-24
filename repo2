@@ -11,6 +11,7 @@ git                    array/blaze https://github.com/ContinuumIO/blaze.git
 git                array/elemental https://github.com/elemental/Elemental.git
 git                     array/into https://github.com/ContinuumIO/into.git
 git                  array/libdynd https://github.com/libdynd/libdynd.git
+svn                       asadchev http://asadchev.googlecode.com/svn/trunk
  hg                   astoptimizer https://bitbucket.org/haypo/astoptimizer
 svn                     avalondock https://avalondock.svn.codeplex.com/svn
 svn                          basil http://basil.googlecode.com/svn/trunk/basil
@@ -85,6 +86,7 @@ git                ensemble/george https://github.com/dfm/george.git
 git                  ensemble/pyda https://github.com/hickmank/pyda.git
 git            ensemble/pyensemble https://github.com/dclambert/pyensemble.git
 git           ensemble/triangle.py https://github.com/dfm/triangle.py.git
+git                          equip https://github.com/neuroo/equip.git
 svn                      excel/xll https://xll.svn.codeplex.com/svn/trunk
 svn            excel/xllfunctional https://xllfunctional.svn.codeplex.com/svn/trunk
 git                   excel/xlloop https://github.com/poidasmith/xlloop.git
