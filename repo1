@@ -1,130 +1,154 @@
-git -> ConEmu
-git -> c-ares
-git -> ceres-solver
-hg -> cffi
-git -> cmisc
-hg -> cmlearn
-hg -> cpython
-git -> ctags
-git -> eclipse.platform.swt
-git -> elvis
-git -> enthought/apptools
-git -> enthought/blockcanvas
-git -> enthought/chaco
-git -> enthought/codetools
-git -> enthought/enable
-git -> enthought/envisage
-git -> enthought/etsdevtools
-git -> enthought/mayavi
-git -> enthought/pyface
-git -> enthought/scimath
-git -> enthought/traits
-git -> enthought/traitsui
-svn -> excel/algxll
-svn -> excel/fmsdatetime
-svn -> excel/fmsdual
-svn -> excel/fmssvi
-svn -> excel/fmstechnical
-git -> excel/libbms
-git -> excel/libfms
-svn -> excel/xll
-git -> excel/xll8
-svn -> excel/xllarray
-svn -> excel/xllblas
-svn -> excel/xllcdb
-svn -> excel/xlldatetime
-svn -> excel/xllfred
-svn -> excel/xllgsl
-svn -> excel/xlllapck
-svn -> excel/xllrange
-svn -> excel/xllrdb
-svn -> excel/xllregex
-git -> excel/xllroot
-svn -> excel/xllutility
-svn -> excel/xllyahoo
-git -> fccdev
-git -> google/cython-sparsehash
-git -> google/gflags
-svn -> google/google-glog
-svn -> google/googletest
-git -> google/protobuf
-git -> google/snappy
-git -> google/snappy-msvc
-hg -> google/snappy-visual-cpp
-svn -> google/sparsehash
-hg -> graph/grapheekdb
-git -> graph/rotz
-git -> graph/vertexdb
-git -> green/gevent
-git -> green/greenlet
-git -> green/guv
-git -> green/libgevent
-git -> http/h2o
-git -> http/klib
-git -> http/picohttpparser
-git -> http/qrintf
-git -> http/wslay
-svn -> lego/bltools
-svn -> lego/leocad
-svn -> lego/libnxt
-svn -> lego/lic
-svn -> lego/lsculpt
-svn -> libtorrent
-git -> libuv
-hg -> libyaml
-hg -> mozilla
-git -> mpir
-git -> msgpack-c
-git -> neovim
-hg -> nginx
-git -> nginx-dav
-git -> picoro
-git -> pigz
-git -> putty2
-git -> putty3
-git -> puttyz
-git -> pycks
-git -> pydbgp
-git -> pyjamas
-git -> pyql
-git -> pyuv
-git -> quant/ad
-git -> quant/lsqfit
-git -> quant/minepy
-hg -> quant/mlpy
-git -> quant/numpy
-git -> quant/pandas
-git -> quant/scipy
-git -> quant/sklearn
-git -> quant/statsmodels
-git -> redis
-hg -> rfoo
-git -> simd/EWAHBoolArray
-git -> simd/FastPFor
-git -> simd/SIMDCompressionAndIntersection
-git -> simd/libsimdpp
-git -> simd/rollinghashcpp
-git -> simd/simdcomp
-git -> smdb/btree
-git -> smdb/hustle
-git -> smdb/larch
-git -> smdb/mdb
-git -> smdb/memcachedb
-git -> smdb/minerva
-git -> smdb/py-lmdb
-git -> smdb/python-tracing
-git -> smdb/sqlightning
-git -> stxxl
-git -> the_silver
-git -> the_silver_win32
-svn -> tkintertable
-git -> trading
-git -> unifdef
-git -> urwid
-git -> utilz
-git -> v8
-hg -> vim
-git -> web/bottle
-svn -> wineditline
-hg -> winpdb
-git -> yoml
+git                         ConEmu https://github.com/Maximus5/ConEmu.git
+git                    array/bcolz https://github.com/Blosc/bcolz.git
+git                   array/bquery https://github.com/visualfabriq/bquery.git
+git                array/casuarius https://github.com/enthought/casuarius.git
+git                    array/ceres https://github.com/graphite-project/ceres.git
+git                array/distarray https://github.com/enthought/distarray.git
+git                         c-ares https://github.com/bagder/c-ares.git
+git                   ceres-solver https://ceres-solver.googlesource.com/ceres-solver
+ hg                           cffi https://bitbucket.org/cffi/cffi|ssh://jdoe@example.net/hg/jdoes-fork
+git                          cmisc https://lizh1@bitbucket.org/lizh1/cmisc.git
+ hg                        cmlearn https://lizh1@bitbucket.org/lizh1/cmlearn|ssh://jdoe@example.net/hg/jdoes-fork
+git                      codeplays https://lizh1@bitbucket.org/lizh1/codeplays.git
+git                      concur/ck https://github.com/concurrencykit/ck.git
+git         concur/concurrentqueue https://github.com/cameron314/concurrentqueue.git
+git     concur/lock-free-hashtable https://github.com/kumpera/Lock-free-hastable.git
+git                  concur/lstack https://github.com/skeeto/lstack.git
+git                concur/mintomic https://github.com/mintomic/mintomic.git
+git              concur/queueworld https://github.com/RossBencina/QueueWorld.git
+git       concur/readerwriterqueue https://github.com/cameron314/readerwriterqueue.git
+git              concur/streamflow https://github.com/scotts/streamflow.git
+ hg                        cpython https://hg.python.org/cpython/|ssh://jdoe@example.net/hg/jdoes-fork
+git                          ctags https://lizh06@github.com/lizh06/ctags.git|https://github.com/fishman/ctags.git
+git                      cythongsl https://github.com/twiecki/CythonGSL.git
+git           eclipse.platform.swt http://git.eclipse.org/gitroot/platform/eclipse.platform.swt.git
+git                          elvis https://github.com/mbert/elvis.git
+git                          equip https://github.com/neuroo/equip.git
+svn                   excel/algxll 
+svn              excel/fmsdatetime 
+svn                  excel/fmsdual 
+svn                   excel/fmssvi 
+svn             excel/fmstechnical 
+git                   excel/libbms https://git01.codeplex.com/libbms
+git                   excel/libfms https://git01.codeplex.com/libfms
+svn                      excel/xll 
+git                     excel/xll8 https://git01.codeplex.com/xll8
+svn                 excel/xllarray 
+svn                  excel/xllblas 
+svn                   excel/xllcdb 
+svn              excel/xlldatetime 
+svn                  excel/xllfred 
+svn                   excel/xllgsl 
+svn                 excel/xlllapck 
+svn                 excel/xllrange 
+svn                   excel/xllrdb 
+svn                 excel/xllregex 
+git                  excel/xllroot https://git01.codeplex.com/xllroot
+svn               excel/xllutility 
+svn                 excel/xllyahoo 
+git                         fccdev https://lizh1@bitbucket.org/lizh1/fccdev.git
+git       google/cython-sparsehash https://github.com/syllog1sm/cython-sparsehash.git
+git                  google/gflags https://code.google.com/p/gflags
+svn             google/google-glog 
+svn              google/googletest 
+git                google/protobuf https://github.com/google/protobuf.git
+git                  google/snappy https://github.com/google/snappy.git
+git             google/snappy-msvc https://github.com/kmanley/snappy-msvc.git
+ hg       google/snappy-visual-cpp https://lizh1@bitbucket.org/robertvazan/snappy-visual-cpp|ssh://jdoe@example.net/hg/jdoes-fork
+svn              google/sparsehash 
+ hg               graph/grapheekdb https://lizh1@bitbucket.org/nidusfr/grapheekdb|ssh://jdoe@example.net/hg/jdoes-fork
+git                     graph/rotz https://github.com/hroptatyr/rotz.git
+git                 graph/vertexdb https://github.com/stevedekorte/vertexdb.git
+git                   green/gevent https://github.com/gevent/gevent.git
+git                 green/greenlet https://github.com/python-greenlet/greenlet.git
+git                      green/guv https://github.com/veegee/guv.git
+git                green/libgevent https://github.com/denik/libgevent.git
+git                         halite https://github.com/Eoinocal/halite.git
+git                       http/h2o https://github.com/h2o/h2o.git
+git                      http/klib https://github.com/attractivechaos/klib.git
+git            http/picohttpparser https://github.com/h2o/picohttpparser.git|https://github.com/h2o/picotest.git
+git                    http/qrintf https://github.com/h2o/qrintf.git|https://github.com/kazuho/picotest.git
+git                     http/wslay https://github.com/tatsuhiro-t/wslay.git
+git                           klib https://github.com/attractivechaos/klib.git
+svn                   lego/bltools 
+svn                    lego/leocad 
+svn                    lego/libnxt 
+svn                       lego/lic 
+svn                   lego/lsculpt 
+git                     libtorrent https://lizh06:github.com/lizh06/libtorrent.git
+git                          libuv https://github.com/libuv/libuv.git
+ hg                        libyaml https://bitbucket.org/xi/libyaml|ssh://jdoe@example.net/hg/jdoes-fork
+git                            mld https://gitorious.org/mldemos/mldemos.git
+git                        mldemos https://lizh1@bitbucket.org/lizh1/mldemos.git|https://gitorious.org/mldemos/mldemos.git
+git                    models/atom https://github.com/nucleic/atom.git
+git               models/codetools https://github.com/enthought/codetools.git
+git                    models/cppy https://github.com/nucleic/cppy.git
+git                   models/enaml https://github.com/nucleic/enaml.git
+git                models/envisage https://github.com/enthought/envisage.git
+git                  models/pyface https://github.com/enthought/pyface.git
+git                  models/traits https://github.com/enthought/traits.git
+git            models/traits-enaml https://github.com/enthought/traits-enaml.git
+ hg                        mozilla https://hg.mozilla.org/mozilla-central|ssh://jdoe@example.net/hg/jdoes-fork
+git                           mpir https://github.com/wbhart/mpir.git
+git                      msgpack-c https://github.com/msgpack/msgpack-c.git
+git                         neovim https://github.com/neovim/neovim.git
+ hg                          nginx http://hg.nginx.org/nginx|ssh://jdoe@example.net/hg/jdoes-fork
+git                      nginx-dav https://github.com/arut/nginx-dav-ext-module.git
+git                         picoro http://dotat.at/git/picoro.git
+git                           pigz https://github.com/kjk/pigz.git
+git                         putty2 https://lizh06@github.com/lizh06/putty2.git|git://git.tartarus.org/simon/putty.git
+git                         putty3 https://lizh1@bitbucket.org/lizh1/puttyz.git
+git                         puttyz https://lizh1@bitbucket.org/lizh1/puttyz.git
+git                      pybrowser https://github.com/pib/PyBrowser.git
+git                          pycks https://lizh1@bitbucket.org/lizh1/pycks.git
+git                         pydbgp https://github.com/jabapyth/pydbgp.git
+ hg                         pyglet https://lizh1@bitbucket.org/pyglet/pyglet|ssh://jdoe@example.net/hg/jdoes-fork
+git                        pyjamas https://github.com/anandology/pyjamas.git
+git                           pyql https://github.com/enthought/pyql.git
+git                           pyuv https://github.com/saghul/pyuv.git
+git                       quant/ad https://github.com/tisimst/ad.git
+git                   quant/lsqfit https://github.com/gplepage/lsqfit.git
+git                   quant/minepy https://github.com/minepy/minepy.git
+ hg                     quant/mlpy http://hg.code.sf.net/p/mlpy/code|ssh://jdoe@example.net/hg/jdoes-fork
+git                    quant/numpy http://github.com/numpy/numpy.git
+git                   quant/pandas https://github.com/pydata/pandas.git
+git                    quant/scipy http://github.com/scipy/scipy.git
+git                  quant/sklearn https://github.com/scikit-learn/scikit-learn
+git              quant/statsmodels https://github.com/statsmodels/statsmodels.git
+ hg                           rfoo https://code.google.com/p/rfoo/|ssh://jdoe@example.net/hg/jdoes-fork
+git                             ro https://github.com/lvv/ro.git
+git                            scc https://github.com/lvv/scc.git
+git             simd/EWAHBoolArray https://github.com/lemire/EWAHBoolArray.git
+git                  simd/FastPFor https://github.com/lemire/FastPFor.git
+git simd/SIMDCompressionAndIntersection https://github.com/lemire/SIMDCompressionAndIntersection.git
+git                 simd/libsimdpp https://github.com/p12tic/libsimdpp.git
+git            simd/rollinghashcpp https://github.com/lemire/rollinghashcpp.git
+git                  simd/simdcomp https://github.com/lemire/simdcomp.git
+git                      smdb/ardb https://github.com/yinqiwen/ardb.git
+git                     smdb/btree https://github.com/teepark/btree.git
+git                    smdb/hustle https://github.com/tspurway/hustle.git
+git                     smdb/larch git://git.liw.fi/larch
+git                       smdb/mdb https://gitorious.org/mdb/mdb.git
+git                smdb/memcachedb https://gitorious.org/mdb/memcachedb.git
+git                   smdb/minerva https://github.com/minerva-developers/minerva.git
+git                   smdb/py-lmdb https://github.com/dw/py-lmdb.git
+git            smdb/python-tracing git://git.liw.fi/python-tracing
+git                     smdb/redis https://github.com/MSOpenTech/redis.git
+git               smdb/sqlightning https://gitorious.org/mdb/sqlightning.git
+git                           stan https://github.com/stan-dev/stan.git
+git                   stx-exparser https://github.com/lizh06/stx-exparser.git|https://github.com/bingmann/stx-exparser.git
+git                          stxxl https://github.com/stxxl/stxxl.git
+git                     the_silver https://lizh06@github.com/lizh06/the_silver_searcher.git|https://github.com/ggreer/the_silver_searcher.git
+git               the_silver_win32 https://github.com/kjk/the_silver_searcher.git
+svn                   tkintertable 
+git                       tpunitpp https://github.com/tpounds/tpunitpp.git
+git                        trading https://lizh1@bitbucket.org/lizh1/trading.git
+git                        unifdef http://dotat.at/git/unifdef.git
+git                          urwid https://github.com/wardi/urwid.git
+git                          utilz https://lizh1@bitbucket.org/lizh1/utilz.git
+git                             v8 https://chromium.googlesource.com/v8/v8.git
+ hg                            vim https://code.google.com/p/vim|ssh://jdoe@example.net/hg/jdoes-fork
+git                     web/bottle https://github.com/bottlepy/bottle.git
+svn                    wineditline 
+ hg                         winpdb https://code.google.com/p/winpdb|ssh://jdoe@example.net/hg/jdoes-fork
+git                           yoml https://github.com/h2o/yoml.git
