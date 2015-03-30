@@ -69,13 +69,14 @@ git                      http/klib https://github.com/attractivechaos/klib.git
 git            http/picohttpparser https://github.com/h2o/picohttpparser.git|https://github.com/h2o/picotest.git
 git                    http/qrintf https://github.com/h2o/qrintf.git|https://github.com/kazuho/picotest.git
 git                     http/wslay https://github.com/tatsuhiro-t/wslay.git
+git                            jom https://gitorious.org/qt-labs/jom.git
 git                           klib https://github.com/attractivechaos/klib.git
 svn                   lego/bltools 
 svn                    lego/leocad 
 svn                    lego/libnxt 
 svn                       lego/lic 
 svn                   lego/lsculpt 
-git                     libtorrent https://lizh06:github.com/lizh06/libtorrent.git
+git                     libtorrent https://lizh06@github.com/lizh06/libtorrent.git
 git                          libuv https://github.com/libuv/libuv.git
  hg                        libyaml https://bitbucket.org/xi/libyaml|ssh://jdoe@example.net/hg/jdoes-fork
 git                            mld https://gitorious.org/mldemos/mldemos.git
@@ -94,6 +95,7 @@ git                      msgpack-c https://github.com/msgpack/msgpack-c.git
 git                         neovim https://github.com/neovim/neovim.git
  hg                          nginx http://hg.nginx.org/nginx|ssh://jdoe@example.net/hg/jdoes-fork
 git                      nginx-dav https://github.com/arut/nginx-dav-ext-module.git
+git                          ninja https://github.com/martine/ninja.git
 git                         picoro http://dotat.at/git/picoro.git
 git                           pigz https://github.com/kjk/pigz.git
 git                         putty2 https://lizh06@github.com/lizh06/putty2.git|git://git.tartarus.org/simon/putty.git
