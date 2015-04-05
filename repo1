@@ -18,8 +18,14 @@ git                concur/mintomic https://github.com/mintomic/mintomic.git
 git              concur/queueworld https://github.com/RossBencina/QueueWorld.git
 git       concur/readerwriterqueue https://github.com/cameron314/readerwriterqueue.git
 git              concur/streamflow https://github.com/scotts/streamflow.git
+git                cparse/cmonster https://github.com/sztomi/cmonster.git
+git          cparse/code-generator https://github.com/sztomi/code-generator.git
+git               cparse/ctypeslib https://github.com/trolldbois/ctypeslib.git
+git   cparse/libclang-python-tools https://github.com/valhallasw/libclang-python-tools.git
+git                  cparse/moc-ng https://github.com/woboq/moc-ng.git
  hg                        cpython https://hg.python.org/cpython/|ssh://jdoe@example.net/hg/jdoes-fork
 git                          ctags https://lizh06@github.com/lizh06/ctags.git|https://github.com/fishman/ctags.git
+git                          cuber https://github.com/sztomi/cuber.git
 git                      cythongsl https://github.com/twiecki/CythonGSL.git
 git           eclipse.platform.swt http://git.eclipse.org/gitroot/platform/eclipse.platform.swt.git
 git                          elvis https://github.com/mbert/elvis.git
@@ -92,6 +98,7 @@ git            models/traits-enaml https://github.com/enthought/traits-enaml.git
  hg                        mozilla https://hg.mozilla.org/mozilla-central|ssh://jdoe@example.net/hg/jdoes-fork
 git                           mpir https://github.com/wbhart/mpir.git
 git                      msgpack-c https://github.com/msgpack/msgpack-c.git
+git               msgpack-rpc-asio https://github.com/sztomi/msgpack-rpc-asio.git
 git                         neovim https://github.com/neovim/neovim.git
  hg                          nginx http://hg.nginx.org/nginx|ssh://jdoe@example.net/hg/jdoes-fork
 git                      nginx-dav https://github.com/arut/nginx-dav-ext-module.git
