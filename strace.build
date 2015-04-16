@@ -1,3 +1,2 @@
-( autoreconf -i -f && ./configure --prefix=$D2 && make install ) 2>&1 \
-| tee build.log
+( autoreconf -i -f && ./configure --prefix=$D2 && make install ) 2>&1 | tee build.log
 
