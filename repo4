@@ -222,6 +222,7 @@ git                            pip https://github.com/pypa/pip.git
 git                             pn https://github.com/simonsteele/pn.git
 svn                       protobuf http://protobuf.googlecode.com/svn/trunk
 git                         puttyz https://lizh1@bitbucket.org/lizh1/puttyz.git
+git                            pyc https://github.com/cantora/pyc.git
 git                          pycdc https://github.com/zrax/pycdc.git
 git                      pycparser https://github.com/eliben/pycparser.git
 git                         pycurl https://lizh06@github.com/lizh06/pycurl.git|https://github.com/pycurl/pycurl.git
@@ -311,7 +312,8 @@ git                 term/unibilium https://github.com/mauke/unibilium.git
 git                     the_silver https://github.com/lizh06/the_silver_searcher.git|https://github.com/ggreer/the_silver_searcher.git
 git            the_silver_searcher https://github.com/ggreer/the_silver_searcher.git
 git                         theano https://github.com/Theano/Theano.git
-git                         tinycc http://repo.or.cz/r/tinycc.git
+git                         tinycc https://lizh1@bitbucket.org/lizh1/tinycc.git|https://repo.or.cz/tinycc.git
+git                        tinycc0 http://repo.or.cz/r/tinycc.git
 git                      tinyproxy https://github.com/banu/tinyproxy.git
 svn                         tinypy http://tinypy.googlecode.com/svn/trunk
 git                         toybox https://github.com/gfto/toybox.git
