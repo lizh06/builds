@@ -1,0 +1,2 @@
+( ./configure --prefix=$D2 --disable-dependency-tracking \
+  --disable-static && make -j$CC_LEVEL ) 2>&1 | tee build.log

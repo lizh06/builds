@@ -1,0 +1,4 @@
+( BOOST_REGEX_LIB=$A2/boost/lib/libboost_regex.so \
+  ../configure --prefix=$D2 --with-boost=$A2/boost &&
+  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+
