@@ -14,7 +14,7 @@ svn                            ccl http://ccl.googlecode.com/svn/trunk
 git                   ceres-solver https://ceres-solver.googlesource.com/ceres-solver
 git                  ceres-windows https://github.com/tbennun/ceres-windows.git|https://ceres-solver.googlesource.com/ceres-solver|git@github.com:svn2github/google-glog.git
 git         cffi-python-playground https://github.com/oplatek/cffi-python-playground.git
-git                           cgdb https://github.com/lizh06/cgdb.git
+git                           cgdb https://github.com/lizh06/cgdb.git|https://github.com/cgdb/cgdb.git
 git                    clang-ctags https://github.com/drothlis/clang-ctags.git
 git               classify/mldemos https://git.gitorious.org/mldemos/mldemos.git
 svn                 classify/shark https://svn.code.sf.net/p/shark-project/code/trunk/Shark
@@ -290,6 +290,7 @@ git                      squirrel3 https://github.com/hakase-labs/squirrel3.git
 git                   src-highlite https://github.com/lizh06/src-highlite.git|http://git.savannah.gnu.org/r/src-highlite.git
 git                    statsmodels https://github.com/statsmodels/statsmodels.git
 git                     strategies https://github.com/logpy/strategies.git
+git                 stringtemplate https://github.com/david-mcneil/stringtemplate.git
 git                      stx-btree https://github.com/bingmann/stx-btree.git
 git                   stx-cbtreedb https://github.com/bingmann/stx-cbtreedb.git
 git                   stx-exparser https://github.com/bingmann/stx-exparser.git
