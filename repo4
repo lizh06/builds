@@ -2,6 +2,9 @@ git               GDB-Python-Utils https://github.com/crossbowerbt/GDB-Python-Ut
 git                    RDCOMClient https://github.com/omegahat/RDCOMClient.git
 git                   SWinTypeLibs https://github.com/omegahat/SWinTypeLibs.git
 git               VirtualDimension http://git.code.sf.net/p/virt-dimension/VirtualDimension
+git                            bde https://github.com/lizh06/bde.git
+git                      bde-tools https://github.com/lizh06/bde-tools.git
+git                     bde_verify https://github.com/lizh06/bde_verify.git
 git                binary2/dwarves https://github.com/acmel/dwarves.git
 svn           binary2/elftoolchain http://svn.code.sf.net/p/elftoolchain/code/trunk
 git               binary2/elfutils https://git.fedorahosted.org/git/elfutils.git
@@ -61,7 +64,6 @@ git           eclipse.platform.swt http://git.eclipse.org/gitroot/platform/eclip
  hg                          eigen https://bitbucket.org/eigen/eigen
 git                          elvis https://github.com/mbert/elvis.git
 git                      elvis.dev https://github.com/mbert/elvis.git
-svn                          embox http://embox.googlecode.com/svn/trunk/embox
 git                 ensemble/HODLR https://github.com/sivaramambikasaran/HODLR.git
 git ensemble/Python-Neural-Network https://github.com/jhoward/Python-Neural-Network.git
 git           ensemble/bashplotlib https://github.com/glamp/bashplotlib.git
@@ -126,16 +128,16 @@ git                     http/wslay https://github.com/tatsuhiro-t/wslay.git
 git                      http/yoml https://github.com/h2o/yoml.git|https://github.com/h2o/picotest.git
 svn                http-replicator http://svn.code.sf.net/p/http-replicator/code/trunk
 git                  iconized-code http://git.code.sf.net/p/iconized/code
- hg                     inferno-os https://code.google.com/p/inferno-os
 git                       jemalloc https://github.com/jemalloc/jemalloc.git
 git                        jsctags https://github.com/evilpie/jsctags.git
  hg                          jslex https://bitbucket.org/ned/jslex
 git                           klib https://github.com/attractivechaos/klib.git
-git                           lapg https://lizh1@bitbucket.org/lizh1/lapg.git|http://git.code.sf.net/p/lapg/code
 git   layered-yaml-attrdict-config https://github.com/mk-fg/layered-yaml-attrdict-config.git
 svn                   lccdev/iburg http://iburg.googlecode.com/svn/trunk
 svn                       ldev/gyp http://gyp.googlecode.com/svn/trunk
+git                      ldev/lapg https://lizh1@bitbucket.org/lizh1/lapg.git|http://git.code.sf.net/p/lapg/code
 git                     ldev/ninja https://github.com/lizh06/ninja.git|https://github.com/martine/ninja.git
+ hg                   ldev/pyxpcom http://hg.mozilla.org/pyxpcom|ssh://jdoe@example.net/hg/jdoes-fork
 git                      ldev/re2c http://git.code.sf.net/p/re2c/code-git
 git             ldev/sourcenav-git http://git.code.sf.net/p/sourcenav/git
 svn             ldev/sourcenav-svn http://svn.code.sf.net/p/sourcenav/svn/trunk
@@ -213,6 +215,8 @@ git                        nvi.dev http://repo.or.cz/r/nvi.git
 svn                    open-wealth http://open-wealth-project.googlecode.com/svn/trunk
 git                       openblas https://github.com/xianyi/OpenBLAS.git
  hg                       openpyxl https://bitbucket.org/ericgazoni/openpyxl
+svn                       os/embox http://embox.googlecode.com/svn/trunk/embox
+ hg                  os/inferno-os https://code.google.com/p/inferno-os
 git                   osrm-backend https://github.com/Project-OSRM/osrm-backend.git
 git                         pandas https://github.com/pydata/pandas.git
 git                        parsing https://github.com/sprymix/parsing.git
@@ -244,7 +248,6 @@ git                    python-skia https://github.com/expobrain/python-skia.git
 svn          python-type-inference http://python-type-inference.googlecode.com/svn/trunk
 git                        pythran https://github.com/serge-sans-paille/pythran.git
 git                           pyv8 https://github.com/jmalonzo/pyv8.git
- hg                        pyxpcom http://hg.mozilla.org/pyxpcom|ssh://jdoe@example.net/hg/jdoes-fork
 git quant/pastix_release_e741af1/src/murge git://scm.gforge.inria.fr/murge/murge.git
 svn                regex/quex-code http://svn.code.sf.net/p/quex/code/trunk
 git                    regex/ragel https://lizh1@bitbucket.org/lizh1/ragel.git
