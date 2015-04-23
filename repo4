@@ -34,7 +34,7 @@ git                       cppcheck https://github.com/danmar/cppcheck.git
  hg                        cpython http://hg.python.org/cpython
  hg                      cpython27 http://hg.python.org/cpython
 git                           cref https://github.com/shinh/cref.git
-git                          ctags https://lizh06@github.com/lizh06/ctags.git|https://github.com/fishman/ctags.git
+git                          ctags https://github.com/lizh06/ctags.git|https://github.com/fishman/ctags.git
 git                          cxref https://github.com/mit-athena/cxref.git
 git                          cyres https://github.com/rll/cyres.git
 git                         cython https://github.com/cython/cython.git
@@ -181,6 +181,7 @@ git               models/sqlobject https://github.com/sqlobject/sqlobject.git
 git                  models/traity https://github.com/srossross/traity.git
 git                      msgpack-c https://github.com/msgpack/msgpack-c.git
 git                           mypy https://github.com/JukkaL/mypy.git
+git                        nailgun https://github.com/martylamb/nailgun.git
 git                       nanoplot http://git.code.sf.net/p/nanoplot/git
 git                       neat/acc http://repo.or.cz/acc.git
 git                    neat/d2dqcc http://repo.or.cz/d2dqcc.git
@@ -255,6 +256,7 @@ git                     regex/re2c http://git.code.sf.net/p/re2c/code-git
 svn                          roomy http://svn.code.sf.net/p/roomy/code/trunk
 git                           rope https://github.com/python-rope/rope.git
  hg                       ropemode https://bitbucket.org/agr/ropemode
+git                          rtags https://github.com/Andersbakken/rtags.git
 git                       rtorrent https://github.com/rakshasa/rtorrent.git
 git                          sauce https://github.com/phs/sauce.git
 git                          scipy https://github.com/scipy/scipy.git
@@ -264,7 +266,7 @@ svn                   serpent-code http://svn.code.sf.net/p/serpent/code/trunk
 svn             sharpgraphlib-code http://svn.code.sf.net/p/sharpgraphlib/code/trunk
 git                       shedskin https://git.gitorious.org/shedskin/mainline.git
 git                         silkjs https://github.com/mschwartz/SilkJS.git
-svn                           skia http://skia.googlecode.com/svn/trunk
+git                           skia https://skia.googlesource.com/skia
 git                        sklearn https://github.com/scikit-learn/scikit-learn.git
 git                         slimit https://github.com/rspivak/slimit.git
 svn                     sljit-code http://svn.code.sf.net/p/sljit/code
@@ -360,4 +362,5 @@ git                      xltoolbox http://git.code.sf.net/p/xltoolbox/ng-code
 svn                     yacas-code http://svn.code.sf.net/p/yacas/code/trunk
 git                           yasm https://github.com/yasm/yasm.git
 svn                  zedgraph-code http://svn.code.sf.net/p/zedgraph/code/trunk
+git                         zipios http://git.code.sf.net/p/zipios/git-code
 git                         zsh-nt http://git.code.sf.net/p/zsh-nt/zsh-nt
