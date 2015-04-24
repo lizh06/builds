@@ -10,6 +10,7 @@ svn           binary2/elftoolchain http://svn.code.sf.net/p/elftoolchain/code/tr
 git               binary2/elfutils https://git.fedorahosted.org/git/elfutils.git
 git               binary2/libdwarf http://git.code.sf.net/p/libdwarf/code
 git               binary2/pdbparse https://github.com/trolldbois/pdbparse.git
+git                         bpfjit https://github.com/alnsn/bpfjit.git
 svn                       byteplay http://byteplay.googlecode.com/svn/trunk
 git                        byterun https://github.com/nedbat/byterun.git
 git                         c-plus https://code.google.com/p/c-plus/
@@ -17,13 +18,12 @@ svn                            ccl http://ccl.googlecode.com/svn/trunk
 git                   ceres-solver https://ceres-solver.googlesource.com/ceres-solver
 git                  ceres-windows https://github.com/tbennun/ceres-windows.git|https://ceres-solver.googlesource.com/ceres-solver|git@github.com:svn2github/google-glog.git
 git         cffi-python-playground https://github.com/oplatek/cffi-python-playground.git
-git                           cgdb https://github.com/lizh06/cgdb.git|https://github.com/cgdb/cgdb.git
+git                           cgdb https://github.com/lizh06/cgdb.git
 git                    clang-ctags https://github.com/drothlis/clang-ctags.git
 git               classify/mldemos https://git.gitorious.org/mldemos/mldemos.git
 svn                 classify/shark https://svn.code.sf.net/p/shark-project/code/trunk/Shark
 git               classify/waffles http://git.code.sf.net/p/waffles/code
 git                          cmisc https://lizh1@bitbucket.org/lizh1/cmisc.git
-svn                          cntlm http://svn.awk.cz/cntlm/trunk
 git                         codepy https://github.com/inducer/codepy.git
 git                     codetalker https://github.com/jabapyth/codetalker.git
 git                        console http://git.code.sf.net/p/console/code
@@ -93,6 +93,7 @@ git                  gists/7912710 https://gist.github.com/7912710.git
 svn                           glog http://google-glog.googlecode.com/svn/trunk
 svn                     googletest http://googletest.googlecode.com/svn/trunk
 git                     gperftools https://code.google.com/p/gperftools
+git                       graphviz https://github.com/lizh06/graphviz.git|https://github.com/ellson/graphviz.git
 git                    green/atami https://github.com/liris/atami.git
 git                   green/gevent https://github.com/gevent/gevent.git
  hg              green/gevent-curl https://bitbucket.org/denis/gevent-curl
@@ -126,7 +127,6 @@ git                    http/qrintf https://github.com/h2o/qrintf.git
 git                   http/tengine https://github.com/alibaba/tengine.git
 git                     http/wslay https://github.com/tatsuhiro-t/wslay.git
 git                      http/yoml https://github.com/h2o/yoml.git|https://github.com/h2o/picotest.git
-svn                http-replicator http://svn.code.sf.net/p/http-replicator/code/trunk
 git                  iconized-code http://git.code.sf.net/p/iconized/code
 git                       jemalloc https://github.com/jemalloc/jemalloc.git
 git                        jsctags https://github.com/evilpie/jsctags.git
@@ -227,6 +227,9 @@ git                           pcre https://git.gitorious.org/pcre/pcre.git
 git                            pip https://github.com/pypa/pip.git
 git                             pn https://github.com/simonsteele/pn.git
 svn                       protobuf http://protobuf.googlecode.com/svn/trunk
+svn                  proxies/cntlm http://svn.awk.cz/cntlm/trunk
+svn        proxies/http-replicator http://svn.code.sf.net/p/http-replicator/code/trunk
+git              proxies/tinyproxy https://github.com/banu/tinyproxy.git
 git                         puttyz https://lizh1@bitbucket.org/lizh1/puttyz.git
 git                            pyc https://github.com/cantora/pyc.git
 git                          pycdc https://github.com/zrax/pycdc.git
@@ -321,7 +324,6 @@ git            the_silver_searcher https://github.com/ggreer/the_silver_searcher
 git                         theano https://github.com/Theano/Theano.git
 git                         tinycc https://lizh1@bitbucket.org/lizh1/tinycc.git|https://repo.or.cz/tinycc.git
 git                        tinycc0 http://repo.or.cz/r/tinycc.git
-git                      tinyproxy https://github.com/banu/tinyproxy.git
 svn                         tinypy http://tinypy.googlecode.com/svn/trunk
 git                         toybox https://github.com/gfto/toybox.git
 git                      uncompyle https://github.com/gstarnberger/uncompyle.git
