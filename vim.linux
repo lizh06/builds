@@ -4,9 +4,10 @@
   --enable-pythoninterp=dynamic \
   --enable-python3interp=dynamic \
   --enable-rubyinterp=dynamic \
-  --enable-cscope --enable-sniff \
-  --enable-multibyte --disable-nls \
-  --disable-acl --disable-gui --disable-gpm \
+  --enable-sniff --enable-multibyte \
+  --disable-acl --disable-nls \
+  --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
   --without-x && make -j $CC_LEVEL &&
-  make install && make distclean ) 2>&1 | tee build.log
+  make install && make distclean
+) 2>&1 | tee build.log

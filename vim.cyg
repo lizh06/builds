@@ -2,9 +2,9 @@
   --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
-  --enable-cscope --enable-sniff \
-  --enable-multibyte --disable-nls \
-  --disable-acl --disable-gui --disable-sysmouse \
-  --without-gnome --without-x && make &&
-  make install && make distclean
+  --enable-sniff --enable-multibyte \
+  --disable-acl --disable-nls \
+  --disable-gui --disable-sysmouse \
+  --without-gnome --without-x &&
+  make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 | tee build.log
