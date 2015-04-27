@@ -1,0 +1,126 @@
+git                          allrc https://lizh06@github.com/lizh06/allrc.git
+git                 works/codelite http://git.code.sf.net/p/codelite/codelitegit
+git        works/gcc-python-plugin https://git.fedorahosted.org/git/gcc-python-plugin.git
+git             works/junks/Theano https://github.com/Theano/Theano.git
+git       works/junks/addins/amalg https://github.com/vinniefalco/Amalgamate.git
+svn      works/junks/addins/autumn http://autumnframework.googlecode.com/svn/trunk
+svn     works/junks/addins/c-pluff http://svn.c-pluff.org/repos/c-pluff/trunk
+svn         works/junks/addins/cxx http://svn.code.sf.net/p/cxx/code/trunk/CXX
+svn  works/junks/addins/infectorpp http://infectorpp.googlecode.com/svn/trunk
+git    works/junks/addins/injector https://github.com/alecthomas/injector.git
+git        works/junks/addins/juce https://github.com/julianstorer/JUCE.git
+git      works/junks/addins/nulldc https://github.com/mirror/nulldc.git
+git     works/junks/addins/pinject https://github.com/google/pinject.git
+git        works/junks/addins/poco https://github.com/pocoproject/poco.git
+git works/junks/addins/python-inject https://github.com/ivan-korobkov/python-inject.git
+ hg     works/junks/addins/pyxpcom http://hg.mozilla.org/pyxpcom
+git works/junks/addins/snake-guice https://code.google.com/p/snake-guice/
+svn works/junks/addins/uglygenerics http://uglygenerics.googlecode.com/svn/uglygenerics
+git         works/junks/addins/x3c https://github.com/rhcad/x3c.git
+git        works/junks/addins/x3py https://github.com/rhcad/x3py.git
+svn      works/junks/addins/zoolib http://svn.code.sf.net/p/zoolib/code/trunk
+git              works/junks/bento https://github.com/cournape/Bento.git
+svn   works/junks/binary2/bit-lang http://bit-language.googlecode.com/svn/trunk
+ hg     works/junks/binary2/coding https://bitbucket.org/krp/coding
+ hg   works/junks/binary2/cofffile https://code.google.com/p/cofffile
+git  works/junks/binary2/construct https://github.com/MostAwesomeDude/construct.git
+ hg    works/junks/binary2/elffile https://bitbucket.org/krp/elffile
+svn   works/junks/binary2/fasmsyms http://fasmsyms.googlecode.com/svn/trunk
+svn   works/junks/binary2/pdbparse http://pdbparse.googlecode.com/svn/trunk
+svn     works/junks/binary2/pefile http://pefile.googlecode.com/svn/trunk
+svn works/junks/binary2/pydevtools http://pydevtools.googlecode.com/svn/trunk
+ hg works/junks/binary2/pyelftools https://bitbucket.org/eliben/pyelftools
+git     works/junks/binary2/strace http://git.code.sf.net/p/strace/code
+git works/junks/binary2/strace-plus https://code.google.com/p/strace-plus
+git      works/junks/build2/ccache https://github.com/jrosdahl/ccache.git
+ hg    works/junks/build2/ccontrol http://ccontrol.ozlabs.org/hgweb.cgi
+svn      works/junks/build2/distcc http://distcc.googlecode.com/svn/trunk
+git works/junks/catch22/product-collections https://github.com/lizh06/product-collections.git
+git works/junks/catch22/product-collections-example https://github.com/marklister/product-collections-example.git
+git     works/junks/clang_complete https://github.com/Rip-Rip/clang_complete.git
+svn     works/junks/classify/crfpp http://crfpp.googlecode.com/svn/trunk
+git  works/junks/classify/crfsuite https://github.com/chokkan/crfsuite.git
+ hg     works/junks/classify/dclib http://hg.code.sf.net/p/dclib/code
+git  works/junks/classify/liblbfgs https://github.com/chokkan/liblbfgs.git
+git works/junks/classify/mldemo_win https://git.gitorious.org/mldemos/mldemos.git
+svn    works/junks/classify/plearn http://svn.berlios.de/svnroot/repos/plearn/trunk
+git    works/junks/cmisc/breakfast https://github.com/kmcallister/breakfast.git
+git works/junks/cmisc/embedded-breakpoints https://github.com/kmcallister/embedded-breakpoints.git
+git    works/junks/code2/doxyparse https://git.gitorious.org/analizo/doxyparse.git
+git       works/junks/code2/oclint https://github.com/oclint/oclint.git
+git works/junks/consoles/console-code http://git.code.sf.net/p/console/code
+ hg  works/junks/consoles/dropbear https://secure.ucc.asn.au/hg/dropbear/
+svn    works/junks/consoles/fardev http://farmanager.com/svn/trunk
+git     works/junks/consoles/futty https://github.com/FireEgl/FuTTY.git
+ hg    works/junks/consoles/iputty https://bitbucket.org/daybreaker/iputty
+svn    works/junks/consoles/mintty http://mintty.googlecode.com/svn/trunk
+ hg works/junks/consoles/nyaos3000 https://bitbucket.org/zetamatta/nyaos3000
+git    works/junks/consoles/putty3 https://github.com/FauxFaux/PuTTYTray.git
+git works/junks/consoles/puttytray https://git.gitorious.org/puttytray/puttytray.git
+git     works/junks/consoles/pycmd http://git.code.sf.net/p/pycmd/code
+svn    works/junks/consoles/ttssh2 http://svn.sourceforge.jp/svnroot/ttssh2/trunk
+git works/junks/consoles/unibilium https://github.com/mauke/unibilium.git
+svn       works/junks/consoles/wtl http://svn.code.sf.net/p/wtl/code/trunk
+git    works/junks/cparsers/c-plus https://code.google.com/p/c-plus
+git      works/junks/cparsers/cod5 https://github.com/cod5/cod5.git
+svn works/junks/cparsers/preprocess http://preprocess.googlecode.com/svn/trunk
+svn      works/junks/cparsers/pycp http://pycp.googlecode.com/svn/trunk
+git works/junks/cparsers/pypc--pre-processor-python-- https://github.com/songdi/pypc--pre-processor-python--.git
+ hg works/junks/cparsers/pypreprocessor https://code.google.com/p/pypreprocessor
+ hg          works/junks/cs164sp13 https://bitbucket.org/cs164_overlord/cs164sp13
+svn          works/junks/ctypesgen http://ctypesgen.googlecode.com/svn/trunk
+git     works/junks/debuggers/cgdb https://github.com/cgdb/cgdb.git
+git works/junks/debuggers/gdb/vgdb https://github.com/gnustc/vgdb.git
+ hg works/junks/debuggers/pdb/pdb-clone https://code.google.com/p/pdb-clone
+svn works/junks/debuggers/pdb/pydbgr http://pydbgr.googlecode.com/svn/trunk
+git works/junks/debuggers/pdb/vim-debug https://github.com/jabapyth/vim-debug.git
+ hg works/junks/debuggers/pdb/winpdb https://code.google.com/p/winpdb/
+ hg  works/junks/debuggers/pyclewn http://pyclewn.hg.sourceforge.net/hgweb/pyclewn/pyclewn
+git works/junks/diff-match-patch-c https://github.com/arrbee/diff-match-patch-c.git
+svn       works/junks/editors/beye https://beye.svn.sourceforge.net/svnroot/beye
+svn       works/junks/editors/efte https://efte.svn.sourceforge.net/svnroot/efte/trunk
+git         works/junks/flows/Pipe https://github.com/JulienPalard/Pipe.git
+ hg          works/junks/flows/asq https://code.google.com/p/asq/
+git         works/junks/flows/pype https://github.com/randomwalker/pype.git
+svn       works/junks/flows/ruffus http://ruffus.googlecode.com/svn/trunk
+ hg        works/junks/flows/zflow https://bitbucket.org/jslowery/zflow
+git      works/junks/formats/ctoml https://github.com/evilncrazy/ctoml.git
+git    works/junks/formats/libtoml https://github.com/ajwans/libtoml.git
+git     works/junks/formats/pytoml https://github.com/socketubs/pytoml.git
+git    works/junks/formats/pytoml2 https://github.com/bryant/pytoml.git
+git       works/junks/formats/toml https://github.com/uiri/toml.git
+git   works/junks/formats/toml-ply https://github.com/marksteve/toml-ply.git
+git works/junks/formats/toml-python https://github.com/f03lipe/toml-python.git
+git    works/junks/formats/toml.py https://github.com/hit9/toml.py.git
+git    works/junks/formats/tomlgun https://github.com/elssar/tomlgun.git
+git  works/junks/formats/ultrajson https://github.com/esnme/ultrajson.git
+git                works/junks/fsv https://github.com/MostAwesomeDude/fsv.git
+git       works/junks/inducer/cgen https://github.com/inducer/cgen.git
+git    works/junks/inducer/compyte https://github.com/inducer/compyte.git
+git       works/junks/inducer/pudb https://github.com/inducer/pudb.git
+git  works/junks/inducer/pycparser https://github.com/inducer/pycparser.git
+git works/junks/inducer/pycparserext https://github.com/inducer/pycparserext.git
+git     works/junks/inducer/pycuda https://github.com/inducer/pycuda.git
+git   works/junks/inducer/pyopencl https://github.com/inducer/pyopencl.git
+svn      works/junks/models/dejavu http://svn.aminus.net/dejavu/trunk
+svn  works/junks/models/genius.svn http://svn.aminus.net/geniusql/trunk
+ hg     works/junks/models/roundup http://hg.code.sf.net/p/roundup/code
+ hg  works/junks/models/sqlalchemy http://hg.sqlalchemy.org/sqlalchemy
+ hg  works/junks/models/sqlbuilder https://bitbucket.org/evotech/sqlbuilder
+svn   works/junks/models/sqlobject http://svn.colorstudy.com/SQLObject/trunk
+git        works/junks/web2/bottle https://github.com/defnull/bottle.git
+svn       works/junks/web2/httrack http://httrack.googlecode.com/svn/trunk
+svn      works/junks/web2/whalebot http://whalebot.googlecode.com/svn/trunk
+svn                    works/pydot http://pydot.googlecode.com/svn/trunk
+git                    works/pymix https://github.com/i-wind/pymix.git
+git                   works/pyodbc https://code.google.com/p/pyodbc
+git              works/sparse-llvm https://github.com/penberg/sparse-llvm.git
+ hg                 works/winmerge https://bitbucket.org/grimmdp/winmerge
+git                     xxx/builds https://lizh06@github.com/lizh06/builds.git
+ hg                    xxx/cmlearn https://lizh1@bitbucket.org/lizh1/cmlearn|ssh://jdoe@example.net/hg/jdoes-fork
+git                     xxx/fccdev https://lizh1@bitbucket.org/lizh1/fccdev.git
+git                    xxx/project https://lizh1@bitbucket.org/projectza/project.git
+git                      xxx/pycks https://lizh1@bitbucket.org/lizh1/pycks.git
+git                    xxx/recipes https://lizh06@github.com/lizh06/recipes.git
+git                    xxx/trading https://lizh1@bitbucket.org/lizh1/trading.git
+git                      xxx/utilz https://lizh1@bitbucket.org/lizh1/utilz.git

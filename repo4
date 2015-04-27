@@ -47,6 +47,7 @@ git                dcalc/mapreduce https://github.com/cdmh/mapreduce.git
 git           dcalc/mapreduce-lite https://github.com/wangkuiyi/mapreduce-lite.git
 git                    dcalc/mrjob https://github.com/Yelp/mrjob.git
 git   dcalc/recsys-mapreduce-mrjob https://github.com/marcelcaraciolo/recsys-mapreduce-mrjob.git
+git                      depfinder https://github.com/jabapyth/depfinder.git
 git                    depot_tools https://chromium.googlesource.com/chromium/tools/depot_tools.git
 svn            directui/ch-sharpui http://ch-sharpui.googlecode.com/svn/trunk
 svn       directui/direct-ui-iface http://direct-ui-iface.googlecode.com/svn/trunk
@@ -223,8 +224,10 @@ git                         pandas https://github.com/pydata/pandas.git
 git                        parsing https://github.com/sprymix/parsing.git
 git                         partio https://github.com/wdas/partio.git
 git                          patsy https://github.com/pydata/patsy.git
+git                            pbj https://github.com/jabapyth/pbj.git
 git                           pcre https://git.gitorious.org/pcre/pcre.git
 git                            pip https://github.com/pypa/pip.git
+git                             pm https://github.com/jabapyth/pm.git
 git                             pn https://github.com/simonsteele/pn.git
 svn                       protobuf http://protobuf.googlecode.com/svn/trunk
 svn                  proxies/cntlm http://svn.awk.cz/cntlm/trunk
@@ -242,6 +245,7 @@ git                        pyjamas https://github.com/lovelysystems/pyjamas.git
 git                           pyjs https://github.com/pyjs/pyjs.git
 git                          pykit https://github.com/ContinuumIO/pykit.git
  hg                         pylint https://bitbucket.org/logilab/pylint
+ hg                         pymake http://hg.mozilla.org/users/bsmedberg_mozilla.com/pymake
 svn                         pyntch http://pyntch.googlecode.com/svn/trunk/pyntch
  hg                     pyplusplus https://bitbucket.org/ompl/pyplusplus
 git                           pyql https://github.com/enthought/pyql.git
@@ -294,6 +298,7 @@ git                smdb/wiredtiger https://github.com/wiredtiger/wiredtiger.git
 git                         sparse https://git.kernel.org/pub/scm/devel/sparse/sparse.git
 svn                     sparsehash http://sparsehash.googlecode.com/svn/trunk
 git                    speedometer https://github.com/wardi/speedometer.git
+svn                       spitfire http://spitfire.googlecode.com/svn/trunk
 git                      squirrel3 https://github.com/hakase-labs/squirrel3.git
 git                   src-highlite https://github.com/lizh06/src-highlite.git|http://git.savannah.gnu.org/r/src-highlite.git
 git                    statsmodels https://github.com/statsmodels/statsmodels.git
@@ -343,6 +348,8 @@ git                         unwind https://github.com/evanw/unwind.git
 git                          urwid https://github.com/wardi/urwid.git
 svn                             v8 http://v8.googlecode.com/svn/branches/bleeding_edge
  hg                            vim https://vim.googlecode.com/hg/
+git                            waf https://code.google.com/p/waf
+ hg                wheezy.template https://lizh1@bitbucket.org/lizh1/wheezy.template
 svn                       winmerge http://svn.code.sf.net/p/winmerge/code/trunk
 git                         winpdb https://github.com/lizh06/winpdb.git
 git             wpf/Caliburn.Micro https://github.com/Caliburn-Micro/Caliburn.Micro.git
@@ -363,6 +370,41 @@ git                  wpf/xltoolbox http://git.code.sf.net/p/xltoolbox/ng-code
 git                      xltoolbox http://git.code.sf.net/p/xltoolbox/ng-code
 svn                     yacas-code http://svn.code.sf.net/p/yacas/code/trunk
 git                           yasm https://github.com/yasm/yasm.git
+git     yyy/knowitall/common-scala https://github.com/knowitall/common-scala.git
+git         yyy/knowitall/nlptools https://github.com/knowitall/nlptools.git
+git            yyy/knowitall/ollie https://github.com/knowitall/ollie.git
+git           yyy/knowitall/openie https://github.com/knowitall/openie.git
+git        yyy/knowitall/openregex https://github.com/knowitall/openregex.git
+git  yyy/knowitall/openregex-scala https://github.com/knowitall/openregex-scala.git
+git           yyy/knowitall/reverb https://github.com/knowitall/reverb.git
+git          yyy/knowitall/taggers https://github.com/knowitall/taggers.git
+git                  yyy/net2/pyuv https://github.com/saghul/pyuv.git
+git                 yyy/net2/pyzmq https://github.com/zeromq/pyzmq.git
+git               yyy/nosqls/iodbc http://git.code.sf.net/p/iodbc/git
+git                 yyy/nosqls/kdi https://github.com/bluefish/kdi.git
+git             yyy/nosqls/leveldb https://code.google.com/p/leveldb
+git             yyy/nosqls/metakit https://github.com/lizh06/metakit.git
+git              yyy/nosqls/pstore https://github.com/penberg/pstore.git
+svn               yyy/nosqls/stldb http://svn.code.sf.net/p/stldb/code/trunk
+svn            yyy/nosqls/unixodbc http://svn.code.sf.net/p/unixodbc/code/trunk
+svn                        yyy/orb https://omniorb.svn.sourceforge.net/svnroot/omniorb/trunk
+git            yyy/parsers/parsley https://github.com/washort/parsley.git
+git          yyy/parsers/pyastutil https://github.com/mitsuhiko/pyastutil.git
+git             yyy/quant/isl-code http://repo.or.cz/r/isl.git
+git                yyy/quant/julia https://github.com/JuliaLang/julia.git
+git           yyy/quant/libtommath https://github.com/libtom/libtommath.git
+ hg               yyy/quant/octave http://www.octave.org/hg/octave
+ hg             yyy/text2/asciidoc https://code.google.com/p/asciidoc/
+svn              yyy/text2/fastxml http://fastxml.googlecode.com/svn/trunk
+git             yyy/text2/markdown https://github.com/waylan/Python-Markdown.git
+git            yyy/text2/markdown2 https://github.com/trentm/python-markdown2.git
+svn              yyy/text2/pugixml http://pugixml.googlecode.com/svn/trunk
+git            yyy/text2/pyenchant https://github.com/rfk/pyenchant.git
+git             yyy/text2/tinyxml2 https://github.com/leethomason/tinyxml2.git
+git            yyy/text2/yodl-code http://git.code.sf.net/p/yodl/code
+svn                yyy/uidev/pycdk https://svn.code.sf.net/p/pycdk/code/trunk
+git                 yyy/uidev/pyjs https://github.com/pyjs/pyjs.git
+git                yyy/uidev/urwid https://github.com/wardi/urwid.git
 svn                  zedgraph-code http://svn.code.sf.net/p/zedgraph/code/trunk
 git                         zipios http://git.code.sf.net/p/zipios/git-code
 git                         zsh-nt http://git.code.sf.net/p/zsh-nt/zsh-nt
