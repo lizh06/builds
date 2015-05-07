@@ -1,0 +1,234 @@
+
+http://crfpp.googlecode.com/svn/trunk crfpp
+https://github.com/chokkan/crfsuite.git
+https://github.com/chokkan/liblbfgs.git
+http://svn.berlios.de/svnroot/repos/plearn/trunk plearn
+http://git.code.sf.net/p/waffles/code waffles
+[hg] https://bitbucket.org/biolab/orange
+[hg] http://hg.code.sf.net/p/dclib/code dclib
+
++cui
+	https://github.com/jtauber/applepy.git
+	http://git.code.sf.net/p/tmux/tmux-code tmux
+	https://github.com/jonas/tig.git
+
++ui
+	https://github.com/enthought/traits.git
+	https://github.com/enthought/enable.git
+	https://github.com/ContinuumIO/chaco.git
+	https://github.com/ContinuumIO/enaml.git
+	https://github.com/ContinuumIO/Bokeh.git
+
+	https://github.com/matplotlib/matplotlib.git
+
+	http://skia.googlecode.com/svn/trunk
+
++mining
+
+	https://github.com/PyMVPA/PyMVPA.git
+	https://github.com/pymc-devs/pymc.git
+
++quant2
+
+	https://github.com/xianyi/OpenBLAS.git
+
+	https://github.com/numpy/numpy.git
+	https://github.com/scipy/scipy.git
+	https://github.com/statsmodels/statsmodels.git
+	https://github.com/pydata/pandas.git
+	https://github.com/Theano/Theano.git
+
+	https://code.google.com/p/numexpr :hg
+
+	https://github.com/ContinuumIO/blaze-core.git
+	https://github.com/ContinuumIO/dynd.git
+	https://github.com/ContinuumIO/dynd-python.git
+
+	https://github.com/JuliaLang/julia.git	
+
+	/scratch/octave
+	/scratch/rdev
+
++quant2/gpu
+	https://github.com/Manticore/reikna.git
+
++quant2/data
+
+	https://github.com/FrancescAlted/blosc.git
+	https://github.com/FrancescAlted/python-blosc.git
+	https://github.com/esc/bloscpack.git
+
+	https://github.com/FrancescAlted/carray.git
+
+	https://github.com/PyTables/PyTables.git
+
+	https://github.com/ariya/FastLZ.git
+
+	https://github.com/nucleic/atom.git
+	
+	https://github.com/andymccurdy/redis-py.git
+
++quant2/calc
+	https://github.com/MostAwesomeDude/continued.git
+
++coro
+	https://github.com/python-greenlet/greenlet.git
+	https://code.google.com/p/coev :hg
+
++flow
+	https://github.com/joblib/joblib.git
+	https://github.com/nipy/nipype.git
+	https://github.com/esc/pyphaser.git
+
++bin2
+	https://github.com/penberg/inari.git
+	https://github.com/penberg/libjit.git
+
+	https://github.com/MostAwesomeDude/construct.git
+
+	https://github.com/dabeaz/bitey.git
+	https://github.com/vathpela/pesign.git
+
++compilers
+	/scratch/gccdev
+	/scratch/llvm
+	https://github.com/llvmpy/llvmpy.git
+	https://github.com/penberg/sparse-llvm.git
+
++languages
+	http://hg.python.org/cpython
+	https://github.com/mozilla/rust.git
+	https://github.com/MostAwesomeDude/pylog
+
++code2
+	https://github.com/mythonlang/mython.git
+	https://github.com/mythonlang/pgen2.git
+	https://github.com/washort/parsley.git
+
+	https://github.com/ceronman/typeannotations.git
+	https://github.com/kennknowles/python-rightarrow.git
+	https://github.com/sk-/elcap.git
+
++code2/rewrite
+	http://basil.googlecode.com/svn/trunk basil:svn
+	https://github.com/ContinuumIO/pyrewrite.git
+	https://github.com/mitsuhiko/pyastutil.git
+
++nosqls
+	https://code.google.com/p/leveldb :git
+	https://github.com/penberg/pstore.git
+	http://svn.code.sf.net/p/stldb/code/trunk
+
++shell2
+	https://github.com/git/git.git gitdev
+	https://github.com/libgit2/libgit2.git
+	https://github.com/libgit2/pygit2.git
+	https://github.com/esc/pythonicgit2.git
+	https://github.com/sjagoe/cygit2.git
+
+	https://github.com/kennethreitz/legit.git
+	https://github.com/gitpython-developers/GitPython.git
+
++shell2/proxy
+	https://github.com/darkk/redsocks.git
+
++text2
+	https://github.com/cheetahtemplate/cheetah.git
+	https://github.com/mitsuhiko/jinja2.git
+	http://hg.makotemplates.org/mako :hg
+	https://bitbucket.org/akorn/wheezy.template wheezy:hg
+
++net2
+
+	https://github.com/joyent/libuv.git
+	https://github.com/saghul/pyuv.git
+
+	https://code.google.com/p/tulip :hg	# PEP-3156
+	https://github.com/saghul/rose.git
+
+	https://github.com/zeromq/libzmq.git
+	https://github.com/zeromq/pyzmq.git
+
+	https://github.com/nmathewson/Libevent.git
+	https://github.com/ContinuumIO/gevent-zeromq.git
+
++trade2
+
+	https://github.com/penberg/libtrading.git
+
++web2
+
+	/scratch/node
+
+	https://github.com/mitsuhiko/werkzeug.git
+	https://github.com/mitsuhiko/flask.git
+	https://github.com/kennethreitz/httpbin.git
+
+	https://github.com/gittip/aspen-python.git
+	https://bitbucket.org/cherrypy/cherrypy :hg
+	https://github.com/william-os4y/fapws3.git
+	https://github.com/SiteSupport/gevent.git
+	https://github.com/benoitc/gunicorn.git
+	http://magnum-py.googlecode.com/svn/trunk
+	https://github.com/facebook/tornado.git
+	https://github.com/unbit/uwsgi.git
+	https://github.com/webpy/webpy.git
+	https://github.com/web2py/web2py.git
+
+	http://cogen.googlecode.com/svn/trunk :svn
+	http://git.emarhavil.com/git/chiral.git
+	https://bitbucket.org/prologic/circuits :hg
+	https://github.com/concurrence/concurrence.git
+	https://github.com/jamwt/diesel.git
+	https://bitbucket.org/eventlet/eventlet :hg
+	http://friendlyflow.googlecode.com/svn/trunk :svn
+	https://github.com/seecr/weightless-core.git
+
+	https://github.com/lighttpd/lighttpd2.git
+	http://hg.nginx.org/nginx
+	https://github.com/alibaba/tengine.git
+
++web2/htm
+	https://github.com/FrancescAlted/trace.git
+
++pypacks
+	https://github.com/kennethreitz/python-guide.git
+	https://github.com/ASPP/pelita.git
+
+	https://github.com/ipython/ipython.git
+
+	https://github.com/getsentry/sentry.git
+	https://github.com/mitsuhiko/logbook.git
+
+	https://github.com/MostAwesomeDude/importlib.git
+	
+	https://github.com/kennethreitz/autoenv.git
+	https://github.com/kennethreitz/requests.git
+
+	https://github.com/kennethreitz/envoy.git
+	https://github.com/kennethreitz/grequests.git
+	https://github.com/kennethreitz/tablib.git
+	https://github.com/kennethreitz/envy.git
+
+	https://github.com/mitsuhiko/python-atomicfile.git
+
+	https://github.com/mitsuhiko/cli-tools.git
+
+	https://github.com/MostAwesomeDude/darklight.git
+
++/scratch
+
+	https://github.com/mirrors/gcc.git gccdev
+	https://github.com/llvm-mirror/clang.git llvm/tools
+	https://github.com/llvm-mirror/compiler-rt.git llvm/tools
+	https://github.com/llvm-mirror/libcxx.git llvm/tools
+	https://github.com/llvm-mirror/llvm.git
+
+	https://github.com/joyent/node.git
+
+	http://www.octave.org/hg/octave
+	https://svn.r-project.org/R/trunk rdev
+
+	https://github.com/altercation/solarized.git
+
+# ftp|https?|git|svn+ssh

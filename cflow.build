@@ -1,2 +1,3 @@
-( CFLAGS=-g ../configure --prefix=$D2 &&
-  make -j $CC_LEVEL && make check ) 2>&1 | tee build.log
+( ./configure --prefix=$D2 --enable-debug &&
+  make -j $CC_LEVEL && make check && make install &&
+  make distclean) 2>&1 | tee build.log

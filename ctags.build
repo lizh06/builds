@@ -1,4 +1,2 @@
 ( CFLAGS=-g ./configure --prefix=$D2 --enable-readlib --disable-external-sort &&
   make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
-
-#--with-posix-regex

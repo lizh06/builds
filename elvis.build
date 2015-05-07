@@ -1,2 +1,2 @@
-( CFLAGS=-DGUI_TERMCAP ./configure --prefix=$U2 --without-x --without-xft --without-gnome $PLAT &&
-  make -j $CC_LEVEL LIBS=-lncurses elvis elvtags doc/elvtags.man doc/elvfmt.man) 2>&1 | tee build.log
+( ./configure --prefix=$U2 --without-x --without-xft --without-gnome $PLAT &&
+  make -j $CC_LEVEL CC+=' -g' LIBS=-lncurses elvis elvtags doc/elvtags.man doc/elvfmt.man) 2>&1 | tee build.log

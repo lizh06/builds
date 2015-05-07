@@ -1,5 +1,6 @@
-( CC=gcc ./auto/configure --prefix=$S2 --with-http_dav_module \
-   --add-module=../nginx-dav &&
-  make -j $CC_LEVEL && make install && make clean ) 2>&1 | tee build.log
-   # --add-module=../nginx-upload \
+( CC=gcc CFLAGS=-g ./auto/configure --prefix=$S2 \
+  --with-http_dav_module --add-module=../nginx-dav \
+  --add-module=../nginx-upload &&
+  make -j $CC_LEVEL && make install && make clean
+) 2>&1 | tee build.log
 
