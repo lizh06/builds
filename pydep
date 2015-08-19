@@ -1,0 +1,10 @@
+openblas
+	c, fortran
+	gnu
+	https://www.github.com/xianyi/openblas
+
+numpy
+	
+
+
+	
