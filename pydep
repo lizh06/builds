@@ -4,6 +4,16 @@ openblas
 	https://www.github.com/xianyi/openblas
 
 numpy
+
+hdf5
+
+pytables
+
+cldoc
+
+global
+
+pyyaml
 	
 
 
