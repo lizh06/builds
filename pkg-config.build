@@ -1,0 +1,1 @@
+./configure --prefix=$D1 --with-internal-glib

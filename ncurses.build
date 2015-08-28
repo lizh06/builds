@@ -1,0 +1,5 @@
+./configure --prefix=$U1 --with-shared \
+--with-pkg-config --with-termlib \
+--enable-termcap --enable-widec --enable-sigwinch \
+--enable-ext-colors --enable-colorfgbg \
+&& make -j && make install
