@@ -1,2 +1,2 @@
-CFLAGS=-I/usr/include/ncursesw ..//configure --prefix=$U2 --disable-static
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+( CFLAGS=-I$U1/include/ncursesw ./configure --prefix=$U2 --disable-static &&
+  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
