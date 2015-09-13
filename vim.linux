@@ -2,8 +2,6 @@
   --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
-  --enable-python3interp=dynamic \
-  --enable-rubyinterp=dynamic \
   --enable-sniff --enable-multibyte \
   --disable-acl --disable-nls \
   --disable-gui --disable-gpm \
