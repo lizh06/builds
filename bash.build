@@ -1,0 +1,27 @@
+( LDFLAGS='-L$U1/lib' ./configure --prefix=$U2 \
+  --enable-brace-expansion \
+  --enable-bang-history \
+  --enable-command-timing \
+  --enable-cond-command \
+  --enable-cond-regexp \
+  --enable-coprocesses \
+  --enable-debugger \
+  --enable-direxpand-default \
+  --enable-directory-stack \
+  --enable-dparen-arithmetic \
+  --enable-extended-glob \
+  --enable-extended-glob-default \
+  --enable-help-builtin \
+  --enable-history \
+  --enable-job-control \
+  --enable-multibyte \
+  --enable-net-redirections \
+  --enable-process-substitution \
+  --enable-progcomp \
+  --enable-prompt-string-decoding \
+  --enable-readline \
+  --enable-select \
+  --with-included-gettext \
+  --with-afs --with-curses &&
+  make -j$CC_LEVEL && make install && make distclean
+) 2>&1 |& tee build.log
