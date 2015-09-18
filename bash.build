@@ -1,4 +1,4 @@
-( LDFLAGS='-L$U1/lib' ./configure --prefix=$U2 \
+( LDFLAGS='-L ${u1}/lib' ./configure --prefix=$u1 \
   --enable-brace-expansion \
   --enable-bang-history \
   --enable-command-timing \
@@ -6,7 +6,6 @@
   --enable-cond-regexp \
   --enable-coprocesses \
   --enable-debugger \
-  --enable-direxpand-default \
   --enable-directory-stack \
   --enable-dparen-arithmetic \
   --enable-extended-glob \

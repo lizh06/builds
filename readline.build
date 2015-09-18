@@ -1,3 +1,1 @@
-../readline-6.2/configure --prefix=$U2 \
---enable-shared --disable-static
-make -j3 && make install
+( ./configure --prefix=$u1 --enable-shared --disable-static && make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
