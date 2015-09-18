@@ -4,3 +4,8 @@
   --enable-widec --enable-sigwinch \
   --enable-ext-colors --enable-colorfgbg &&
   make -j && make install ) 2>&1 | tee build.log
+( ./configure --prefix=$U1 --with-shared \
+  --with-pkg-config --with-termlib \
+  --enable-termcap --enable-widec --enable-sigwinch \
+  --enable-ext-colors --enable-colorfgbg &&
+  make -j && make install && make distclean ) 2>&1 | tee build.log

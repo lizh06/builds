@@ -6,6 +6,6 @@
   --disable-acl --disable-nls \
   --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
-  --without-x && make -j $CC_LEVEL &&
+  --without-x --with-tlib=ncurses && make -j $CC_LEVEL &&
   make install && make distclean
 ) 2>&1 | tee build.log
