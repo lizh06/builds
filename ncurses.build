@@ -1,11 +1,8 @@
 ( ./configure --prefix=$u1 --with-shared --with-pkg-config \
-  --with-termlib --with-ticlib --enable-tcap-names \
-   --enable-symlinks --disable-tic-depends \
+  --with-ticlib --enable-tcap-names \
+  --enable-symlinks --disable-tic-depends \
+  --enable-ext-colors --enable-colorfgbg \
   --enable-widec --enable-sigwinch \
-  --enable-ext-colors --enable-colorfgbg &&
-  make -j && make install ) 2>&1 | tee build.log
-( ./configure --prefix=$U1 --with-shared \
-  --with-pkg-config --with-termlib \
-  --enable-termcap --enable-widec --enable-sigwinch \
-  --enable-ext-colors --enable-colorfgbg &&
-  make -j && make install && make distclean ) 2>&1 | tee build.log
+  --without-ada --without-cxx-binding --without-tests &&
+  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+# --enable-termcap

@@ -1,4 +1,4 @@
-(../pcre/configure --prefix=$HOME/pcre --enable-jit \
---enable-pcre16 --enable-unicode-properties --enable-newline-is-any \
---enable-pcregrep-libz --enable-pcregrep-libbz2 && \
-make -j $CC_LEVEL install ) 2>&1 | tee build.log
+( ./configure --prefix=$u1 --enable-jit \
+  --enable-pcre16 --enable-unicode-properties --enable-newline-is-any \
+  --enable-pcregrep-libz --enable-pcregrep-libbz2 && \
+  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log

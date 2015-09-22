@@ -1,4 +1,4 @@
-( CFLAGS="-g -DFEAT_CONCEAL" ./configure --prefix=$U2 \
+( CFLAGS="-O0 -g -DFEAT_CONCEAL" ./configure --prefix=$u2 \
   --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
@@ -6,6 +6,6 @@
   --disable-acl --disable-nls \
   --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
-  --without-x --with-tlib=ncurses && make -j $CC_LEVEL &&
-  make install && make distclean
+  --without-x --with-tlib=ncursesw &&
+  make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 | tee build.log

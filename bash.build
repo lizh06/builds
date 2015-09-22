@@ -1,4 +1,4 @@
-( LDFLAGS='-L ${u1}/lib' ./configure --prefix=$u1 \
+( LDFLAGS="-L $u1/lib" ./configure --prefix=$u1 \
   --enable-brace-expansion \
   --enable-bang-history \
   --enable-command-timing \
@@ -22,5 +22,5 @@
   --enable-select \
   --with-included-gettext \
   --with-afs --with-curses &&
-  make -j$CC_LEVEL && make install && make distclean
+  make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 |& tee build.log
