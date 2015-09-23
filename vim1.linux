@@ -1,0 +1,13 @@
+( CFLAGS="-g -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib -ltinfow" \
+  ./configure --prefix=$u2 \
+  --with-compiledby=lizh --with-features=normal \
+  --enable-fail-if-missing \
+  --enable-pythoninterp=dynamic \
+  --enable-sniff --enable-multibyte \
+  --disable-acl --disable-nls \
+  --disable-gui --disable-gpm \
+  --disable-selinux --disable-smack \
+  --without-x --with-tlib=ncursesw &&
+  make -j $CC_LEVEL &&
+  make install && make distclean
+) 2>&1 | tee build.log
