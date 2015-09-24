@@ -1,0 +1,2 @@
+( ./configure --prefix=$d1 --disable-java --disable-native-java &&
+  make -j $CC_LEVEL && make install && make distclean ) 2>&1 |& tee build.log
