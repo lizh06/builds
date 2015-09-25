@@ -1,0 +1,2 @@
+( configure --prefix=$u1 --with-lua-include=$u1/include/lua &&
+  make build && make install ) 2>&1 | tee build.log

@@ -1,21 +1,19 @@
-../swig/configure --prefix=$D2 \
---with-python --with-python3 \
---with-ruby --with-tcl \
---without-perl5 \
---without-java \
---without-gcj \
---without-android \
---without-guile \
---without-mzscheme \
---without-ocaml \
---without-pike \
---without-chicken \
---without-csharp \
---without-lua \
---without-allegrocl \
---without-clisp \
---without-r \
---without-go \
---without-d \
---without-x
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+( ./configure --prefix=$d2 \
+  --with-python --with-python3 \
+  --with-csharp --with-lua \
+  --with-ocaml --with-java \
+  --without-r --with-tcl \
+  --without-ruby \
+  --without-perl5 \
+  --without-gcj \
+  --without-android \
+  --without-guile \
+  --without-mzscheme \
+  --without-pike \
+  --without-chicken \
+  --without-allegrocl \
+  --without-clisp \
+  --without-go \
+  --without-d \
+  --without-x &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
