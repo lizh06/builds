@@ -1,0 +1,1 @@
+( ./configure --prefix=$d2 --disable-gtagscscope && mk && make install && make distclean ) 2>&1 | tee build.log
