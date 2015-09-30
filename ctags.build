@@ -1,4 +1,5 @@
 ( CFLAGS=-g ./configure --prefix=$d2 \
   --enable-readlib --enable-etags \
   --disable-external-sort &&
-  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+  make -j $CC_LEVEL && make install && make distclean
+) 2>&1 | tee build.log

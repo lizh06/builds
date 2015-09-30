@@ -1,4 +1,4 @@
-cmake -DCMAKE_INSTALL_PREFIX=$Q2 -DMINIGLOG=ON \
+cmake -DCMAKE_INSTALL_PREFIX=$q1 -DMINIGLOG=ON \
 -DGFLAGS_INCLUDE_DIR=$E2/include -DGFLAGS_LIBRARY=$E2/lib/libgflags_nothreads.dll.a \
 -DLAPACK_LIBRARIES=$Q2/lib/libopenblas.so -DBLAS_LIBRARIES=$Q2/lib/libopenblas.so \
 -DEIGEN_INCLUDE_DIR=$Q2/include/eigen3 .. && make -j $CC_LEVEL
