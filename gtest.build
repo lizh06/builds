@@ -1,6 +1,1 @@
-cmake -DBUILD_SHARED_LIBS=ON \
--DPYTHON_EXECUTABLE=$PYTHON_PATH \
--DCMAKE_INSTALL_PREFIX:PATH=$A2/gtools \
--Dgtest_build_samples=ON -Dgtest_build_tests=ON \
--Dgmock_build_tests=ON \
-.. && make
+cmake -GNinja -DCMAKE_INSTALL_PREFIX=$d2 .. && ninja
