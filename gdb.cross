@@ -1,13 +1,17 @@
-( ../gdb-7.10/configure --prefix=$HOME/xxgdb \
---host=i686-w64-mingw32 \
---enable-multilib \
---with-expat --with-python=$l2/bin/python \
---disable-tui --disable-install-libiberty &&
-make -j $CC_LEVEL ) 2>&1 | tee build.log
+( ./configure --prefix=$HOME/gdbxx \
+  --enable-static --disable-shared --disable-tui \
+  --host=i686-w64-mingw32 --target=x86_64-unknown-linux-gnu \
+  --with-zlib --enable-multilib &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
 
 # B H T
 # OBJ EXE DLL LIB
 
+# debian i686-pc-linux-gnu
+# redhat x86_64-redhat-linux-gnu
+# x86_64-unknown-linux-gnu
+
+#--with-expat
 #--host=i686-pc-cygwin
 #--build=i686-w64-mingw32
 #--target=x86_64-unknown-linux-gnu
