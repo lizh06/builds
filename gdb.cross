@@ -1,8 +1,7 @@
 ( ./configure --prefix=/opt/gdb --enable-static --disable-shared \
-  --host=i686-pc-cygwin --target=i686-linux-gnu \
+  --host=i686-pc-cygwin --target=x86_64-linux-gnu \
   --with-expat --with-readline --with-zlib --without-python \
-  --disable-multilib --disable-tui && make
-) 2>&1 | tee build.log
+  --disable-multilib --disable-tui ) 2>&1 | tee build.log
 
 # must be compiled on cygwin with --target=
 # x86_64-linux-gnu
