@@ -1,8 +1,8 @@
-( ./configure --prefix=$HOME/gdbxx \
-  --enable-static --disable-shared --disable-tui \
-  --host=i686-w64-mingw32 --target=x86_64-unknown-linux-gnu \
-  --with-zlib --enable-multilib &&
-  make -j $CC_LEVEL ) 2>&1 | tee build.log
+( ./configure --prefix=$HOME/gdbxx --enable-static --disable-shared \
+  --host=i686-pc-cygwin --target=x86_64-unknown-linux-gnu \
+  --with-readline --with-zlib --without-python --without-expat  \
+  --disable-multilib --disable-tui && make
+) 2>&1 | tee build.log
 
 # B H T
 # OBJ EXE DLL LIB
