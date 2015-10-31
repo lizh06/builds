@@ -1,1 +1,6 @@
-./configure --prefix=$E2 && make -j$CC_LEVEL
+( ./configure --prefix=$d1 \
+  --enable-coredump --enable-debug \
+  --enable-cxx-exceptions --enable-debug-frame \
+  --enable-block-signals &&
+   make -j $ncpu && make install
+) 2>&1 | tee build.log

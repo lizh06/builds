@@ -1,0 +1,4 @@
+( CFLAGS="-I$d1/include" CXXFLAGS="-I$d1/include" LDFLAGS="-L$d1/lib" \
+  configure --prefix=$d1 --enable-libunwind &&
+  make -j $ncpu && make install 
+) 2>&1 | tee build.log

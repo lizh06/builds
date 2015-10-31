@@ -1,5 +1,8 @@
-( ./configure --prefix=$E2 \
---enable-mremap \
---enable-code-coverage \
---enable-cc-silence && \
-make -j$CC_LEVEL install ) 2>&1 | tee build.log
+( ./configure --prefix=$d1 \
+  --enable-code-coverage \
+  --enable-utrace \
+  --enable-xmalloc \
+  --enable-lazy-lock \
+  --enable-cc-silence &&
+  make -j $ncpu
+) 2>&1 | tee build.log
