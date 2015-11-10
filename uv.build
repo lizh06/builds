@@ -1,4 +1,5 @@
-./gyp_uv.py -f make -Duv_library=shared_library &&
-BUILDTYPE=Release make -C out &&
-cp include/*.h $u1/include &&
-cp out/Release/lib.target/libuv.so* $u1/lib
+( ./gyp_uv.py -f make -Duv_library=shared_library &&
+  BUILDTYPE=Release make -j $CC_LEVEL -C out &&
+  cp out/Release/lib.target/libuv.so* $u1/lib &&
+  cp include/*.h $u1/include
+) 2>&1 | tee build.log
