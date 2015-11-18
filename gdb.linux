@@ -1,4 +1,4 @@
-( ./configure --prefix=$d2 --enable-shared --with-python=yes   \
-  --disable-tui --disable-install-libiberty --disable-multilib &&
+( LDFLAGS="-L$l2/lib" ./configure --prefix=$d2 --enable-shared --with-python=yes \
+  --disable-tui --disable-multilib --disable-install-libiberty &&
   make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 | tee build.log
