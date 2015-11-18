@@ -1,3 +1,4 @@
-( ./configure --prefix=$d2 --enable-shared --with-python=yes \
+( CPPFLAGS="-I $u1/include/ncursesw" LDFLAGS="-L$u1/lib \
+  ./configure --prefix=$d2 --enable-shared --with-python=yes \
   --disable-install-libiberty && make -j $CC_LEVEL
 ) 2>&1 | tee build.log
