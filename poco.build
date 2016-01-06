@@ -1,3 +1,4 @@
-./configure --prefix=$HOME/poco --shared \
---no-wstring --no-ipv6 --omit=Crypto,MongoDB,Data/ODBC,Data/MySQL,ApacheConnector \
-&& make -j$CC_LEVEL
+( ./configure --prefix=$HOME/poco --shared \
+  --no-ipv6 --no-tests --no-samples --omit=ApacheConnector &&
+  make -j$CC_LEVEL
+) 2>&1 | tee build.log
