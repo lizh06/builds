@@ -1,4 +1,4 @@
-( CFLAGS="-g -O0 -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib" \
+( CFLAGS="-g -O0 -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib" STRIP=args \
   ./configure --prefix=$u2 --with-compiledby=lizh \
   --with-features=normal --enable-fail-if-missing \
   --enable-luainterp=dynamic --with-lua-prefix=$u1 \
