@@ -1,0 +1,1 @@
+( find $depo/poco/{Foundation,Util,Data,Net,JSON,XML,Redis,MongoDB,Zip,SevenZip}/{include,src} -type f | gev poco.gev | xargs ctags ) && mv tags poco.tags
