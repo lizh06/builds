@@ -1,0 +1,1 @@
+( ffcc Functions Solvers Risk Calculators Models Analytics Products Indices Maths Dates Utils ScriptInterface PayoffScript ; ls AMGInterface/{LibAMG,*Base,Plugin*,*Description*}.[ch]pp ; ls AMGExecutable/*.[ch]pp ) | xargs ct
