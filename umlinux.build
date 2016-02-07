@@ -1,5 +1,4 @@
 make defconfig ARCH=um
 # make menuconfig ARCH=um
-
 make mrproper ARCH=um
 make ARCH=um
