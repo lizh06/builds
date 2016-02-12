@@ -1,0 +1,2 @@
+( CFLAGS="-g -O0" LDFLAGS="-L $u1/lib" ./configure --prefix=$u2 &&
+  make && make install && make distclean ) 2>&1 | tee build.log
