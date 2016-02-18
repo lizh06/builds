@@ -1,0 +1,2 @@
+( CFLAGS="-g -O0" ./configure --prefix=$d2 --enable-libxmi --enable-libplotter --without-x &&
+  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
