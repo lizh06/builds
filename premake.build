@@ -1,0 +1,7 @@
+nj -t clean
+rm *.ninja
+p5 embed && p5 ninja && nj &&
+cp bin/release/premake5 ./p5.boot &&
+nj -t clean && rm *.ninja &&
+p5.boot embed && p5.boot ninja && nj &&
+cp bin/release/premake5 $d2/bin
