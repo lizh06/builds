@@ -1,2 +1,3 @@
-( ./configure --prefix $A2/doxy --shared --english-only && 
-  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+( cmk -DCMAKE_INSTALL_PREFIX=$d2 .. && nj && nj install ) 2>&1 | tee build.log
+# ( ./configure --prefix $A2/doxy --shared --english-only && 
+#  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
