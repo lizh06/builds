@@ -3,7 +3,7 @@
   --with-features=normal --enable-fail-if-missing \
   --enable-luainterp=dynamic --with-lua-prefix=$u1 \
   --enable-pythoninterp=dynamic \
-  --enable-sniff --enable-multibyte \
+  --enable-multibyte \
   --disable-acl --disable-nls \
   --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
