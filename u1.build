@@ -1,3 +1,5 @@
 ( CFLAGS=-g ./configure --prefix=$u1 && make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
 
 # libyaml
+# libsodium
+# libzmq
