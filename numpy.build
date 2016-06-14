@@ -1,0 +1,7 @@
+pip download numpy scipy matplotlib
+pip download scipy-learn theano
+
+# numpy: openblas
+# matplotlib: freetype2, libpng
+
+
