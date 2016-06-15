@@ -1,5 +1,6 @@
 pip download numpy scipy matplotlib
 pip download scipy-learn theano
+pip install ntlk
 
 # numpy: openblas
 # matplotlib: freetype2, libpng
