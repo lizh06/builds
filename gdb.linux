@@ -2,3 +2,15 @@
   --disable-tui --disable-multilib --disable-install-libiberty &&
   make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 | tee build.log
+
+# cd gdb
+# ln -s config.h gdb-config.h
+# ln -s gdbserver/config.h gdbserver/gdbserver-config.h
+#
+#	change common/common-defs.h
+#
+#	#if GDBSERVER
+#	#include "gdbserver-config.h"
+#	#else
+#	#include "gdb-config.h"
+#	#endif
