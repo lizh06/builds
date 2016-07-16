@@ -6,7 +6,11 @@
 # ln -s config.h gdb-config.h
 # ln -s gdbserver/config.h gdbserver/gdbserver-config.h
 #
-#	change common/common-defs.h
+#	in common/common-defs.h, change
+#
+#	#include "config.h"
+#
+#	to
 #
 #	#if GDBSERVER
 #	#include "gdbserver-config.h"
