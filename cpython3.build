@@ -1,0 +1,3 @@
+( CFLAGS="-Wno-format -Wno-unused-value -Wno-unused-but-set-variable -Wno-unused-local-typedefs -I $u1/include/ncursesw"
+  LDFLAGS="-L $u1/lib" ../Python-3.6.0/configure --prefix=$e2 --enable-shared --disable-ipv6 &&
+  make -j $CC_LEVEL ) 2>&1 | tee build.log
