@@ -1,7 +1,6 @@
-( CFLAGS="-g -O0 -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib" STRIP=args \
+( CFLAGS="-g -O0 -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib" \
   ./configure --prefix=$u2 --with-compiledby=lizh \
   --with-features=normal --enable-fail-if-missing \
-  --enable-luainterp=dynamic --with-lua-prefix=$u1 \
   --enable-pythoninterp=dynamic \
   --enable-multibyte \
   --disable-acl --disable-nls \
@@ -10,3 +9,4 @@
   --without-x --with-tlib=ncurses &&
   make -j $CC_LEVEL && make install && make distclean
 ) 2>&1 | tee build.log
+  #--enable-luainterp=dynamic --with-lua-prefix=$u1 \
