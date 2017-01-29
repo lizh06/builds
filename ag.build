@@ -1,1 +1,1 @@
-( build.sh --prefix=$u1 && make install && make distclean ) 2>&1 | tee build.log
+( build.sh --prefix=$u2 && make install && make distclean ) 2>&1 | tee build.log

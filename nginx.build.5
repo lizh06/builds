@@ -1,0 +1,18 @@
+#( CC=gcc CFLAGS="-g -I /ms/dist/gnome/PROJ/libxslt/1.1.28-1/exec/include -I /ms/dist/gnome/PROJ/libxml/2.9.2-2/exec/include" \
+#LDFLAGS="-L /ms/dist/gnome/PROJ/libxslt/1.1.28-1/exec/lib -L /ms/dist/gnome/PROJ/libxml/2.9.2-2/exec/lib" \
+( ./configure --prefix=$s1 \
+  --with-http_realip_module \
+  --with-http_dav_module \
+  --without-http_rewrite_module \
+  --with-stream=dynamic \
+  --with-mail=dynamic \
+  --without-pcre \
+  --with-openssl=$OPENSSL \
+  --with-debug &&
+  make -j $CC_LEVEL && make install && make clean
+) 2>&1 | tee build.log
+
+  #--with-http_geoip_module=dynamic \
+#--with-http_xslt_module=dynamic \
+  #--add-module=../nginx-dav-ext-module \
+  #--add-module=../nginx-upload-module \
