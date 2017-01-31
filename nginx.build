@@ -21,8 +21,12 @@
   --add-module=modules/set-misc-nginx-module \
   --add-module=modules/array-var-nginx-module \
   --add-module=modules/form-input-nginx-module \
+  --add-module=modules/ngx_http_redis-0.3.8 \
+  --add-module=modules/redis2-nginx-module \
+  --add-module=modules/srcache-nginx-module \
   --add-module=modules/sqlite-http-basic-auth-nginx-module \
-  --add-module=modules/nginx-dav-ext-module &&
+  --add-module=modules/nginx-dav-ext-module \
+  --with-cc-opt='-I $s1/include' &&
   make -j $CC_LEVEL && make install && make clean
 ) 2>&1 | tee build.log
 
