@@ -1,8 +1,4 @@
-( CFLAGS="-Wno-sign-compare -Wno-ignored-qualifiers" ./configure --prefix=$s1 \
-  --shared-openssl \
-  --shared-openssl-includes=$OPENSSL/include \
-  --shared-openssl-libpath=$OPENSSL/lib \
-  --shared-zlib && make -j $CC_LEVEL ) 2>&1 | tee build.log
+( ./configure --prefix=$s1 --shared-zlib && make -j $CC_LEVEL ) 2>&1 | tee build.log
 
 #--shared-v8 --shared-libuv --shared-http-parser \
 #--shared-cares \
