@@ -1,9 +1,9 @@
 ( STRIP=/bin/true CFLAGS='-g -DFEAT_CONCEAL' \
-  ./configure --prefix=$U2 \
+  ./configure --prefix=$u2 \
   --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
-  --enable-sniff --enable-multibyte \
+  --enable-multibyte \
   --disable-acl --disable-nls \
   --disable-gui --disable-sysmouse \
   --without-gnome --without-x &&
