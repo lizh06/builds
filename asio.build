@@ -1,0 +1,4 @@
+( LDFLAGS='-L ${OPENSSL}/lib' LIBS=-lrt ./configure --prefix=$u1 --without-boost --enable-separate-compilation &&
+  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+
+# CXXFLAGS='-DASIO_SEPARATE_COMPILATION -DASIO_DYN_LINK'
