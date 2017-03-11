@@ -1,0 +1,2 @@
+( ./configure --prefix=${1:-$e2} && make -j $CC_LEVEL &&
+  make install && make distclean ) 2>&1 | tee build.log
