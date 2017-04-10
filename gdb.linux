@@ -1,5 +1,5 @@
 ( CFLAGS='-O0 -g' LDFLAGS="-L$l2/lib" ./configure --prefix=$d2 --enable-shared --with-python=yes \
-  --disable-tui --disable-multilib --disable-install-libiberty && make && make install && make distclean
+  --disable-tui --disable-multilib --disable-install-libiberty && make -j
 ) 2>&1 | tee build.log
 
 # cd gdb
