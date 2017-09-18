@@ -1,0 +1,17 @@
+diff -r Python-2.7.14.use/Modules/_curses_panel.c Python-2.7.14/Modules/_curses_panel.c
+17c17
+< #include <ncurses/panel.h>
+---
+> #include <panel.h>
+diff -r Python-2.7.14.use/setup.py Python-2.7.14/setup.py
+811d810
+< 
+813d811
+<                 '/ms/dist/sec/PROJ/openssl/1.0/include',
+826,827c824
+<                                      ['/ms/dist/sec/PROJ/openssl/1.0/lib',
+<                                       '/usr/local/ssl/lib',
+---
+>                                      ['/usr/local/ssl/lib',
+1129d1125
+<                              '/ms/dist/fsf/PROJ/sqlite/3.20.0/include',

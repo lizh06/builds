@@ -1,0 +1,1 @@
+( LDFLAGS="-L $u1/lib" ./configure --prefix=$s1 && make -j $CC_LEVEL && make check ) 2>&1 | tee build.log
