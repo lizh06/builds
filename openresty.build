@@ -1,0 +1,3 @@
+PATH=$PATH:/sbin ./configure --prefix=$s1 \
+--with-cc-opt='-I ${u1}/include -I ${s1}/include -I ${OPENSSL}/include' \
+--with-ld-opt='-L ${u1}/lib -L ${OPENSSL}/lib'
