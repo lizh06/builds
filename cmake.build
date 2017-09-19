@@ -1,1 +1,1 @@
-( ../bootstrap --prefix=$d2 && make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+( ../bootstrap --prefix=$d2 --no-qt-gui && make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
