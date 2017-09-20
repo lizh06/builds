@@ -1,0 +1,1 @@
+( ./configure --prefix=$q2 --disable-openmp && make -j $CC_LEVEL ) 2>&1 | tee build.log
