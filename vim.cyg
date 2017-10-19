@@ -1,6 +1,5 @@
-( STRIP=/bin/true CFLAGS='-g -DFEAT_CONCEAL' \
-  ./configure --prefix=$u2 \
-  --with-compiledby=lizh --with-features=normal \
+( STRIP=/bin/true CFLAGS='-g -DFEAT_CONCEAL -DFEAT_TERMGUICOLORS' \
+  ./configure --prefix=$u2 --with-compiledby=lizh --with-features=normal \
   --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
   --enable-multibyte \

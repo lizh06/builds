@@ -1,6 +1,6 @@
-( CFLAGS="-g -O0 -DFEAT_CONCEAL" LDFLAGS="-L $u1/lib" \
-  ./configure --prefix=$u2 --with-compiledby=lizh \
-  --with-features=normal --enable-fail-if-missing \
+( CFLAGS='-g -DFEAT_CONCEAL -DFEAT_TERMGUICOLORS' LDFLAGS="-L $u1/lib" \
+  ./configure --prefix=$u2 --with-compiledby=lizh --with-features=normal \
+  --enable-fail-if-missing \
   --enable-pythoninterp=dynamic \
   --enable-multibyte \
   --disable-acl --disable-nls \
