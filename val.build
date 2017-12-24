@@ -1,1 +1,1 @@
-( ./configure --prefix=$d2 --enable-tls && make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+( ./configure --prefix=$d2 --enable-tls && make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log

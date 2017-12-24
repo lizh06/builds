@@ -1,1 +1,1 @@
-( make -j $CC_LEVEL && make PREFIX=$u1 install ) 2>&1 | tee build.log
+( make -j $JNUM && make PREFIX=$u1 install ) 2>&1 | tee build.log

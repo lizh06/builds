@@ -16,4 +16,4 @@
   --without-go \
   --without-d \
   --without-x &&
-  make -j $CC_LEVEL ) 2>&1 | tee build.log
+  make -j $JNUM ) 2>&1 | tee build.log

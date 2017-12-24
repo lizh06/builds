@@ -1,3 +1,3 @@
 ( cmake -GNinja -DCMAKE_INSTALL_PREFIX=$d2 .. && ninja && ninja install ) 2>&1 | tee build.log
 # ( ./configure --prefix $A2/doxy --shared --english-only && 
-#  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+#  make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log

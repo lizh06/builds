@@ -1,2 +1,2 @@
-( ./configure --prefix=$D1 --with-pic && make -j $CC_LEVEL &&
+( ./configure --prefix=$D1 --with-pic && make -j $JNUM &&
   make install && make distclean ) 2>&1 | tee build.log

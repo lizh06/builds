@@ -1,1 +1,1 @@
-cmake -DCMAKE_INSTALL_PREFIX=$U1 -DBUILD_SHARED_LIBS=ON -DBOOST_INCLUDEDIR=$A2/boost.saved/include .. && make -j $CC_LEVEL
+cmake -DCMAKE_INSTALL_PREFIX=$U1 -DBUILD_SHARED_LIBS=ON -DBOOST_INCLUDEDIR=$A2/boost.saved/include .. && make -j $JNUM

@@ -27,7 +27,7 @@
   --add-module=modules/sqlite-http-basic-auth-nginx-module \
   --add-module=modules/nginx-dav-ext-module \
   --with-cc-opt='-I $s1/include' &&
-  make -j $CC_LEVEL && make install && make clean
+  make -j $JNUM && make install && make clean
 ) 2>&1 | tee build.log
 
 #  --with-google_perftools_module \

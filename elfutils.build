@@ -1,2 +1,2 @@
 ./configure --prefix=$A2/elfutils --enable-shared &&
-make -j $CC_LEVEL
+make -j $JNUM

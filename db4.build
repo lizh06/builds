@@ -1,2 +1,2 @@
 ./configure --prefix=$A2/db4 --with-tcl=$L2/lib --with-pic
-make -j $CC_LEVEL && make library_install
+make -j $JNUM && make library_install

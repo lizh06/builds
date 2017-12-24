@@ -1,6 +1,6 @@
 [[ ! -d build/gyp ]] && git clone https://chromium.googlesource.com/external/gyp.git build/gyp
 ( ./gyp_uv.py -f make -Duv_library=shared_library &&
-  BUILDTYPE=Release make -j $CC_LEVEL -C out &&
+  BUILDTYPE=Release make -j $JNUM -C out &&
   cp out/Release/lib.target/libuv.so* $u1/lib &&
   cp include/*.h $u1/include
 ) 2>&1 | tee build.log

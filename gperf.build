@@ -1,1 +1,1 @@
-./configure --prefix=$D2 && make -j$CC_LEVEL && make install && make distclean
+./configure --prefix=$D2 && make -j$JNUM && make install && make distclean

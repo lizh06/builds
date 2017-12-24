@@ -1,3 +1,3 @@
 ( ./configure --prefix=$u2 --without-x --without-xft --without-gnome $PLAT &&
-  make -j $CC_LEVEL CC='gcc -O0 -g' LIBS='-L$(u1)/lib -lncurses' elvis elvtags doc/elvtags.man doc/elvfmt.man
+  make -j $JNUM CC='gcc -O0 -g' LIBS='-L$(u1)/lib -lncurses' elvis elvtags doc/elvtags.man doc/elvfmt.man
 ) 2>&1 | tee build.log

@@ -4,4 +4,4 @@ cmake \
 -DCMAKE_C_COMPILER=gcc \
 -DCMAKE_INSTALL_PREFIX:PATH=$D2 \
 ../gccxml
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+( make -j $JNUM 2>&1 | tee build.log ) && make install

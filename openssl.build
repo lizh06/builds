@@ -1,2 +1,2 @@
 ./Configure shared --prefix=$U2 linux-x86_64
-make -j $CC_LEVEL && make install
+make -j $JNUM && make install

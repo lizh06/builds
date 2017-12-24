@@ -1,5 +1,5 @@
 ( ./configure --enable-shared &&
-  make -j $CC_LEVEL &&
+  make -j $JNUM &&
   cp libdwarf/dwarf*.h $A2/libelf/include &&
   cp libdwarf/libdwarf.so $A2/libelf/lib &&
   mkdir -p $A2/libelf/bin &&

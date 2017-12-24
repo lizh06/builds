@@ -1,4 +1,4 @@
-( LDFLAGS="-L$d1/lib" ./configure --prefix=$d2 && make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+( LDFLAGS="-L$d1/lib" ./configure --prefix=$d2 && make -j $JNUM && make install ) 2>&1 | tee build.log
 
 # libunwind is in $d1
 # ltrace

@@ -23,5 +23,5 @@
   --with-included-gettext \
   --with-afs --with-curses \
   --without-bash-malloc &&
-  make -j $CC_LEVEL && make install && make distclean
+  make -j $JNUM && make install && make distclean
 ) 2>&1 |& tee build.log

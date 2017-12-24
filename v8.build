@@ -3,7 +3,7 @@ python2 build/gyp_v8 \
 -Dlibrary=shared -Dconsole=readline \
 -Ddisassmbler=on -Dv8_enable_i18n_support=off \
 -Ddebuggersupport=on -Dgdbjit=on && \
-make -j $CC_LEVEL native ) \
+make -j $JNUM native ) \
 2>&1 | tee build.log
 #backtrace=on \
 #snapshot=on \

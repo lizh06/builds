@@ -31,6 +31,6 @@ wd ../cppunit autogen.sh && ../cppunit/configure --prefix=$A2/cppunit
 cmake -DCMAKE_INSTALL_PREFIX=$Q2 -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=OFF -DBUILD_EXAMPLES=ON ..
 
 #yaml-cpp
-cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j $CC_LEVEL
+cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j $JNUM
 
-../libtorrent/configure --prefix=$U1 --disable-mincore && make -j $CC_LEVEL
+../libtorrent/configure --prefix=$U1 --disable-mincore && make -j $JNUM

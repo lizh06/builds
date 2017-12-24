@@ -1,2 +1,2 @@
 ( ./configure --prefix=$u1 --enable-shared --disable-static &&
-  make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+  make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log

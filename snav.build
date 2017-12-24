@@ -3,4 +3,4 @@
 --with-tclinclude=$L2/include --with-tkinclude=$L2/include \
 --with-itclconfig=$L2/lib/itcl4.0.0 \
 --with-itkconfig=$L2/lib/itk4.0.0
-make -j $CC_LEVEL && make install
+make -j $JNUM && make install

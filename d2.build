@@ -1,4 +1,4 @@
-( CFLAGS=-g ./configure --prefix=$d2 && make -j $CC_LEVEL && make install && make distclean ) 2>&1 | tee build.log
+( CFLAGS=-g ./configure --prefix=$d2 && make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log
 
 # awka
 # cgdb

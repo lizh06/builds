@@ -1,1 +1,1 @@
-./configure --prefix=$A2/musl --enable-gcc-wrapper && make -j $CC_LEVEL && make install && make distclean
+./configure --prefix=$A2/musl --enable-gcc-wrapper && make -j $JNUM && make install && make distclean

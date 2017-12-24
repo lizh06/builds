@@ -4,4 +4,4 @@
 --disable-guile --disable-java \
 --disable-lua --disable-ocaml \
 --enable-python27 --disable-r
-make -j $CC_LEVEL
+make -j $JNUM

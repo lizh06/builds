@@ -1,2 +1,2 @@
 ./configure --prefix=$D2
-make -j $CC_LEVEL && make install
+make -j $JNUM && make install

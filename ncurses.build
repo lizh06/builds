@@ -4,5 +4,5 @@
   --enable-ext-colors --enable-colorfgbg \
   --enable-widec --enable-sigwinch \
   --without-ada --without-cxx-binding --without-tests &&
-  make -j $CC_LEVEL && make install ) 2>&1 | tee build.log
+  make -j $JNUM && make install ) 2>&1 | tee build.log
 # --enable-termcap
