@@ -1,1 +1,1 @@
-( ./configure --with-incompatible-bdb && make -j $JNUM ) 2>&1 | tee build.log
+( CXX=clang++ ./configure --with-incompatible-bdb && make -j $JNUM ) 2>&1 | tee build.log
