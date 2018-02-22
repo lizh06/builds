@@ -7,6 +7,6 @@
   --disable-gui --disable-gpm \
   --disable-selinux --disable-smack \
   --without-x --with-tlib=ncurses &&
-  make -j $JNUM && make install && make distclean
+  make -j $JNUM && make install
 ) 2>&1 | tee build.log
   #--enable-luainterp=dynamic --with-lua-prefix=$u1 \

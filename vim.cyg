@@ -6,5 +6,5 @@
   --disable-acl --disable-nls \
   --disable-gui --disable-sysmouse \
   --without-gnome --without-x &&
-  make -j $JNUM && make install && make distclean
+  make -j $JNUM && make install
 ) 2>&1 | tee build.log
