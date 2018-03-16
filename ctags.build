@@ -1,4 +1,4 @@
 ( CFLAGS='-g -O0' ./configure --prefix=$d2 \
   --enable-readlib --disable-external-sort &&
-  make -j $JNUM && make install && make distclean
+  make -j $JNUM && make install
 ) 2>&1 | tee build.log
