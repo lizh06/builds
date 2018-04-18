@@ -1,1 +1,1 @@
-./configure --prefix=$D2 && make -j$JNUM && make install && make distclean
+( ./configure --prefix=$e2 && make -j$JNUM ) 2>&1 | tee build.log

@@ -1,4 +1,5 @@
-( CFLAGS=-g ./configure --prefix=$u1 && make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log
+( ./configure --prefix=$u1 $@ && make -j $JNUM ) 2>&1 | tee build.log
+# ( CFLAGS=-g ./configure --prefix=$u1 && make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log
 
 # libyaml
 # libsodium
