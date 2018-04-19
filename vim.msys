@@ -1,6 +1,6 @@
-./configure --prefix=$U2 --with-compiledby=lizh \
---with-features=normal --enable-fail-if-missing \
---enable-pythoninterp=dynamic \
---enable-cscope --enable-sniff --enable-multibyte \
---disable-acl --disable-gui --disable-sysmouse
-( make -j $CC_LEVEL 2>&1 | tee build.log ) && make install
+( ./configure --prefix=$U2 --with-compiledby=lizh \
+  --with-features=normal --enable-fail-if-missing \
+  --enable-pythoninterp=dynamic \
+  --enable-cscope --enable-sniff --enable-multibyte \
+  --disable-acl --disable-gui --disable-sysmouse &&
+  make -j $JNUM ) 2>&1 | tee build.log
