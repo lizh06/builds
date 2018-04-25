@@ -1,0 +1,7 @@
+( py tools/configure.py \
+  --output-directory src \
+  --source-directory src-input \
+  --config-metadata config \
+  -DDUK_USE_FASTINT \
+  --dll
+) 2>&1 | tee build.log
