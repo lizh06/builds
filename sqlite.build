@@ -1,0 +1,5 @@
+( ./configure --prefix=$u1 --disable-amalgamation \
+  --enable-update-limit \
+  --enable-rtree --enable-session \
+  --with-readline-inc=-I$u1/include &&
+  make -j $JNUM ) 2>&1 | tee build.log
