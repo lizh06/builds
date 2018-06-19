@@ -1,4 +1,5 @@
 ( ./configure --prefix=/v/campus/vi/cs/credit/lizheng/.rs \
   --enable-sanitizers --enable-profiler --enable-emscripten \
   --enable-llvm-assertions --enable-debug-assertions \
+  --enable-extended --enable-full-tools --release-channel=nightly \
   --enable-optimize --enable-optimize-llvm && make -j $JNUM ) 2>&1 | tee build.log
