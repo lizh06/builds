@@ -1,2 +1,2 @@
-( CFLAGS="-g -I $u1/include/ncursesw" ./configure --prefix=$u2 &&
+( CC='ccache gcc' CFLAGS="-g -I $u1/include/ncursesw" ./configure --prefix=$u2 &&
   make -j $JNUM && make install && make distclean ) 2>&1 | tee build.log
