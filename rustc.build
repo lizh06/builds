@@ -1,10 +1,12 @@
-( ./configure --prefix=/v/campus/vi/cs/credit/lizheng/.rs \
+( ./configure --prefix=$rs --release-channel=nightly \
+  --enable-local-rust --local-rust-root=$rs \
   --enable-locked-deps --enable-ccache --enable-ninja \
-  --enable-optimize --enable-optimize-llvm \
+  --enable-jemalloc --enable-profiler --enable-sanitizers \
   --enable-llvm-assertions --enable-debug-assertions \
-  --enable-emscripten --enable-profiler --enable-sanitizers \
-  --enable-experimental-parallel-queries \
-  --release-channel=stable && make -j $JNUM ) 2>&1 | tee build.log
+  --enable-optimize --enable-optimize-llvm \
+  --enable-emscripten \
+  --enable-experimental-parallel-queries && make -j $JNUM ) 2>&1 | tee build.log
 
 # --enable-extended \
 # --enable-full-tools \
+# --enable-jemalloc \
