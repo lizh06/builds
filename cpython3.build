@@ -1,3 +1,2 @@
 ( CFLAGS="-Wno-format -Wno-unused-value -Wno-unused-but-set-variable -Wno-unused-local-typedefs"
-  CC=clang ../Python-3.6.4/configure --prefix=$p3 --enable-shared --disable-ipv6 &&
-  make -j $JNUM ) 2>&1 | tee build.log
+  ../Python-3.6.6/configure --prefix=$p3 --enable-shared --disable-ipv6 && make -j $JNUM ) 2>&1 | tee build.log
