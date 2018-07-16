@@ -1,6 +1,8 @@
 ( ./configure --prefix=$u1 $@ && make -j $JNUM ) 2>&1 | tee build.log
 
 # libcurl
+# libevent
 # libyaml
-# libsodium
 # libzmq
+#
+# libsodium
