@@ -1,0 +1,4 @@
+( ./configure --prefix=$q2 --enable-python &&
+  make -j $JNUM
+) 2>&1 | tee build.log
+

@@ -1,0 +1,3 @@
+( CFLAGS='-I $u1/include' LDFLAGS='-L $u1/lib' ./configure --prefix=$q2 &&
+  make -j $JNUM
+) 2>&1 | tee build.log

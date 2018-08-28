@@ -1,36 +1,39 @@
-../arprec-2.2.17/configure --prefix=$Q2 --enable-shared --disable-static --disable-fortran
-../fftw-3.3.4/configure --prefix=$Q2 --enable-shared --disable-static --disable-fortran --enable-openmp
+../arprec-2.2.17/configure --prefix=$q2 --enable-shared --disable-static --disable-fortran
+../fftw-3.3.4/configure --prefix=$q2 --enable-shared --disable-static --disable-fortran --enable-openmp
 
-../glpk-4.54/configure --prefix=$Q2 --enable-shared --disable-static --enable-dl --with-gmp
-../nlopt-2.4.1/configure --prefix=$Q2 --enable-shared --disable-static --with-cxx
+../glpk-4.54/configure --prefix=$q2 --enable-shared --disable-static --enable-dl --with-gmp
+../nlopt-2.4.1/configure --prefix=$q2 --enable-shared --disable-static --with-cxx
 
 # metis
-CC='gcc -std=c99 -fgnu89-inline' make config prefix=$Q2 shared=1 gdb=1 && make -j 10 && make install
+CC='gcc -std=c99 -fgnu89-inline' make config prefix=$q2 shared=1 gdb=1 && make -j 10 && make install
 
-../ColPack-1.0.9/configure --prefix=$Q2 --enable-shared --disable-static --enable-openmp
+../ColPack-1.0.9/configure --prefix=$q2 --enable-shared --disable-static --enable-openmp
 # ADOL-C
-../ADOL-C-2.5.0/configure --prefix=$Q2 --enable-shared --disable-static --with-colpack=$Q2
+../ADOL-C-2.5.0/configure --prefix=$q2 --enable-shared --disable-static --with-colpack=$q2
 
 # Scotch
-make prefix=$Q2
+make prefix=$q2
 
 # Pastix
-make SCOTCH_HOME=$Q2 -j 10
+make SCOTCH_HOME=$q2 -j 10
 
 # SuperLU has no install script?
 
-CFLAGS=-D_POSIX_C_SOURCE ../libxml2-2.9.1/configure --prefix=$U1 --enable-shared --disable-static --with-icu --with-lzma=$U1
-../freeglut-2.8.1/configure --prefix=$A2/freeglut --enable-shared --disable-static --with-x
+CFLAGS=-D_POSIX_C_SOURCE ../libxml2-2.9.1/configure --prefix=$u1 --enable-shared --disable-static --with-icu --with-lzma=$u1
+../freeglut-2.8.1/configure --prefix=$a2/freeglut --enable-shared --disable-static --with-x
 
 wd ../sparsehash autogen.sh && ../sparsehash/configure --prefix=$E2
 wd ../protobuf autogen.sh && ../protobuf/configure --prefix=$E2 --enable-shared --disable-static
 
-wd ../cppunit autogen.sh && ../cppunit/configure --prefix=$A2/cppunit
+wd ../cppunit autogen.sh && ../cppunit/configure --prefix=$a2/cppunit
 
 #stxxl
-cmake -DCMAKE_INSTALL_PREFIX=$Q2 -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=OFF -DBUILD_EXAMPLES=ON ..
+cmake -DCMAKE_INSTALL_PREFIX=$q2 -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=OFF -DBUILD_EXAMPLES=ON ..
 
 #yaml-cpp
-cmake -DCMAKE_INSTALL_PREFIX=$U1 .. && make -j $JNUM
+cmake -DCMAKE_INSTALL_PREFIX=$u1 .. && make -j $JNUM
 
-../libtorrent/configure --prefix=$U1 --disable-mincore && make -j $JNUM
+# openjpeg
+cmk -DCMAKE_INSTALL_PREFIX=$u1 -DBUILD_THIRDPARTY=yes ..
+
+../libtorrent/configure --prefix=$u1 --disable-mincore && make -j $JNUM

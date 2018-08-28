@@ -1,0 +1,8 @@
+( CFLAGS='-I $q2/include' ./configure --prefix=$q2 --with-proj=$q2 --with-python=$p3/bin/python3 \
+  --with-sqlite3=$u1 --with-spatialite=$q2 --with-pcre --with-liblzma=$u1 \
+  --with-freexl --with-spatialite \
+  --with-hdf5=/ms/dist/fsf/PROJ/hdf5/1.8.12 \
+  --with-expat=/ms/dist/fsf/PROJ/expat/2.2.0/exec
+) 2>&1 | tee build.log
+
+# need rasterlite2 mdb
