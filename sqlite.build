@@ -1,4 +1,4 @@
-( ./configure --prefix=$u1 --enable-readline &&
+( ./configure --prefix=$u1 --enable-readline --enable-session &&
   make -j $JNUM ) 2>&1 | tee build.log
 
 # --with-readline-inc=-I$u1/include &&
