@@ -2,6 +2,7 @@
 
 # libcurl
 # libevent
+# libffi
 # libyaml
 # libzmq
 #

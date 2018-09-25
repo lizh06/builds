@@ -1,2 +1,6 @@
-( CFLAGS="-Wno-format -Wno-unused-value -Wno-unused-but-set-variable -Wno-unused-local-typedefs"
-  ../Python-3.7.0/configure --prefix=$py --enable-shared --disable-ipv6 && make -j $JNUM ) 2>&1 | tee build.log
+( CFLAGS="-I $u1/include -I $u1/include/ncursesw -Wno-format -Wno-unused-value -Wno-unused-local-typedefs"
+  LDFLAG="-I $u1/lib"
+  ../Python-3.7.0/configure --prefix=$py --enable-shared --disable-ipv6 &&
+  make -j $JNUM ) 2>&1 | tee build.log
+
+# sqlite3 still not build with extensions
