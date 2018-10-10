@@ -1,3 +1,8 @@
-( CFLAGS='-I $u1/include' LDFLAGS='-L $u1/lib' ./configure --prefix=$q2 &&
-  make -j $JNUM
-) 2>&1 | tee build.log
+( mkdir -p p && cd p && zdown freexl geos proj4 splite readosm splitetools ) &&
+( mkdir -p b && cd b && ls ../p | xargs -P3 -i tar xf ../p/{} &&
+  ls -d freexl* geos* proj* libspatialite* readosm* spatialite-tools* |\
+  xargs -i sh -c 'cd {} && configure --prefix=$geo && make -j3 && make install' )
+
+# ( CFLAGS='-I $u1/include' LDFLAGS='-L $u1/lib' ./configure --prefix=$q2 &&
+#   make -j $JNUM
+# ) 2>&1 | tee build.log
