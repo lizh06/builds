@@ -2,3 +2,4 @@
   --no-ipv6 --no-tests --no-samples --omit=ApacheConnector &&
   make -j$JNUM
 ) 2>&1 | tee build.log
+
