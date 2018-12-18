@@ -1,3 +1,4 @@
+
 CFLAGS="-fpermissive" \
 LDFLAGS="-L/usr/prod/mts/platform/x64/build-8/lib" \
 make plugin
