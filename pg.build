@@ -1,0 +1,6 @@
+# no greenplum
+# postgres + citus
+( LDFLAGS="-L $u1/lib" ./configure --prefix=$pg \
+  --with-openssl --with-python \
+  --with-libxml --with-libxslt &&
+  make -j $JNUM && make check ) 2>&1 | tee build.log

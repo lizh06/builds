@@ -1,1 +1,0 @@
-( LDFLAGS="-L $u1/lib" ./configure --prefix=$s1 --with-openssl && make -j $JNUM && make check ) 2>&1 | tee build.log
