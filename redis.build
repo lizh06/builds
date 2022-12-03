@@ -1,0 +1,2 @@
+make BUILT_TLS=yes USE_SYSTEMD=yes -j $JNUM &&
+make test && make PREFIX=$s1
