@@ -1,1 +1,1 @@
-make BUILT_TLS=yes -j $JNUM && make test && make PREFIX=$s1
+make BUILT_TLS=yes -j $JNUM && make test && make PREFIX=$s1 install
