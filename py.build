@@ -1,0 +1,10 @@
+( CFLAGS=-g ./configure --prefix=$py \
+  --enable-shared --enable-ipv6 \
+  --enable-loadable-sqlite-extensions \
+  --disable-test-modules &&
+  make -j $JNUM
+) 2>&1 | tee build.log
+
+# liblzma-dev
+# libgdbm-dev
+# tk-dev
