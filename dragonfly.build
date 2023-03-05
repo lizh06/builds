@@ -1,1 +1,1 @@
-( cmake -GNinja -DCMAKE_BUILD_TYPE=Release .. && ninja )
+( cmake -GNinja -DCMAKE_INSTALL_PREFIX=$s1 -DCMAKE_BUILD_TYPE=Release .. && ninja ) 2>&1 | tee build.log
